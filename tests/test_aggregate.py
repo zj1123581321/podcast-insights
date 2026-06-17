@@ -93,3 +93,64 @@ def test_city_override_checked_before_cleanup():
     # 通用清洗会得到“东京银座”，override 必须优先返回“东京”
     ov = {"东京银座（GINZA SIX旁）": "东京"}
     assert A.canonical_city("东京银座（GINZA SIX旁）", ov) == "东京"
+
+
+# ---- build_row：前端契约的金标准回归 ----
+def _place_item():
+    return {"recommender": "肥杰", "name": "喜顶", "city": "上海（武宁路附近）",
+            "category": "餐厅", "what": "吃饺子", "verdict": "推荐",
+            "reason": "好", "quote": "q", "name_corrected": False}
+
+
+def test_build_row_preserves_existing_fields():
+    item = _place_item()
+    row = A.build_row(1, "VOL.001", "place", 0, item, verified=True, maps={})
+    # 历史字段不变
+    assert row["vol"] == 1
+    assert row["ep_title"] == "VOL.001"
+    assert row["category"] == "place"
+    assert row["recommender"] == "肥杰"
+    assert row["verdict"] == "推荐"
+    assert row["name"] == "喜顶"
+    assert row["quote_unverified"] is False
+    assert row["item"] is item  # 原始 item 仍挂在 item 字段
+
+
+def test_build_row_adds_new_contract_fields():
+    row = A.build_row(12, "t", "place", 3, _place_item(),
+                      verified=True, maps={})
+    assert row["id"] == "12-place-3"
+    assert row["city_key"] == "上海"       # 括号被清洗
+    assert row["display_city"] == "上海"
+
+
+def test_build_row_place_unlocated_city_is_none():
+    item = _place_item()
+    item["city"] = ""
+    row = A.build_row(1, "t", "place", 0, item, verified=True, maps={})
+    assert row["city_key"] is None
+    assert row["display_city"] is None
+
+
+def test_build_row_product_normalizes_category_in_place():
+    item = {"recommender": "惠子", "name": "面霜", "category": "护肤",
+            "verdict": "推荐", "quote": "q"}
+    row = A.build_row(5, "t", "product", 1, item,
+                      verified=False, maps={"prod_norm": {"护肤": "护肤品"}})
+    assert row["item"]["category"] == "护肤品"   # 就地归一
+    assert row["city_key"] is None               # 非 place 无城市
+    assert row["quote_unverified"] is True
+
+
+def test_build_row_media_fills_category_from_type():
+    item = {"recommender": "共同", "title": "某剧", "category": "",
+            "type": "剧集", "verdict": "推荐", "quote": "q"}
+    row = A.build_row(8, "t", "media", 0, item, verified=True, maps={})
+    assert row["name"] == "某剧"                 # media 取 title
+    assert row["item"]["category"] == "剧集"     # 用 type 兜底
+
+
+def test_build_row_quote_unverified_flag():
+    row = A.build_row(1, "t", "place", 0, _place_item(),
+                      verified=False, maps={})
+    assert row["quote_unverified"] is True

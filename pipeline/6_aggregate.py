@@ -21,6 +21,7 @@ import os
 import re
 import sys
 
+import _aggregate as A
 import _common as C
 
 CFG = C.load_config()
@@ -33,8 +34,15 @@ TOTAL = int(os.environ.get("TOTAL", str(CFG.get("total_episodes", 234))))
 CATS = ["place", "product", "media"]
 CAT_CN = {"place": "实地/出行推荐", "product": "好物推荐", "media": "影视剧推荐"}
 VERDICT_ORDER = {"重点推荐": 0, "推荐": 1, "一般": 2, "避雷": 3}
-NAME_KEY = {"place": "name", "product": "name", "media": "title"}
+NAME_KEY = A.NAME_KEY
 KNOWN_REC = set(CFG.get("hosts", [])) | {"共同"}
+
+# 归一/规范化映射（来自 config），统一传给纯函数 _aggregate.build_row。
+MAPS = {
+    "prod_norm": CFG.get("category_normalization", {}),
+    "media_map": CFG.get("media_type_map", {}),
+    "city_overrides": CFG.get("city_canonical", {}).get("overrides", {}),
+}
 
 
 def transcript_path(vol):
@@ -86,6 +94,7 @@ def main():
     tcache, rows = {}, []
     counts = {c: 0 for c in CATS}
     unverified = 0
+    place_unlocated = 0
     by_rec = {}
 
     for vol in sorted(present):
@@ -94,7 +103,7 @@ def main():
         text = load_transcript(vol, tcache)
         ntext = norm(text)
         for cat in CATS:
-            for item in d.get(cat, []) or []:
+            for idx, item in enumerate(d.get(cat, []) or []):
                 verified = quote_hit(item.get("quote", ""), text, ntext)
                 if not verified:
                     unverified += 1
@@ -102,18 +111,22 @@ def main():
                 key = rec if rec in KNOWN_REC else "其他"
                 by_rec[key] = by_rec.get(key, 0) + 1
                 counts[cat] += 1
-                rows.append({
-                    "vol": vol, "ep_title": title, "category": cat,
-                    "recommender": rec, "verdict": item.get("verdict", ""),
-                    "name": item.get(NAME_KEY[cat], ""),
-                    "quote_unverified": (not verified), "item": item})
+                row = A.build_row(vol, title, cat, idx, item, verified, MAPS)
+                if cat == "place" and row["city_key"] is None:
+                    place_unlocated += 1
+                rows.append(row)
+
+    distinct_cities = sorted({r["city_key"] for r in rows
+                              if r["category"] == "place" and r["city_key"]})
 
     out_json = DD / "recommendations_all.json"
     out_json.write_text(json.dumps({
         "podcast": {"key": KEY, "name": CFG.get("name", "")},
         "stats": {"episodes_with_data": len(present), "missing": missing,
                   "invalid": invalid, "counts": counts, "total_items": len(rows),
-                  "quote_unverified": unverified, "by_recommender": by_rec},
+                  "quote_unverified": unverified, "by_recommender": by_rec,
+                  "place_unlocated": place_unlocated,
+                  "distinct_cities": len(distinct_cities)},
         "items": rows,
     }, ensure_ascii=False, indent=2), encoding="utf-8")
 

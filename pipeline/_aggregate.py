@@ -56,3 +56,39 @@ def canonical_city(raw, overrides: dict):
     s = _PAREN_RE.sub("", s).strip()
     s = _SEP_RE.split(s)[0].strip()
     return s or None
+
+
+NAME_KEY = {"place": "name", "product": "name", "media": "title"}
+
+
+def build_row(vol, title, cat, idx, item, verified, maps):
+    """组装一条聚合行（前端契约）。
+
+    会就地归一 item.category（product/media），并派生 place 的
+    city_key/display_city。其余历史字段保持不变（id 之外新增字段不破坏既有消费者）。
+
+    maps: {prod_norm, media_map, city_overrides}
+    """
+    if cat == "product":
+        item["category"] = normalize_product_category(item.get("category"), maps.get("prod_norm", {}))
+    elif cat == "media":
+        item["category"] = media_category(item, maps.get("media_map", {}))
+
+    city_key = display_city = None
+    if cat == "place":
+        city_key = canonical_city(item.get("city"), maps.get("city_overrides", {}))
+        display_city = city_key
+
+    return {
+        "id": make_id(vol, cat, idx),
+        "vol": vol,
+        "ep_title": title,
+        "category": cat,
+        "recommender": item.get("recommender", ""),
+        "verdict": item.get("verdict", ""),
+        "name": item.get(NAME_KEY[cat], ""),
+        "city_key": city_key,
+        "display_city": display_city,
+        "quote_unverified": (not verified),
+        "item": item,
+    }
