@@ -57,36 +57,45 @@ def save_cache(cache: dict) -> None:
                               sort_keys=True), encoding="utf-8")
 
 
-def make_fetch():
-    """构造遵守政策的 fetch_fn(city) -> Nominatim payload(list)。
-
-    单线程 + 每次请求后 sleep；429/5xx 走退避，耗尽抛错（geocode_cities 会
-    把该城记为 failed 且不写缓存）。
-    """
-    def fetch(city):
-        qs = urllib.parse.urlencode({
-            "q": city, "format": "jsonv2", "limit": 1,
-            "accept-language": "zh-CN,en",
-        })
-        req = urllib.request.Request(f"{NOMINATIM}?{qs}", headers={"User-Agent": UA})
-        last_err = None
-        for i, backoff in enumerate([0] + RETRY_BACKOFF):
-            if backoff:
-                time.sleep(backoff)
-            try:
-                with urllib.request.urlopen(req, timeout=20) as resp:
-                    payload = json.loads(resp.read().decode("utf-8"))
-                time.sleep(RATE_SECONDS)
-                return payload
-            except urllib.error.HTTPError as e:
-                last_err = e
-                if e.code in (429, 500, 502, 503, 504):
-                    continue            # 退避重试
-                raise                   # 其它 HTTP 错直接抛
-            except Exception as e:
-                last_err = e
+def _query(city, extra):
+    """单次 Nominatim 查询（含 429/5xx 退避）。返回 payload(list)。"""
+    params = {"q": city, "format": "jsonv2", "limit": 1, "accept-language": "zh-CN,en"}
+    params.update(extra)
+    qs = urllib.parse.urlencode(params)
+    req = urllib.request.Request(f"{NOMINATIM}?{qs}", headers={"User-Agent": UA})
+    last_err = None
+    for backoff in [0] + RETRY_BACKOFF:
+        if backoff:
+            time.sleep(backoff)
+        try:
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                payload = json.loads(resp.read().decode("utf-8"))
+            time.sleep(RATE_SECONDS)
+            return payload
+        except urllib.error.HTTPError as e:
+            last_err = e
+            if e.code in (429, 500, 502, 503, 504):
                 continue
-        raise last_err or RuntimeError(f"geocode failed: {city}")
+            raise
+        except Exception as e:
+            last_err = e
+            continue
+    raise last_err or RuntimeError(f"geocode failed: {city}")
+
+
+def make_fetch(overseas):
+    """构造 fetch_fn(city) -> Nominatim payload。
+
+    海外城市（config.geocode_overseas）走全球查询；其余城市强制
+    countrycodes=cn。裸城市名 Nominatim 会模糊匹配，cn-优先回退法不可靠
+    （「东京」在 cn 下会被匹配到衢州东京镇），故用显式名单确定性切分。
+    单线程、≤1req/s、429/5xx 退避。
+    """
+    overseas = set(overseas or [])
+
+    def fetch(city):
+        extra = {} if city in overseas else {"countrycodes": "cn"}
+        return _query(city, extra)
     return fetch
 
 
@@ -102,7 +111,7 @@ def main():
         todo = todo[:limit]
     print(f"[geocode] 规范城市 {len(cities)}，已缓存 {len(cache)}，本次待处理 {len(todo)}")
 
-    stats = G.geocode_cities(todo, cache, make_fetch())
+    stats = G.geocode_cities(todo, cache, make_fetch(CFG.get("geocode_overseas", [])))
     save_cache(cache)
 
     missing = [c for c in cities if c not in cache]
