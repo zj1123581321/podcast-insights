@@ -99,7 +99,9 @@ def main():
 
     for vol in sorted(present):
         d = present[vol]
-        title = d.get("episode", {}).get("title", "")
+        ep = d.get("episode", {})
+        title = ep.get("title", "")
+        ep_url = ep.get("source_url", "")
         text = load_transcript(vol, tcache)
         ntext = norm(text)
         for cat in CATS:
@@ -111,7 +113,7 @@ def main():
                 key = rec if rec in KNOWN_REC else "其他"
                 by_rec[key] = by_rec.get(key, 0) + 1
                 counts[cat] += 1
-                row = A.build_row(vol, title, cat, idx, item, verified, MAPS)
+                row = A.build_row(vol, title, cat, idx, item, verified, MAPS, ep_url=ep_url)
                 if cat == "place" and row["city_key"] is None:
                     place_unlocated += 1
                 rows.append(row)

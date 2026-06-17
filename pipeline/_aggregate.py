@@ -80,12 +80,13 @@ def canonical_city(raw, overrides: dict):
 NAME_KEY = {"place": "name", "product": "name", "media": "title"}
 
 
-def build_row(vol, title, cat, idx, item, verified, maps):
+def build_row(vol, title, cat, idx, item, verified, maps, ep_url=""):
     """组装一条聚合行（前端契约）。
 
     会就地归一 item.category（product/media），并派生 place 的
     city_key/display_city。其余历史字段保持不变（id 之外新增字段不破坏既有消费者）。
 
+    ep_url：来源单集的小宇宙链接（前端"听原集"用，便于用户核实）。
     maps: {prod_norm, media_map, city_overrides}
     """
     if cat == "product":
@@ -102,6 +103,7 @@ def build_row(vol, title, cat, idx, item, verified, maps):
         "id": make_id(vol, cat, idx),
         "vol": vol,
         "ep_title": title,
+        "ep_url": ep_url,
         "category": cat,
         "recommender": item.get("recommender", ""),
         "verdict": item.get("verdict", ""),

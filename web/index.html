@@ -92,7 +92,8 @@
             <template x-if="it.display_city"><span>· <a class="link" @click.prevent="goCity(it.display_city)" :href="'#/city/'+encodeURIComponent(it.display_city)" x-text="it.display_city"></a></span></template>
             <template x-if="it.item.category"><span x-text="'· '+it.item.category"></span></template>
             <span x-text="'· '+it.recommender"></span>
-            <span class="vol">VOL.<span x-text="String(it.vol).padStart(3,'0')"></span></span>
+            <a class="link vol" :href="it.ep_url" target="_blank" rel="noopener noreferrer"
+               title="去小宇宙听这集原话" x-text="'🎧 VOL.'+String(it.vol).padStart(3,'0')"></a>
             <a class="link" :href="'#/item/'+it.id" @click.prevent="goItem(it.id)">链接</a>
           </div>
           <p class="reason" x-text="reasonOf(it)"></p>
@@ -123,7 +124,8 @@
             <span x-text="catLabel(it.category)"></span>
             <template x-if="it.display_city"><span x-text="'· '+it.display_city"></span></template>
             <span x-text="'· '+it.recommender"></span>
-            <span class="vol">VOL.<span x-text="String(it.vol).padStart(3,'0')"></span></span>
+            <a class="link vol" :href="it.ep_url" target="_blank" rel="noopener noreferrer"
+               title="去小宇宙听这集原话" x-text="'🎧 VOL.'+String(it.vol).padStart(3,'0')"></a>
           </div>
           <p class="reason" x-text="reasonOf(it)"></p>
         </article>

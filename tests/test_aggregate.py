@@ -152,6 +152,18 @@ def test_build_row_adds_new_contract_fields():
     assert row["display_city"] == "上海"
 
 
+def test_build_row_carries_episode_url():
+    url = "https://www.xiaoyuzhoufm.com/episode/abc123"
+    row = A.build_row(1, "t", "place", 0, _place_item(),
+                      verified=True, maps={}, ep_url=url)
+    assert row["ep_url"] == url
+
+
+def test_build_row_ep_url_defaults_empty():
+    row = A.build_row(1, "t", "place", 0, _place_item(), verified=True, maps={})
+    assert row["ep_url"] == ""
+
+
 def test_build_row_place_unlocated_city_is_none():
     item = _place_item()
     item["city"] = ""
