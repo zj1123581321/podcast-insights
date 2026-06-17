@@ -30,3 +30,7 @@ dist/
 
 # wrangler 本地构建缓存
 .wrangler/
+
+# 校对中间产物(每集输入 / 原始修正)
+data/*/proofread/
+data/*/corrections_raw.json
