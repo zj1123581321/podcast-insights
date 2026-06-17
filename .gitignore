@@ -27,3 +27,6 @@ data/*/episodes/view_urls.txt
 
 # 发布构建产物（CF Pages 构建时再生）
 dist/
+
+# wrangler 本地构建缓存
+.wrangler/

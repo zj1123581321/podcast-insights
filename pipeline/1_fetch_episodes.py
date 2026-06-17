@@ -148,6 +148,7 @@ def slim(ep: dict) -> dict:
     eid = ep.get("eid", "")
     return {
         "eid": eid, "title": ep.get("title", ""), "pubDate": ep.get("pubDate", ""),
+        "description": (ep.get("description") or "").strip(),
         "duration": ep.get("duration"), "isPrivateMedia": ep.get("isPrivateMedia", False),
         "audio_url": enclosure.get("url") or media.get("source", {}).get("url", ""),
         "episode_url": f"https://www.xiaoyuzhoufm.com/episode/{eid}" if eid else "",

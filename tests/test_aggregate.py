@@ -194,3 +194,53 @@ def test_build_row_quote_unverified_flag():
     row = A.build_row(1, "t", "place", 0, _place_item(),
                       verified=False, maps={})
     assert row["quote_unverified"] is True
+
+
+# ---- pub_date_of：ISO -> YYYY-MM-DD，垃圾/空 -> "" ----
+def test_pub_date_of_iso():
+    assert A.pub_date_of("2026-06-14T23:30:00.000Z") == "2026-06-14"
+
+
+def test_pub_date_of_already_date():
+    assert A.pub_date_of("2024-01-09") == "2024-01-09"
+
+
+def test_pub_date_of_empty_or_garbage():
+    assert A.pub_date_of("") == ""
+    assert A.pub_date_of(None) == ""
+    assert A.pub_date_of("not-a-date") == ""
+
+
+# ---- build_row：pub_date 字段 ----
+def test_build_row_carries_pub_date():
+    row = A.build_row(1, "t", "place", 0, _place_item(),
+                      verified=True, maps={}, pub_date="2026-06-14")
+    assert row["pub_date"] == "2026-06-14"
+
+
+def test_build_row_pub_date_defaults_empty():
+    row = A.build_row(1, "t", "place", 0, _place_item(), verified=True, maps={})
+    assert row["pub_date"] == ""
+
+
+# ---- build_episodes：vol 排序的单集元数据（前端单集 banner / 时间线用）----
+def test_build_episodes_shape_and_sort():
+    present = {
+        2: {"episode": {"title": "VOL.002", "eid": "e2", "source_url": "u2"}},
+        1: {"episode": {"title": "VOL.001", "eid": "e1", "source_url": "u1"}},
+    }
+    meta = {
+        "e1": {"pubDate": "2021-12-01T00:00:00.000Z", "description": "d1"},
+        "e2": {"pubDate": "2021-12-08T00:00:00.000Z", "description": "d2"},
+    }
+    eps = A.build_episodes(present, meta)
+    assert [e["vol"] for e in eps] == [1, 2]          # 按 vol 升序
+    assert eps[0] == {"vol": 1, "title": "VOL.001", "pub_date": "2021-12-01",
+                      "description": "d1", "ep_url": "u1"}
+
+
+def test_build_episodes_missing_meta_is_blank():
+    present = {1: {"episode": {"title": "VOL.001", "eid": "x", "source_url": "u"}}}
+    eps = A.build_episodes(present, {})
+    assert eps[0]["pub_date"] == ""
+    assert eps[0]["description"] == ""

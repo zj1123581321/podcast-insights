@@ -32,6 +32,16 @@ def _strip_region_prefix(s: str) -> str:
     return s
 
 
+def pub_date_of(raw) -> str:
+    """ISO 时间戳 → 「YYYY-MM-DD」；非日期/空 → 空串。
+
+    小宇宙 pubDate 形如 2026-06-14T23:30:00.000Z，前端只需到天。
+    """
+    s = (raw or "").strip()
+    m = re.match(r"^(\d{4}-\d{2}-\d{2})", s)
+    return m.group(1) if m else ""
+
+
 def make_id(vol: int, cat: str, idx: int) -> str:
     """确定性深链 id：<vol>-<type>-<idx>。
 
@@ -80,7 +90,28 @@ def canonical_city(raw, overrides: dict):
 NAME_KEY = {"place": "name", "product": "name", "media": "title"}
 
 
-def build_row(vol, title, cat, idx, item, verified, maps, ep_url=""):
+def build_episodes(present: dict, ep_meta_by_eid: dict) -> list:
+    """单集元数据数组（前端单集 banner / 时间线用），按 vol 升序。
+
+    present: {vol: 该集 extracted dict}（含 episode.eid/title/source_url）。
+    ep_meta_by_eid: {eid: {pubDate, description, ...}}（来自 episodes.json）。
+    描述/日期缺失时留空串，不报错。
+    """
+    out = []
+    for vol in sorted(present):
+        ep = present[vol].get("episode", {})
+        meta = ep_meta_by_eid.get(ep.get("eid"), {})
+        out.append({
+            "vol": vol,
+            "title": ep.get("title", ""),
+            "pub_date": pub_date_of(meta.get("pubDate", "")),
+            "description": (meta.get("description") or "").strip(),
+            "ep_url": ep.get("source_url", ""),
+        })
+    return out
+
+
+def build_row(vol, title, cat, idx, item, verified, maps, ep_url="", pub_date=""):
     """组装一条聚合行（前端契约）。
 
     会就地归一 item.category（product/media），并派生 place 的
@@ -104,6 +135,7 @@ def build_row(vol, title, cat, idx, item, verified, maps, ep_url=""):
         "vol": vol,
         "ep_title": title,
         "ep_url": ep_url,
+        "pub_date": pub_date,
         "category": cat,
         "recommender": item.get("recommender", ""),
         "verdict": item.get("verdict", ""),

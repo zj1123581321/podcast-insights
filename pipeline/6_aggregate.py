@@ -29,6 +29,7 @@ KEY = CFG["key"]
 DD = C.data_dir(KEY)
 EXTRACTED = DD / "extracted"
 TRANS = DD / "transcripts"
+EPISODES_META = DD / "episodes" / "episodes.json"
 TOTAL = int(os.environ.get("TOTAL", str(CFG.get("total_episodes", 234))))
 
 CATS = ["place", "product", "media"]
@@ -43,6 +44,19 @@ MAPS = {
     "media_map": CFG.get("media_type_map", {}),
     "city_overrides": CFG.get("city_canonical", {}).get("overrides", {}),
 }
+
+
+def load_episode_meta():
+    """episodes.json -> {eid: {pubDate, description, ...}}（缺失则空表，不阻断聚合）。"""
+    if not EPISODES_META.exists():
+        print(f"[meta] {EPISODES_META} 不存在，pub_date/description 将留空")
+        return {}
+    try:
+        eps = json.loads(EPISODES_META.read_text(encoding="utf-8"))
+    except Exception as exc:
+        print(f"[meta] 读取失败({exc})，pub_date/description 将留空")
+        return {}
+    return {e.get("eid"): e for e in eps if e.get("eid")}
 
 
 def transcript_path(vol):
@@ -91,6 +105,8 @@ def main():
     if invalid:
         print(f"  invalid vols: {invalid}")
 
+    ep_meta = load_episode_meta()
+
     tcache, rows = {}, []
     counts = {c: 0 for c in CATS}
     unverified = 0
@@ -102,6 +118,7 @@ def main():
         ep = d.get("episode", {})
         title = ep.get("title", "")
         ep_url = ep.get("source_url", "")
+        pub_date = A.pub_date_of(ep_meta.get(ep.get("eid"), {}).get("pubDate", ""))
         text = load_transcript(vol, tcache)
         ntext = norm(text)
         for cat in CATS:
@@ -113,13 +130,16 @@ def main():
                 key = rec if rec in KNOWN_REC else "其他"
                 by_rec[key] = by_rec.get(key, 0) + 1
                 counts[cat] += 1
-                row = A.build_row(vol, title, cat, idx, item, verified, MAPS, ep_url=ep_url)
+                row = A.build_row(vol, title, cat, idx, item, verified, MAPS,
+                                  ep_url=ep_url, pub_date=pub_date)
                 if cat == "place" and row["city_key"] is None:
                     place_unlocated += 1
                 rows.append(row)
 
     distinct_cities = sorted({r["city_key"] for r in rows
                               if r["category"] == "place" and r["city_key"]})
+
+    episodes = A.build_episodes(present, ep_meta)
 
     out_json = DD / "recommendations_all.json"
     out_json.write_text(json.dumps({
@@ -129,6 +149,7 @@ def main():
                   "quote_unverified": unverified, "by_recommender": by_rec,
                   "place_unlocated": place_unlocated,
                   "distinct_cities": len(distinct_cities)},
+        "episodes": episodes,
         "items": rows,
     }, ensure_ascii=False, indent=2), encoding="utf-8")
 
