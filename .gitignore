@@ -19,3 +19,7 @@ node_modules/
 
 # os
 .DS_Store
+
+# 转录服务 view 链接（含 view token，不入库；可由步骤2再生）
+data/*/episodes/view_urls.json
+data/*/episodes/view_urls.txt
