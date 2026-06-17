@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>《肥话连篇》推荐地图</title>
   <link rel="stylesheet" href="./styles.css" />
-  <!-- 成熟库，CDN 引入，零 build。app.js 必须在 Alpine 之前定义 window.feihua，
-       否则 Alpine 自启动的微任务会先于 app.js 执行，导致 "feihua is not defined"。 -->
-  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js" defer></script>
+  <!-- 成熟库，本地 vendor（不依赖 CDN，运行时零第三方，国内网络可用）。
+       app.js 必须在 Alpine 之前定义 window.feihua，否则 Alpine 自启动的微任务
+       会先于 app.js 执行，导致 "feihua is not defined"。 -->
+  <script src="./vendor/echarts.min.js" defer></script>
   <script src="./app.js" defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js" defer></script>
+  <script src="./vendor/alpine.min.js" defer></script>
 </head>
 <body>
 <div id="app" x-data="feihua()" x-init="init()">

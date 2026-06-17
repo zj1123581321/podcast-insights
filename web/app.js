@@ -43,7 +43,9 @@ function feihua() {
         this.items = data.items || [];
         this.stats = data.stats || {};
         this.geo = geo || {};
-        echarts.registerMap("china", china);
+        // 图表库可选：缺失也不应整站白屏（列表/过滤照常用）。
+        if (typeof echarts !== "undefined") echarts.registerMap("china", china);
+        else this.loadError = "图表库 echarts 未加载，地图/统计图不可用，列表仍可用。";
         this.loading = false;
         this.applyHash();
         window.addEventListener("hashchange", () => this.applyHash());
@@ -175,6 +177,7 @@ function feihua() {
       }, 60);
     },
     ensureChart(key, id) {
+      if (typeof echarts === "undefined") return null;
       const el = document.getElementById(id);
       if (!el) return null;
       if (!this.charts[key]) this.charts[key] = echarts.init(el);

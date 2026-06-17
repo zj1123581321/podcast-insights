@@ -97,7 +97,7 @@
 ## web/ — 纯静态可视化站
 
 - **零后端、零 Docker**：geocoding 在构建期跑；线上是静态文件，丢 GitHub Pages / nginx 静态目录即可。
-- **零 build**：`index.html` + `app.js` + Alpine/ECharts(CDN)。⚠ `app.js` 必须在 Alpine `<script>` 之前，否则 Alpine 自启动微任务先于 `window.feihua` 定义 → "feihua is not defined"。
+- **零 build**：`index.html` + `app.js` + Alpine/ECharts(**本地 vendor**，`web/vendor/`，不依赖 CDN → 国内网络可用、运行时零第三方)。⚠ `app.js` 必须在 Alpine `<script>` 之前，否则 Alpine 自启动微任务先于 `window.feihua` 定义 → "feihua is not defined"。图表库缺失时降级:列表/过滤仍可用。
 - **零 server ≠ 能 file:// 直开**：ES module + fetch 被 CORS 拦，本地开发 `python -m http.server`。
 - **运行时零第三方**：底图为随站打包的 `web/china.geojson`（阿里 DataV，**审图号 GS(2019)1719**，含南海诸岛/九段线、台湾、藏南/阿克赛钦按 GB 标准）。⚠ 别换非合规 GeoJSON。
 - 四视图：地图（城市气泡 + 海外单列 + 无定位计数）/ 列表（过滤+搜索+深链+店名跳高德）/ 口味画像 / 红黑榜。
