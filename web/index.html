@@ -44,20 +44,59 @@
       <option value="">全部主播</option>
       <template x-for="r in recommenders" :key="r"><option :value="r" x-text="r"></option></template>
     </select>
+    <select x-model="filters.vol" title="按单集筛选">
+      <option value="">全部单集</option>
+      <template x-for="e in episodes" :key="e.vol">
+        <option :value="e.vol" x-text="'VOL.'+String(e.vol).padStart(3,'0')+'  '+e.title"></option>
+      </template>
+    </select>
+    <select x-model="filters.province" title="按省份筛选（仅实地）">
+      <option value="">全部省份</option>
+      <template x-for="p in provinces" :key="p"><option :value="p" x-text="p"></option></template>
+    </select>
+    <select x-model="filters.city" title="按城市筛选（仅实地）">
+      <option value="">全部城市</option>
+      <template x-for="c in cities" :key="c"><option :value="c" x-text="c+'（'+cityCount(c)+'）'"></option></template>
+    </select>
+    <select x-model="filters.sort" title="排序">
+      <option value="">默认排序</option>
+      <option value="vol-desc">集数：新→旧</option>
+      <option value="vol-asc">集数：旧→新</option>
+    </select>
     <template x-for="v in verdicts" :key="v.k">
       <button class="chip" :class="{on: filters.verdicts.includes(v.k)}"
               :style="filters.verdicts.includes(v.k) ? ('background:'+v.color+';border-color:'+v.color) : ''"
               @click="toggleVerdict(v.k)" x-text="v.k"></button>
     </template>
-    <button class="chip clear" @click="resetFilters()" x-show="dirty">清空</button>
+    <button class="chip clear" @click="resetFilters()" x-show="dirty">清空全部</button>
     <span class="count" x-text="filtered.length + ' 条'"></span>
+  </section>
+
+  <!-- 当前生效筛选：跨 tab 常驻，逐个可移除，让用户随时看清状态、随时回退 -->
+  <section class="activebar" x-show="!loading && activeFilters.length" x-cloak>
+    <span class="lbl">筛选中：</span>
+    <template x-for="a in activeFilters" :key="a.k">
+      <button class="fchip" @click="clearFilter(a.k)"><span x-text="a.label"></span> ✕</button>
+    </template>
+    <button class="fchip reset" @click="resetFilters()">清空全部</button>
   </section>
 
   <main x-show="loading" class="loading">加载中…</main>
 
   <!-- 地图 -->
   <section x-show="!loading && tab==='map'" class="pane">
-    <div id="map" class="echart"></div>
+    <div class="mapwrap">
+      <div id="map" class="echart"></div>
+      <!-- 空状态：当前筛选下没有可落点城市时给解释，而不是一张空地图 -->
+      <div class="mapempty" x-show="mapCityCount===0" x-cloak>
+        <p>当前筛选下没有可在地图显示的城市。</p>
+        <p class="hint" x-show="filters.city">「<span x-text="filters.city"></span>」可能是海外城市或无坐标 —— 切到「列表」看它的推荐，或清空筛选。</p>
+        <div class="acts">
+          <button class="link" @click="tab='list'">看列表 →</button>
+          <button class="link" @click="resetFilters()" x-show="dirty">清空筛选</button>
+        </div>
+      </div>
+    </div>
     <p class="note">
       地图按城市落点（点击进城市清单）。<span x-text="overseas.length"></span> 个海外城市见下方列表；
       <span x-text="stats.place_unlocated || 0"></span> 条实地推荐无定位。
@@ -76,8 +115,8 @@
   <section x-show="!loading && tab==='list'" class="pane">
     <template x-if="activeCity">
       <div class="cityhead">
-        <strong x-text="activeCity"></strong> 的推荐
-        <button class="link" @click="goCity('')">← 全部</button>
+        <button class="link back" @click="clearFilter('city')">← 返回全部</button>
+        <strong x-text="activeCity"></strong> 的推荐（<span x-text="filtered.length"></span> 条）
       </div>
     </template>
     <div class="cards">
