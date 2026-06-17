@@ -1,0 +1,12 @@
+{
+  // Cloudflare Workers Static Assets：把 build.sh 产出的 dist/ 作为纯静态资源托管。
+  // 配合 Workers Builds（Git 连接）：
+  //   Build command  = bash build.sh
+  //   Deploy command = npx wrangler deploy
+  // 无 "main" 入口 = 纯静态资源 Worker（不跑任何服务端代码）。
+  "name": "feihua",
+  "compatibility_date": "2025-03-01",
+  "assets": {
+    "directory": "./dist"
+  }
+}
