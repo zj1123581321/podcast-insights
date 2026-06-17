@@ -9,14 +9,15 @@
   "place": [
     {
       "recommender": "共同",
-      "name": "HONKY TONK COFFEE（虎斑菊）",
+      "name": "HONKY TONK COFFEE（虎斑橘）",
       "city": "上海",
       "category": "餐厅",
       "what": "喝创意咖啡「虎斑菊」（orange cream latte），奶油加橘皮碎屑，可用勺挖着吃",
       "verdict": "推荐",
       "reason": "橘香浓郁，气味与口味双重体验，奶油轻柔，口感独特；性价比偏低（四十八元/杯，量少），适合偶尔尝鲜",
       "quote": "我觉得这个虎斑菊我种草很长一段时间了，原因也很简单，就是据说这个饮品火到高峰时期要排队两个小时才能喝到",
-      "name_corrected": false
+      "name_corrected": true,
+      "name_original": "HONKY TONK COFFEE（虎斑菊）"
     },
     {
       "recommender": "共同",
@@ -85,13 +86,14 @@
     },
     {
       "recommender": "共同",
-      "name": "溪木源智控霜（原层孔菌控瓶霜）",
+      "name": "溪木源智控水霜（原层孔菌控水霜）",
       "category": "护肤品",
       "why_good": "智能分区控油，T区多控油、脸颊保湿不干；新版增加抗氧化提亮成分；包装细长轻便，可直接带原装出行，持续使用近半年效果显著",
       "price_hint": "",
       "verdict": "重点推荐",
       "quote": "我已经爱到不行了。我到现在已经用光了两瓶，就是因为它真的帮我做到了这个智能分区控油",
-      "name_corrected": true
+      "name_corrected": true,
+      "name_original": "溪木源智控霜（原层孔菌控瓶霜）"
     },
     {
       "recommender": "肥杰",

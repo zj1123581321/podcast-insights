@@ -20,36 +20,39 @@
     },
     {
       "recommender": "肥杰",
-      "name": "北师大学舞食堂鸡蛋灌饼窗口",
+      "name": "北师大学五食堂鸡蛋灌饼窗口",
       "city": "北京",
       "category": "餐厅",
       "what": "吃鸡蛋灌饼，把鸡蛋灌入面饼内部再压扁，可加里脊肉、香肠、生菜",
       "verdict": "推荐",
       "reason": "鸡蛋灌在面的中间，两边都是面但中间是鸡蛋口感，鸡蛋不直接接触铁板所以更像蒸熟，味道更纯",
       "quote": "我贼喜欢吃。",
-      "name_corrected": false
+      "name_corrected": true,
+      "name_original": "北师大学舞食堂鸡蛋灌饼窗口"
     },
     {
       "recommender": "肥杰",
-      "name": "北师大学舞食堂炒饼窗口",
+      "name": "北师大学五食堂炒饼窗口",
       "city": "北京",
       "category": "餐厅",
       "what": "吃炒饼，饼切成丝后加火腿肠、酱、鸡蛋炒制，点老干妈鸡蛋炒饼",
       "verdict": "重点推荐",
       "reason": "面经过烘炒之后香味浓郁，口感有嚼劲，现在去北京出差还要专门找炒饼吃",
       "quote": "现在只要有机会去北京出差，我就肯定想办法找炒饼",
-      "name_corrected": false
+      "name_corrected": true,
+      "name_original": "北师大学舞食堂炒饼窗口"
     },
     {
       "recommender": "惠子",
-      "name": "北师大学舞食堂爆饭窗口",
+      "name": "北师大学五食堂爆饭窗口",
       "city": "北京",
       "category": "餐厅",
       "what": "吃鸡心爆饭，在铁板上炒制，特别喜欢加鸡心",
       "verdict": "重点推荐",
       "reason": "鸡心嚼劲更足，铁板炒制过程视觉享受，肥杰还会帮忙带到宿舍",
       "quote": "我最喜欢吃的是鸡心爆饭，鸡心拌饭。对我觉得鸡心我特别喜欢吃鸡心",
-      "name_corrected": false
+      "name_corrected": true,
+      "name_original": "北师大学舞食堂爆饭窗口"
     },
     {
       "recommender": "惠子",

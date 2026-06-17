@@ -1,0 +1,156 @@
+[
+  {
+    "id": "45-place-2",
+    "old_name": "微煌小海鲜",
+    "new_name": "威皇小海鲜",
+    "confidence": 0.95,
+    "evidence": "description 里明确写的是「威皇小海鲜的花雕鸡火锅」，ASR 把「威皇」听成了「微煌」。"
+  },
+  {
+    "id": "114-place-1",
+    "old_name": "金太阳烧烤",
+    "new_name": "金太阳",
+    "confidence": 0.92,
+    "evidence": "description 中店名写作「金太阳」，「烧烤」只是对其业态的描述（「火到大排长队的烧烤店」），ASR 把业态词误拼入店名。"
+  },
+  {
+    "id": "114-place-2",
+    "old_name": "琥珀湾 CAAN by OUR",
+    "new_name": "CAAN by OUR",
+    "confidence": 0.9,
+    "evidence": "description 中店名写作「CAAN by OUR」，「隐秘的海湾」是对环境的描述，「琥珀湾」应为 ASR 根据语音上下文误加的地点词，并非店名本身。"
+  },
+  {
+    "id": "133-media-4",
+    "old_name": "坂本龙一：OPUS",
+    "new_name": "坂本龙一：杰作",
+    "confidence": 0.92,
+    "evidence": "description 里直接写的是「坂本龙一：杰作」，与 ASR 抽到的英文「OPUS」对应，应以 description 中的中文译名为准"
+  },
+  {
+    "id": "148-media-2",
+    "old_name": "Shrink～精神科弱井医生～",
+    "new_name": "Shrink～精神专科弱井医生～",
+    "confidence": 0.95,
+    "evidence": "description 中原文写「《Shrink～精神专科弱井医生～》」，items 里漏掉了「专」字，「精神科」应为「精神专科」"
+  },
+  {
+    "id": "149-place-1",
+    "old_name": "东北林丹咖啡",
+    "new_name": "东北灵丹",
+    "confidence": 0.95,
+    "evidence": "description 里直接写作「东北灵丹」，quote 中「林丹确实有一点灵丹妙药的感觉」也印证正确字是「灵丹」，ASR 将「灵」误识为「林」"
+  },
+  {
+    "id": "149-place-2",
+    "old_name": "孙家沟炸串串",
+    "new_name": "孙家沟炸串",
+    "confidence": 0.92,
+    "evidence": "description 里写作「孙家沟炸串」，末尾只有一个「串」字，ASR 重复多识别了一个「串」"
+  },
+  {
+    "id": "149-place-3",
+    "old_name": "天心园饭店",
+    "new_name": "天新园饭店",
+    "confidence": 0.95,
+    "evidence": "description 里直接写作「天新园饭店」，ASR 将「新」误识为「心」"
+  },
+  {
+    "id": "164-media-0",
+    "old_name": "哪吒之魔童降世2",
+    "new_name": "哪吒之魔童闹海",
+    "confidence": 0.95,
+    "evidence": "官方片名《哪吒之魔童闹海》(2025);ASR 误作「降世2」,description 亦误作「脑海」,据官方名校正"
+  },
+  {
+    "id": "177-place-0",
+    "old_name": "今半（銀座店）",
+    "new_name": "人形町今半",
+    "confidence": 0.92,
+    "evidence": "description 明确写明「人形町今半（Ningyocho IMAHAN）」，并非銀座分店；ASR 把「人形町」漏掉并错加了「銀座店」后缀"
+  },
+  {
+    "id": "177-place-5",
+    "old_name": "PATH",
+    "new_name": "path",
+    "confidence": 0.85,
+    "evidence": "description 中店名写为「path」（全小写），该咖啡馆官方名称即全小写 path，ASR 转写成了大写 PATH"
+  },
+  {
+    "id": "202-place-0",
+    "old_name": "小长安（晓长安新陕菜）",
+    "new_name": "晓长安（晓长安新陕菜）",
+    "confidence": 0.97,
+    "evidence": "description 里明确写「晓长安」，name 括号外的「小」字是 ASR 将「晓」听成同音字「小」的误写。"
+  },
+  {
+    "id": "202-place-10",
+    "old_name": "有时咖啡",
+    "new_name": "友时咖啡",
+    "confidence": 0.95,
+    "evidence": "description 里明确写「友时咖啡」，ASR 将「友」听成同音字「有」。"
+  },
+  {
+    "id": "202-place-13",
+    "old_name": "Virgo VRG Go 咖啡",
+    "new_name": "virgo coffee",
+    "confidence": 0.88,
+    "evidence": "description 里写「virgo coffee」，「VRG Go」是 ASR 对英文「virgo」的二次误转写噪音，多余附加在正确词后。"
+  },
+  {
+    "id": "209-media-1",
+    "old_name": "都是他的错",
+    "new_name": "都是她的错",
+    "confidence": 0.95,
+    "evidence": "description 中对应条目英文原名为《All Her Fault》，Her 指女性，ASR 将「她」误听为「他」"
+  },
+  {
+    "id": "212-place-1",
+    "old_name": "北师大学舞食堂鸡蛋灌饼窗口",
+    "new_name": "北师大学五食堂鸡蛋灌饼窗口",
+    "confidence": 0.92,
+    "evidence": "同集条目212-place-14已正确写作「北师大学五食堂」，「学舞」系ASR将「学五」同音误写"
+  },
+  {
+    "id": "212-place-2",
+    "old_name": "北师大学舞食堂炒饼窗口",
+    "new_name": "北师大学五食堂炒饼窗口",
+    "confidence": 0.92,
+    "evidence": "同集条目212-place-14已正确写作「北师大学五食堂」，「学舞」系ASR将「学五」同音误写"
+  },
+  {
+    "id": "212-place-3",
+    "old_name": "北师大学舞食堂爆饭窗口",
+    "new_name": "北师大学五食堂爆饭窗口",
+    "confidence": 0.92,
+    "evidence": "同集条目212-place-14已正确写作「北师大学五食堂」，「学舞」系ASR将「学五」同音误写"
+  },
+  {
+    "id": "216-product-0",
+    "old_name": "维米乐铸铁炖锅（2.0版本）",
+    "new_name": "唯米乐铸铁炖锅（2.0版本）",
+    "confidence": 0.95,
+    "evidence": "description 中明确写作「VERMICULAR（唯米乐）珐琅铸铁圆炖锅」，ASR 将「唯」听成「维」"
+  },
+  {
+    "id": "226-place-0",
+    "old_name": "HONKY TONK COFFEE（虎斑菊）",
+    "new_name": "HONKY TONK COFFEE（虎斑橘）",
+    "confidence": 0.97,
+    "evidence": "description 中明确写作「HONKY TONK COFFEE虎斑橘」，ASR 将「橘」误听为「菊」"
+  },
+  {
+    "id": "226-product-3",
+    "old_name": "溪木源智控霜（原层孔菌控瓶霜）",
+    "new_name": "溪木源智控水霜（原层孔菌控水霜）",
+    "confidence": 0.95,
+    "evidence": "description 中明确写作「溪木源智控水霜」，ASR 将「水」漏听为空（智控霜）且将括号内「控水霜」误听为「控瓶霜」"
+  },
+  {
+    "id": "232-place-2",
+    "old_name": "沪西老弄堂（陕西南路新店）",
+    "new_name": "沪西鳝筒面",
+    "confidence": 0.95,
+    "evidence": "description 里直接写明「沪西鳝筒面」，ASR「老弄堂」是对「鳝筒」的误听"
+  }
+]

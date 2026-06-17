@@ -11,13 +11,14 @@
   "media": [
     {
       "recommender": "惠子",
-      "title": "哪吒之魔童降世2",
+      "title": "哪吒之魔童闹海",
       "type": "电影",
       "synopsis": "哪吒重塑肉身后带着敖丙的灵魂进入天庭考公，揭开天庭镇压海底异族的阴谋，与好友敖丙联手反抗不公。",
       "why_recommended": "剧情完整逻辑自洽，笑点密集，大场面震撼，人物塑造出色，传递反抗成见的精神价值，看完热血沸腾充满正能量",
       "verdict": "重点推荐",
       "quote": "这部电影应该算是当之无愧的贺岁档最佳",
-      "name_corrected": false
+      "name_corrected": true,
+      "name_original": "哪吒之魔童降世2"
     },
     {
       "recommender": "肥杰",

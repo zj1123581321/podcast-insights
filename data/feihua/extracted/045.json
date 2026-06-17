@@ -31,14 +31,15 @@
     },
     {
       "recommender": "惠子",
-      "name": "微煌小海鲜",
+      "name": "威皇小海鲜",
       "city": "上海",
       "category": "餐厅",
       "what": "吃花雕鸡肉砂锅火锅，涮海鲜",
       "verdict": "推荐",
       "reason": "花雕鸡汤浓香清亮，鸡肉鲜嫩，涮海鲜是绝配，嘉善路新店排队压力小",
       "quote": "涮海鲜吃，它就是一种绝配",
-      "name_corrected": false
+      "name_corrected": true,
+      "name_original": "微煌小海鲜"
     },
     {
       "recommender": "肥杰",

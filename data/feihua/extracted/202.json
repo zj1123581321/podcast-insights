@@ -9,14 +9,15 @@
   "place": [
     {
       "recommender": "共同",
-      "name": "小长安（晓长安新陕菜）",
+      "name": "晓长安（晓长安新陕菜）",
       "city": "西安",
       "category": "餐厅",
       "what": "油泼辣子一道菜、关中芝麻盐豆角、芝书深汆丸子汤、黑松露烤鸭",
       "verdict": "重点推荐",
       "reason": "人均两百块，环境和服务媲美上海千元餐厅；改良版陕菜适合全国各地口味；菜品有历史文化故事；性价比极高",
       "quote": "人均两百块，你能够体验到在上海一千块左右的环境和服务",
-      "name_corrected": true
+      "name_corrected": true,
+      "name_original": "小长安（晓长安新陕菜）"
     },
     {
       "recommender": "共同",
@@ -119,14 +120,15 @@
     },
     {
       "recommender": "共同",
-      "name": "有时咖啡",
+      "name": "友时咖啡",
       "city": "长沙",
       "category": "餐厅",
       "what": "一豆两喝（小拿铁+小美式）、手冲咖啡",
       "verdict": "推荐",
       "reason": "长沙咖啡三巨头之一；老板温柔有理念，选小众豆子带来新体验；氛围像朋友聊天，无距离感；一豆两喝很有意思",
       "quote": "你到了长沙，我们没有喝重样的……他就希望能够让大家喝到一些不常见的东西",
-      "name_corrected": false
+      "name_corrected": true,
+      "name_original": "有时咖啡"
     },
     {
       "recommender": "共同",
@@ -152,14 +154,15 @@
     },
     {
       "recommender": "肥杰",
-      "name": "Virgo VRG Go 咖啡",
+      "name": "virgo coffee",
       "city": "西安",
       "category": "餐厅",
       "what": "菠萝椰子冷萃、无敌幸运星（特调咖啡）",
       "verdict": "推荐",
       "reason": "咖啡师理念独特：创意咖啡是创造新味道而非叠加旧味道；口感克制融合，气泡细密按摩味蕾；氛围温馨可与咖啡师深度交流",
       "quote": "他说他认为啊创意咖啡或者说特调不是把调味料加到咖啡里，而是要通过自己所想的要加进去的东西和咖啡融合在一起，调出一个新的味道给你",
-      "name_corrected": false
+      "name_corrected": true,
+      "name_original": "Virgo VRG Go 咖啡"
     }
   ],
   "product": [],

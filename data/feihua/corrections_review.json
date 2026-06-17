@@ -1,0 +1,44 @@
+[
+  {
+    "id": "43-product-0",
+    "old_name": "幺幺四名医导航",
+    "new_name": "114名医导航",
+    "confidence": 0.75,
+    "evidence": "quote 中「幺幺四」是拨打电话时对「1」读作「幺」的口语写法，对应的正式服务名称为「114名医导航」，属 ASR 将口语数字音译为文字而非标准写法"
+  },
+  {
+    "id": "50-product-1",
+    "old_name": "孙多兰衫羊绒围巾",
+    "new_name": "多兰孙羊绒围巾",
+    "confidence": 0.75,
+    "evidence": "quote 里主播明确说「叫多兰孙」，ASR 将「多兰孙」听成「孙多兰衫」，顺序颠倒且多出「衫」字"
+  },
+  {
+    "id": "63-place-3",
+    "old_name": "异骨烩",
+    "new_name": "一骨烩",
+    "confidence": 0.82,
+    "evidence": "quote 里直接出现「一骨烩也是我们有一个中肯的评价」，ASR 将「一」误识为「异」"
+  },
+  {
+    "id": "63-place-1",
+    "old_name": "燃记沙茶黄",
+    "new_name": "燃记沙茶煌",
+    "confidence": 0.62,
+    "evidence": "「煌」在餐厅字号中远比「黄」常见（如「旺煌」「金煌」），且 description 提到「沙茶火锅」，结合 quote 上下文推断「黄」为同音误写"
+  },
+  {
+    "id": "147-place-2",
+    "old_name": "bell狗",
+    "new_name": "Belgoo",
+    "confidence": 0.72,
+    "evidence": "quote 提到「专门吃青口贝的」，Belgoo 是英国知名比利时风格青口贝连锁餐厅，ASR 将英文「Belgoo」按音节拆分听成「bell狗」（bell≈贝尔，goo≈狗）"
+  },
+  {
+    "id": "202-place-12",
+    "old_name": "Deeper Deeper",
+    "new_name": "deeper2",
+    "confidence": 0.72,
+    "evidence": "description 里写「deeper2」，ASR 将数字「2」转写为重复单词「Deeper」，形成「Deeper Deeper」。"
+  }
+]

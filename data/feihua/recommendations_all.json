@@ -5676,20 +5676,21 @@
       "category": "place",
       "recommender": "惠子",
       "verdict": "推荐",
-      "name": "微煌小海鲜",
+      "name": "威皇小海鲜",
       "city_key": "上海",
       "display_city": "上海",
       "quote_unverified": false,
       "item": {
         "recommender": "惠子",
-        "name": "微煌小海鲜",
+        "name": "威皇小海鲜",
         "city": "上海",
         "category": "餐厅",
         "what": "吃花雕鸡肉砂锅火锅，涮海鲜",
         "verdict": "推荐",
         "reason": "花雕鸡汤浓香清亮，鸡肉鲜嫩，涮海鲜是绝配，嘉善路新店排队压力小",
         "quote": "涮海鲜吃，它就是一种绝配",
-        "name_corrected": false
+        "name_corrected": true,
+        "name_original": "微煌小海鲜"
       }
     },
     {
@@ -11367,20 +11368,21 @@
       "category": "place",
       "recommender": "共同",
       "verdict": "重点推荐",
-      "name": "金太阳烧烤",
+      "name": "金太阳",
       "city_key": "大连",
       "display_city": "大连",
       "quote_unverified": false,
       "item": {
         "recommender": "共同",
-        "name": "金太阳烧烤",
+        "name": "金太阳",
         "city": "大连",
         "category": "餐厅",
         "what": "吃羊肉小串、炒方便面、烤苞米面饼子、炸蚕蛹、草莓罐头",
         "verdict": "重点推荐",
         "reason": "1997年开业的老字号烧烤店，不做外卖只做晚餐却长期排队，周边烧烤店只能捡其排队溢出客源；烤苞米面饼子、炒方便面是南方吃不到的特色，炸蚕蛹值得尝试",
         "quote": "这家餐厅的名字叫做金太阳",
-        "name_corrected": false
+        "name_corrected": true,
+        "name_original": "金太阳烧烤"
       }
     },
     {
@@ -11392,20 +11394,21 @@
       "category": "place",
       "recommender": "共同",
       "verdict": "重点推荐",
-      "name": "琥珀湾 CAAN by OUR",
+      "name": "CAAN by OUR",
       "city_key": "大连",
       "display_city": "大连",
       "quote_unverified": false,
       "item": {
         "recommender": "共同",
-        "name": "琥珀湾 CAAN by OUR",
+        "name": "CAAN by OUR",
         "city": "大连",
         "category": "景点",
         "what": "看海湾小景、喝咖啡吃面包、室内赏海景",
         "verdict": "重点推荐",
         "reason": "小海湾精致静谧，渔船停靠近岸、海鸥浮水，有别于星海湾的磅礴；湾边CAAN by OUR咖啡馆落地窗朝海，冬天可在室内暖和地看海沐浴阳光，极致推荐",
         "quote": "我真的是极致推荐。非常推荐，非常非常非常非常推荐。",
-        "name_corrected": false
+        "name_corrected": true,
+        "name_original": "琥珀湾 CAAN by OUR"
       }
     },
     {
@@ -14266,19 +14269,20 @@
       "category": "media",
       "recommender": "惠子",
       "verdict": "重点推荐",
-      "name": "坂本龙一：OPUS",
+      "name": "坂本龙一：杰作",
       "city_key": null,
       "display_city": null,
       "quote_unverified": false,
       "item": {
         "recommender": "惠子",
-        "title": "坂本龙一：OPUS",
+        "title": "坂本龙一：杰作",
         "type": "纪录片",
         "synopsis": "坂本龙一生前最后一场钢琴独奏音乐会的电影纪录，用大量麦克风还原立体音效，二十首曲目如一天的时光流转，最后一曲弹奏中人影消隐。",
         "why_recommended": "音乐极致动人，现场感沉浸，令惠子不由自主落泪；结尾「斯人已逝，乐音不绝」设计感人，是坂本龙一献给世界的最后礼物",
         "verdict": "重点推荐",
         "quote": "我觉得以后如果有类似的这种内容，我肯定会自己主动就去参与了。所以也像你说的，我觉得这部电影让我最大最大的遗憾就是没有带你去看",
         "name_corrected": true,
+        "name_original": "坂本龙一：OPUS",
         "category": "纪录片"
       }
     },
@@ -16221,19 +16225,20 @@
       "category": "media",
       "recommender": "惠子",
       "verdict": "重点推荐",
-      "name": "Shrink～精神科弱井医生～",
+      "name": "Shrink～精神专科弱井医生～",
       "city_key": null,
       "display_city": null,
       "quote_unverified": false,
       "item": {
         "recommender": "惠子",
-        "title": "Shrink～精神科弱井医生～",
+        "title": "Shrink～精神专科弱井医生～",
         "type": "剧集",
         "synopsis": "日剧，共3集，每集不足一小时，分别讲述惊恐发作、双相情感障碍、边缘性人格障碍三种精神疾病的症状、治疗关键节点及恢复过程，兼具专业性与感染力。",
         "why_recommended": "将精神心理专业知识与真实故事融合得极为出色，医生角色温暖谦逊、治疗生态系统完整，三集患者均走向康复让人感到被安抚；对精神心理感兴趣者是必看剧",
         "verdict": "重点推荐",
         "quote": "我觉得就是在我这儿获得了超高评价，天哪",
         "name_corrected": true,
+        "name_original": "Shrink～精神科弱井医生～",
         "category": "剧集"
       }
     },
@@ -16271,20 +16276,21 @@
       "category": "place",
       "recommender": "共同",
       "verdict": "重点推荐",
-      "name": "东北林丹咖啡",
+      "name": "东北灵丹",
       "city_key": "大连",
       "display_city": "大连",
       "quote_unverified": true,
       "item": {
         "recommender": "共同",
-        "name": "东北林丹咖啡",
+        "name": "东北灵丹",
         "city": "大连",
         "category": "餐厅",
         "what": "喝特调咖啡和意式咖啡，包括超级萃取美式（配生巧）、东北野摩卡、大波浪、马什么梅（四号）、液态匹诺曹（六号）、奶油混子（七号）",
         "verdict": "重点推荐",
         "reason": "两家店各有特色，超级萃取店用浅烘手冲豆以意式机萃取，口感干净明亮；特调Lab店的特调层次丰富、咖啡师极度用心，两人连续两天各去一家店且每次喝三四款",
         "quote": "馋到回到上海的飞机上。飞机刚刚降落，我就跟你说，哎呀，我们下次回去是春节……感觉他这个林丹确实有一点灵丹妙药的感觉，像给我下毒了一样",
-        "name_corrected": false
+        "name_corrected": true,
+        "name_original": "东北林丹咖啡"
       }
     },
     {
@@ -16296,20 +16302,21 @@
       "category": "place",
       "recommender": "共同",
       "verdict": "重点推荐",
-      "name": "孙家沟炸串串",
+      "name": "孙家沟炸串",
       "city_key": "大连",
       "display_city": "大连",
       "quote_unverified": true,
       "item": {
         "recommender": "共同",
-        "name": "孙家沟炸串串",
+        "name": "孙家沟炸串",
         "city": "大连",
         "category": "餐厅",
         "what": "吃炸串，包括裸体里脊、巨型淀粉肠、炸肉筋，蘸店家特制番茄酱（甜口）和超辣辣酱",
         "verdict": "重点推荐",
         "reason": "肥杰从小吃到大的情怀老店，已营业二十余年；裸体里脊用真实里脊肉无任何添加、火候极好；番茄酱甜口独特；大风大雨天依然顾客络绎不绝",
         "quote": "他们家有一个特别特别不一样，特别特别招牌的东西，我称它为裸体里脊……绝对是大家从来没有吃过的番茄酱的味道",
-        "name_corrected": false
+        "name_corrected": true,
+        "name_original": "孙家沟炸串串"
       }
     },
     {
@@ -16321,20 +16328,21 @@
       "category": "place",
       "recommender": "共同",
       "verdict": "推荐",
-      "name": "天心园饭店",
+      "name": "天新园饭店",
       "city_key": "大连",
       "display_city": "大连",
       "quote_unverified": true,
       "item": {
         "recommender": "共同",
-        "name": "天心园饭店",
+        "name": "天新园饭店",
         "city": "大连",
         "category": "餐厅",
         "what": "吃大连老菜，包括鱼香肉丝、炸虾仁、炸蛎黄、软炸肉、海味全家福、那年秋天的茄子、黄花鱼锅贴，附赠免费小米粥和龙虾片",
         "verdict": "推荐",
         "reason": "三十余年历史的国营老店传承，菜量极大（四人点四菜打包了五大盒）、价格实惠（四人两百六七十元），大连本地人才知道的宝藏菜馆，老菜口味正宗",
         "quote": "我觉得听我们这期节目的真的是赚到了。因为我知道你喜欢吃大连老菜，我回家之前特意搜了半天，搜出来的全是那种网红店……但这家店我感觉就真的是只有本地人知道",
-        "name_corrected": false
+        "name_corrected": true,
+        "name_original": "天心园饭店"
       }
     },
     {
@@ -17682,19 +17690,20 @@
       "category": "media",
       "recommender": "惠子",
       "verdict": "重点推荐",
-      "name": "哪吒之魔童降世2",
+      "name": "哪吒之魔童闹海",
       "city_key": null,
       "display_city": null,
       "quote_unverified": false,
       "item": {
         "recommender": "惠子",
-        "title": "哪吒之魔童降世2",
+        "title": "哪吒之魔童闹海",
         "type": "电影",
         "synopsis": "哪吒重塑肉身后带着敖丙的灵魂进入天庭考公，揭开天庭镇压海底异族的阴谋，与好友敖丙联手反抗不公。",
         "why_recommended": "剧情完整逻辑自洽，笑点密集，大场面震撼，人物塑造出色，传递反抗成见的精神价值，看完热血沸腾充满正能量",
         "verdict": "重点推荐",
         "quote": "这部电影应该算是当之无愧的贺岁档最佳",
-        "name_corrected": false,
+        "name_corrected": true,
+        "name_original": "哪吒之魔童降世2",
         "category": "电影"
       }
     },
@@ -18701,20 +18710,21 @@
       "category": "place",
       "recommender": "共同",
       "verdict": "重点推荐",
-      "name": "今半（銀座店）",
+      "name": "人形町今半",
       "city_key": "东京",
       "display_city": "东京",
       "quote_unverified": false,
       "item": {
         "recommender": "共同",
-        "name": "今半（銀座店）",
+        "name": "人形町今半",
         "city": "东京·银座",
         "category": "餐厅",
         "what": "极上和牛寿喜烧套餐（160克，四片和牛，配米饭、汤、咸菜）",
         "verdict": "重点推荐",
         "reason": "1895年老店，使用近江和牛，仪式感极强，服务细致，每碗肉搭配不同蔬菜，最后用汤汁划蛋盖饭收尾，是两次东京行中印象最深刻的一家",
         "quote": "我觉得今半这家店确实是我们这次去东京吃的，我觉得印象最深刻的一家。",
-        "name_corrected": true
+        "name_corrected": true,
+        "name_original": "今半（銀座店）"
       }
     },
     {
@@ -18826,20 +18836,21 @@
       "category": "place",
       "recommender": "共同",
       "verdict": "推荐",
-      "name": "PATH",
+      "name": "path",
       "city_key": "东京",
       "display_city": "东京",
       "quote_unverified": false,
       "item": {
         "recommender": "共同",
-        "name": "PATH",
+        "name": "path",
         "city": "东京·代代木",
         "category": "餐厅",
         "what": "火腿芝士松饼（限量50份）、沙拉",
         "verdict": "推荐",
         "reason": "松饼外软内嫩、甜咸搭配反差绝妙，沙拉苦甜酸口感丰富，吃前没期待吃后非常满足；建议每人各点一份松饼",
         "quote": "我们强烈推荐，如果大家去吃，是每个人点一份，不要像我们先点了一份，后来觉得不够吃，又叫了一份。",
-        "name_corrected": true
+        "name_corrected": true,
+        "name_original": "PATH"
       }
     },
     {
@@ -21558,20 +21569,21 @@
       "category": "place",
       "recommender": "共同",
       "verdict": "重点推荐",
-      "name": "小长安（晓长安新陕菜）",
+      "name": "晓长安（晓长安新陕菜）",
       "city_key": "西安",
       "display_city": "西安",
       "quote_unverified": true,
       "item": {
         "recommender": "共同",
-        "name": "小长安（晓长安新陕菜）",
+        "name": "晓长安（晓长安新陕菜）",
         "city": "西安",
         "category": "餐厅",
         "what": "油泼辣子一道菜、关中芝麻盐豆角、芝书深汆丸子汤、黑松露烤鸭",
         "verdict": "重点推荐",
         "reason": "人均两百块，环境和服务媲美上海千元餐厅；改良版陕菜适合全国各地口味；菜品有历史文化故事；性价比极高",
         "quote": "人均两百块，你能够体验到在上海一千块左右的环境和服务",
-        "name_corrected": true
+        "name_corrected": true,
+        "name_original": "小长安（晓长安新陕菜）"
       }
     },
     {
@@ -21808,20 +21820,21 @@
       "category": "place",
       "recommender": "共同",
       "verdict": "推荐",
-      "name": "有时咖啡",
+      "name": "友时咖啡",
       "city_key": "长沙",
       "display_city": "长沙",
       "quote_unverified": true,
       "item": {
         "recommender": "共同",
-        "name": "有时咖啡",
+        "name": "友时咖啡",
         "city": "长沙",
         "category": "餐厅",
         "what": "一豆两喝（小拿铁+小美式）、手冲咖啡",
         "verdict": "推荐",
         "reason": "长沙咖啡三巨头之一；老板温柔有理念，选小众豆子带来新体验；氛围像朋友聊天，无距离感；一豆两喝很有意思",
         "quote": "你到了长沙，我们没有喝重样的……他就希望能够让大家喝到一些不常见的东西",
-        "name_corrected": false
+        "name_corrected": true,
+        "name_original": "有时咖啡"
       }
     },
     {
@@ -21883,20 +21896,21 @@
       "category": "place",
       "recommender": "肥杰",
       "verdict": "推荐",
-      "name": "Virgo VRG Go 咖啡",
+      "name": "virgo coffee",
       "city_key": "西安",
       "display_city": "西安",
       "quote_unverified": false,
       "item": {
         "recommender": "肥杰",
-        "name": "Virgo VRG Go 咖啡",
+        "name": "virgo coffee",
         "city": "西安",
         "category": "餐厅",
         "what": "菠萝椰子冷萃、无敌幸运星（特调咖啡）",
         "verdict": "推荐",
         "reason": "咖啡师理念独特：创意咖啡是创造新味道而非叠加旧味道；口感克制融合，气泡细密按摩味蕾；氛围温馨可与咖啡师深度交流",
         "quote": "他说他认为啊创意咖啡或者说特调不是把调味料加到咖啡里，而是要通过自己所想的要加进去的东西和咖啡融合在一起，调出一个新的味道给你",
-        "name_corrected": false
+        "name_corrected": true,
+        "name_original": "Virgo VRG Go 咖啡"
       }
     },
     {
@@ -22449,19 +22463,20 @@
       "category": "media",
       "recommender": "共同",
       "verdict": "重点推荐",
-      "name": "都是他的错",
+      "name": "都是她的错",
       "city_key": null,
       "display_city": null,
       "quote_unverified": false,
       "item": {
         "recommender": "共同",
-        "title": "都是他的错",
+        "title": "都是她的错",
         "type": "剧集",
         "synopsis": "一对富裕中年夫妻的独子在放学时被人接走，在警方追查、家人等待过程中层层揭开家庭、婚姻与社会阶层的深层议题。",
         "why_recommended": "豆瓣9.1分，共同高度认可；悬疑紧张情绪氛围极佳，女主演技震撼，展现婚姻育儿分工与NPD人格障碍等社会议题，看完引发大量思考讨论",
         "verdict": "重点推荐",
         "quote": "而且我感觉这部剧不仅仅是这个故事讲得好，嗯，它还随着这个故事展现了很多社会议题，像你说的，讲到婚姻、讲到育儿的分工、讲到社会阶层等等",
-        "name_corrected": false,
+        "name_corrected": true,
+        "name_original": "都是他的错",
         "category": "剧集"
       }
     },
@@ -22671,20 +22686,21 @@
       "category": "place",
       "recommender": "肥杰",
       "verdict": "推荐",
-      "name": "北师大学舞食堂鸡蛋灌饼窗口",
+      "name": "北师大学五食堂鸡蛋灌饼窗口",
       "city_key": "北京",
       "display_city": "北京",
       "quote_unverified": false,
       "item": {
         "recommender": "肥杰",
-        "name": "北师大学舞食堂鸡蛋灌饼窗口",
+        "name": "北师大学五食堂鸡蛋灌饼窗口",
         "city": "北京",
         "category": "餐厅",
         "what": "吃鸡蛋灌饼，把鸡蛋灌入面饼内部再压扁，可加里脊肉、香肠、生菜",
         "verdict": "推荐",
         "reason": "鸡蛋灌在面的中间，两边都是面但中间是鸡蛋口感，鸡蛋不直接接触铁板所以更像蒸熟，味道更纯",
         "quote": "我贼喜欢吃。",
-        "name_corrected": false
+        "name_corrected": true,
+        "name_original": "北师大学舞食堂鸡蛋灌饼窗口"
       }
     },
     {
@@ -22696,20 +22712,21 @@
       "category": "place",
       "recommender": "肥杰",
       "verdict": "重点推荐",
-      "name": "北师大学舞食堂炒饼窗口",
+      "name": "北师大学五食堂炒饼窗口",
       "city_key": "北京",
       "display_city": "北京",
       "quote_unverified": false,
       "item": {
         "recommender": "肥杰",
-        "name": "北师大学舞食堂炒饼窗口",
+        "name": "北师大学五食堂炒饼窗口",
         "city": "北京",
         "category": "餐厅",
         "what": "吃炒饼，饼切成丝后加火腿肠、酱、鸡蛋炒制，点老干妈鸡蛋炒饼",
         "verdict": "重点推荐",
         "reason": "面经过烘炒之后香味浓郁，口感有嚼劲，现在去北京出差还要专门找炒饼吃",
         "quote": "现在只要有机会去北京出差，我就肯定想办法找炒饼",
-        "name_corrected": false
+        "name_corrected": true,
+        "name_original": "北师大学舞食堂炒饼窗口"
       }
     },
     {
@@ -22721,20 +22738,21 @@
       "category": "place",
       "recommender": "惠子",
       "verdict": "重点推荐",
-      "name": "北师大学舞食堂爆饭窗口",
+      "name": "北师大学五食堂爆饭窗口",
       "city_key": "北京",
       "display_city": "北京",
       "quote_unverified": false,
       "item": {
         "recommender": "惠子",
-        "name": "北师大学舞食堂爆饭窗口",
+        "name": "北师大学五食堂爆饭窗口",
         "city": "北京",
         "category": "餐厅",
         "what": "吃鸡心爆饭，在铁板上炒制，特别喜欢加鸡心",
         "verdict": "重点推荐",
         "reason": "鸡心嚼劲更足，铁板炒制过程视觉享受，肥杰还会帮忙带到宿舍",
         "quote": "我最喜欢吃的是鸡心爆饭，鸡心拌饭。对我觉得鸡心我特别喜欢吃鸡心",
-        "name_corrected": false
+        "name_corrected": true,
+        "name_original": "北师大学舞食堂爆饭窗口"
       }
     },
     {
@@ -23293,19 +23311,20 @@
       "category": "product",
       "recommender": "共同",
       "verdict": "重点推荐",
-      "name": "维米乐铸铁炖锅（2.0版本）",
+      "name": "唯米乐铸铁炖锅（2.0版本）",
       "city_key": null,
       "display_city": null,
       "quote_unverified": true,
       "item": {
         "recommender": "共同",
-        "name": "维米乐铸铁炖锅（2.0版本）",
+        "name": "唯米乐铸铁炖锅（2.0版本）",
         "category": "厨具",
         "why_good": "锅壁厚受热均匀，锅盖重形成微高压让食物更烂更嫩，锅盖把手隔热可随时触碰，锅盖可自立于台面，支持无水无油料理，附赠详细菜谱，颜值高，质量可传代；双十一线下购买比线上更便宜且可现场挑选",
         "price_hint": "双十一线下购买，原价，建议选深色款（浅色易显污渍）",
         "verdict": "重点推荐",
         "quote": "我感觉好的餐具会增加我认真生活的动力，就买了它之后做了非常非常多次自己的饭",
-        "name_corrected": false
+        "name_corrected": true,
+        "name_original": "维米乐铸铁炖锅（2.0版本）"
       }
     },
     {
@@ -24064,20 +24083,21 @@
       "category": "place",
       "recommender": "共同",
       "verdict": "推荐",
-      "name": "HONKY TONK COFFEE（虎斑菊）",
+      "name": "HONKY TONK COFFEE（虎斑橘）",
       "city_key": "上海",
       "display_city": "上海",
       "quote_unverified": true,
       "item": {
         "recommender": "共同",
-        "name": "HONKY TONK COFFEE（虎斑菊）",
+        "name": "HONKY TONK COFFEE（虎斑橘）",
         "city": "上海",
         "category": "餐厅",
         "what": "喝创意咖啡「虎斑菊」（orange cream latte），奶油加橘皮碎屑，可用勺挖着吃",
         "verdict": "推荐",
         "reason": "橘香浓郁，气味与口味双重体验，奶油轻柔，口感独特；性价比偏低（四十八元/杯，量少），适合偶尔尝鲜",
         "quote": "我觉得这个虎斑菊我种草很长一段时间了，原因也很简单，就是据说这个饮品火到高峰时期要排队两个小时才能喝到",
-        "name_corrected": false
+        "name_corrected": true,
+        "name_original": "HONKY TONK COFFEE（虎斑菊）"
       }
     },
     {
@@ -24236,19 +24256,20 @@
       "category": "product",
       "recommender": "共同",
       "verdict": "重点推荐",
-      "name": "溪木源智控霜（原层孔菌控瓶霜）",
+      "name": "溪木源智控水霜（原层孔菌控水霜）",
       "city_key": null,
       "display_city": null,
       "quote_unverified": false,
       "item": {
         "recommender": "共同",
-        "name": "溪木源智控霜（原层孔菌控瓶霜）",
+        "name": "溪木源智控水霜（原层孔菌控水霜）",
         "category": "护肤品",
         "why_good": "智能分区控油，T区多控油、脸颊保湿不干；新版增加抗氧化提亮成分；包装细长轻便，可直接带原装出行，持续使用近半年效果显著",
         "price_hint": "",
         "verdict": "重点推荐",
         "quote": "我已经爱到不行了。我到现在已经用光了两瓶，就是因为它真的帮我做到了这个智能分区控油",
-        "name_corrected": true
+        "name_corrected": true,
+        "name_original": "溪木源智控霜（原层孔菌控瓶霜）"
       }
     },
     {
@@ -24577,20 +24598,21 @@
       "category": "place",
       "recommender": "肥杰",
       "verdict": "重点推荐",
-      "name": "沪西老弄堂（陕西南路新店）",
+      "name": "沪西鳝筒面",
       "city_key": "上海",
       "display_city": "上海",
       "quote_unverified": false,
       "item": {
         "recommender": "肥杰",
-        "name": "沪西老弄堂（陕西南路新店）",
+        "name": "沪西鳝筒面",
         "city": "上海",
         "category": "餐厅",
         "what": "沪西鳝筒拌面、清炒鸡毛菜",
         "verdict": "重点推荐",
         "reason": "新推出的沪西鳝筒浇头，粗鳝鱼切段与红烧肉同烧，浓油赤酱极为入味，拌面时每根面都裹满酱汁；陕西南路新店服务升级，对孕妇友好、宠物友好；二十天内吃了五次",
         "quote": "我统计了一下，我们在二十天之内去吃了五次。这碗面，我中间还有一次，因为去的时候有点晚，没买到这碗面，我一整天都闷闷不乐",
-        "name_corrected": false
+        "name_corrected": true,
+        "name_original": "沪西老弄堂（陕西南路新店）"
       }
     },
     {

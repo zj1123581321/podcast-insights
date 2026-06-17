@@ -9,14 +9,15 @@
   "place": [
     {
       "recommender": "共同",
-      "name": "今半（銀座店）",
+      "name": "人形町今半",
       "city": "东京·银座",
       "category": "餐厅",
       "what": "极上和牛寿喜烧套餐（160克，四片和牛，配米饭、汤、咸菜）",
       "verdict": "重点推荐",
       "reason": "1895年老店，使用近江和牛，仪式感极强，服务细致，每碗肉搭配不同蔬菜，最后用汤汁划蛋盖饭收尾，是两次东京行中印象最深刻的一家",
       "quote": "我觉得今半这家店确实是我们这次去东京吃的，我觉得印象最深刻的一家。",
-      "name_corrected": true
+      "name_corrected": true,
+      "name_original": "今半（銀座店）"
     },
     {
       "recommender": "肥杰",
@@ -64,14 +65,15 @@
     },
     {
       "recommender": "共同",
-      "name": "PATH",
+      "name": "path",
       "city": "东京·代代木",
       "category": "餐厅",
       "what": "火腿芝士松饼（限量50份）、沙拉",
       "verdict": "推荐",
       "reason": "松饼外软内嫩、甜咸搭配反差绝妙，沙拉苦甜酸口感丰富，吃前没期待吃后非常满足；建议每人各点一份松饼",
       "quote": "我们强烈推荐，如果大家去吃，是每个人点一份，不要像我们先点了一份，后来觉得不够吃，又叫了一份。",
-      "name_corrected": true
+      "name_corrected": true,
+      "name_original": "PATH"
     },
     {
       "recommender": "共同",

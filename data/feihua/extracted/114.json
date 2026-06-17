@@ -20,25 +20,27 @@
     },
     {
       "recommender": "共同",
-      "name": "金太阳烧烤",
+      "name": "金太阳",
       "city": "大连",
       "category": "餐厅",
       "what": "吃羊肉小串、炒方便面、烤苞米面饼子、炸蚕蛹、草莓罐头",
       "verdict": "重点推荐",
       "reason": "1997年开业的老字号烧烤店，不做外卖只做晚餐却长期排队，周边烧烤店只能捡其排队溢出客源；烤苞米面饼子、炒方便面是南方吃不到的特色，炸蚕蛹值得尝试",
       "quote": "这家餐厅的名字叫做金太阳",
-      "name_corrected": false
+      "name_corrected": true,
+      "name_original": "金太阳烧烤"
     },
     {
       "recommender": "共同",
-      "name": "琥珀湾 CAAN by OUR",
+      "name": "CAAN by OUR",
       "city": "大连",
       "category": "景点",
       "what": "看海湾小景、喝咖啡吃面包、室内赏海景",
       "verdict": "重点推荐",
       "reason": "小海湾精致静谧，渔船停靠近岸、海鸥浮水，有别于星海湾的磅礴；湾边CAAN by OUR咖啡馆落地窗朝海，冬天可在室内暖和地看海沐浴阳光，极致推荐",
       "quote": "我真的是极致推荐。非常推荐，非常非常非常非常推荐。",
-      "name_corrected": false
+      "name_corrected": true,
+      "name_original": "琥珀湾 CAAN by OUR"
     }
   ],
   "product": [
