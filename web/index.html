@@ -50,6 +50,10 @@
         <option :value="e.vol" x-text="e.title || ('VOL.'+String(e.vol).padStart(3,'0'))"></option>
       </template>
     </select>
+    <select x-model="filters.year" title="按发布年份筛选">
+      <option value="">全部年份</option>
+      <template x-for="y in years" :key="y"><option :value="y" x-text="y+' 年'"></option></template>
+    </select>
     <select x-model="filters.province" title="按省份筛选（仅实地）">
       <option value="">全部省份</option>
       <template x-for="p in provinces" :key="p"><option :value="p" x-text="p"></option></template>
@@ -62,6 +66,8 @@
       <option value="">默认排序</option>
       <option value="vol-desc">集数：新→旧</option>
       <option value="vol-asc">集数：旧→新</option>
+      <option value="date-desc">日期：新→旧</option>
+      <option value="date-asc">日期：旧→新</option>
     </select>
     <template x-for="v in verdicts" :key="v.k">
       <button class="chip" :class="{on: filters.verdicts.includes(v.k)}"
@@ -113,6 +119,18 @@
 
   <!-- 列表 -->
   <section x-show="!loading && tab==='list'" class="pane">
+    <!-- 单集背景：按单集筛选时，展示该集发布日期 + 作者手写简介，给推荐补上下文 -->
+    <template x-if="activeEpisode">
+      <div class="epbanner">
+        <div class="epbanner-head">
+          <strong x-text="activeEpisode.title"></strong>
+          <span class="epdate" x-show="activeEpisode.pub_date" x-text="activeEpisode.pub_date"></span>
+          <a class="link" :href="activeEpisode.ep_url" target="_blank" rel="noopener noreferrer"
+             x-show="activeEpisode.ep_url">🎧 听这集</a>
+        </div>
+        <p class="epdesc" x-show="activeEpisode.description" x-text="activeEpisode.description"></p>
+      </div>
+    </template>
     <template x-if="activeCity">
       <div class="cityhead">
         <button class="link back" @click="clearFilter('city')">← 返回全部</button>
@@ -131,6 +149,7 @@
             <template x-if="it.display_city"><span>· <a class="link" @click.prevent="goCity(it.display_city)" :href="'#/city/'+encodeURIComponent(it.display_city)" x-text="it.display_city"></a></span></template>
             <template x-if="it.item.category"><span x-text="'· '+it.item.category"></span></template>
             <span x-text="'· '+it.recommender"></span>
+            <template x-if="it.pub_date"><span class="muted" x-text="'· '+it.pub_date"></span></template>
             <a class="link vol" :href="it.ep_url" target="_blank" rel="noopener noreferrer"
                title="去小宇宙听这集原话" x-text="'🎧 VOL.'+String(it.vol).padStart(3,'0')"></a>
             <a class="link" :href="'#/item/'+it.id" @click.prevent="goItem(it.id)">链接</a>
@@ -146,6 +165,7 @@
   <!-- 口味画像 -->
   <section x-show="!loading && tab==='taste'" class="pane">
     <div id="taste" class="echart"></div>
+    <div id="tasteTimeline" class="echart small"></div>
     <div id="tasteVerdict" class="echart small"></div>
   </section>
 

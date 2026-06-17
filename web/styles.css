@@ -49,6 +49,12 @@ body{margin:0;font-family:-apple-system,"PingFang SC","Microsoft YaHei",system-u
 .citytag,.cityhead .link{margin:.15rem;border:1px solid var(--line);background:#fff;border-radius:6px;
   padding:.2rem .5rem;cursor:pointer;font-size:.82rem}
 .cityhead{margin-bottom:.6rem}
+.muted{color:var(--muted)}
+.epbanner{background:#f0f7f5;border:1px solid var(--line);border-radius:10px;padding:.7rem .9rem;margin-bottom:.8rem}
+.epbanner-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:.6rem}
+.epbanner-head strong{font-size:1rem}
+.epbanner .epdate{color:var(--muted);font-size:.82rem}
+.epbanner .epdesc{margin:.5rem 0 0;font-size:.86rem;color:#374151;line-height:1.7}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:.7rem}
 .card{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--line);border-radius:10px;padding:.7rem .8rem}
 .card.v-重点推荐{border-left-color:var(--v-重点推荐)} .card.v-推荐{border-left-color:var(--v-推荐)}
