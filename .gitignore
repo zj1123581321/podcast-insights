@@ -24,3 +24,6 @@ node_modules/
 data/*/episodes/view_urls.json
 data/*/episodes/view_urls.txt
 .gstack/
+
+# 发布构建产物（CF Pages 构建时再生）
+dist/
