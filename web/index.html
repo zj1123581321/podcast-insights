@@ -44,10 +44,10 @@
       <option value="">全部主播</option>
       <template x-for="r in recommenders" :key="r"><option :value="r" x-text="r"></option></template>
     </select>
-    <select x-model="filters.vol" title="按单集筛选">
+    <select class="wide" x-model="filters.vol" title="按单集筛选">
       <option value="">全部单集</option>
       <template x-for="e in episodes" :key="e.vol">
-        <option :value="e.vol" x-text="'VOL.'+String(e.vol).padStart(3,'0')+'  '+e.title"></option>
+        <option :value="e.vol" x-text="e.title || ('VOL.'+String(e.vol).padStart(3,'0'))"></option>
       </template>
     </select>
     <select x-model="filters.province" title="按省份筛选（仅实地）">

@@ -19,7 +19,9 @@ body{margin:0;font-family:-apple-system,"PingFang SC","Microsoft YaHei",system-u
 .filters{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;padding:.6rem 1rem;background:var(--card);
   border-bottom:1px solid var(--line);position:sticky;top:49px;z-index:9}
 .filters input[type=search]{flex:1;min-width:140px;padding:.4rem .6rem;border:1px solid var(--line);border-radius:6px}
-.filters select{padding:.4rem .5rem;border:1px solid var(--line);border-radius:6px;background:#fff}
+.filters select{padding:.4rem .5rem;border:1px solid var(--line);border-radius:6px;background:#fff;
+  max-width:160px}
+.filters select.wide{max-width:220px}
 .chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:.3rem .7rem;cursor:pointer;font-size:.82rem}
 .chip.on{color:#fff;border-color:transparent}
 .chip.clear{color:var(--muted)}
