@@ -106,12 +106,20 @@ def main():
 
     cities = distinct_city_keys()
     cache = load_cache()
+    # 人工坐标覆盖（误命中城市）优先写入，使其跳过 Nominatim。
+    n_ov = G.apply_overrides(cache, CFG.get("city_coords", {}))
+    if n_ov:
+        print(f"[geocode] 应用人工坐标覆盖 {n_ov} 城")
     todo = [c for c in cities if c not in cache]
     if limit is not None:
         todo = todo[:limit]
     print(f"[geocode] 规范城市 {len(cities)}，已缓存 {len(cache)}，本次待处理 {len(todo)}")
 
     stats = G.geocode_cities(todo, cache, make_fetch(CFG.get("geocode_overseas", [])))
+    # 回填 province（从已存 display_name 派生，无需重新触网；老缓存也补齐）
+    for entry in cache.values():
+        if "province" not in entry:
+            entry["province"] = G.province_of(entry.get("display_name", ""))
     save_cache(cache)
 
     missing = [c for c in cities if c not in cache]

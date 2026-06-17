@@ -30,6 +30,11 @@
   "media_type_map": {},
   "_comment_geocode_overseas": "海外城市：地理编码走全球查询（其余城市强制 countrycodes=cn，避免「云南」「霞浦」误命中国外同名地点）。",
   "geocode_overseas": ["东京", "伦敦", "巴黎", "柏林", "洛杉矶", "箱根", "罗马", "阿姆斯特丹", "曼谷"],
+  "_comment_city_coords": "人工坐标覆盖：Nominatim 把县名误命中到同音乡镇（上虞→河南、安吉→四川），这里钉死正确坐标。",
+  "city_coords": {
+    "上虞": {"lat": 30.0331, "lng": 120.8676, "display_name": "上虞区, 绍兴市, 浙江省, 中国"},
+    "安吉": {"lat": 30.6378, "lng": 119.6802, "display_name": "安吉县, 湖州市, 浙江省, 中国"}
+  },
   "_comment_city_canonical": "脏 city -> 规范城市（geocode/join key）。未列出的走通用清洗（去括号、按 ·//、取首段）。仅列通用清洗搞不定的。",
   "city_canonical": {
     "overrides": {

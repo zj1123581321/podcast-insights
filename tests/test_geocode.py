@@ -8,13 +8,36 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "pipeline"))
 import _geocode as G  # noqa: E402
 
 
+# ---- province_of ----
+def test_province_with_province_segment():
+    assert G.province_of("大理白族自治州, 云南省, 中国") == "云南省"
+    assert G.province_of("秦皇岛市, 河北省, 中国") == "河北省"
+    assert G.province_of("黔东南苗族侗族自治州, 贵州省, 中国") == "贵州省"
+
+
+def test_province_municipality():
+    assert G.province_of("上海市, 中国") == "上海市"
+    assert G.province_of("北京市, 中国") == "北京市"
+
+
+def test_province_overseas_is_country():
+    assert G.province_of("东京都/東京都, 日本") == "日本"
+    assert G.province_of("大倫敦;大伦敦, 英格兰;英格蘭, 英国;英國") == "英国"
+
+
+def test_province_empty():
+    assert G.province_of("") == ""
+    assert G.province_of(None) == ""
+
+
 # ---- parse_nominatim ----
 def test_parse_happy():
-    out = G.parse_nominatim([{"lat": "31.23", "lon": "121.47", "display_name": "上海, 中国"}])
+    out = G.parse_nominatim([{"lat": "31.23", "lon": "121.47", "display_name": "上海市, 中国"}])
     assert out["lat"] == 31.23
     assert out["lng"] == 121.47
     assert out["status"] == "ok"
     assert "上海" in out["display_name"]
+    assert out["province"] == "上海市"
 
 
 def test_parse_empty_list():
@@ -25,6 +48,24 @@ def test_parse_empty_list():
 def test_parse_missing_or_bad_coords():
     assert G.parse_nominatim([{"display_name": "x"}]) is None
     assert G.parse_nominatim([{"lat": "NaNish", "lon": "1"}]) is None
+
+
+# ---- apply_overrides：人工坐标覆盖 ----
+def test_apply_overrides_sets_coords_and_province():
+    cache = {}
+    n = G.apply_overrides(cache, {"上虞": {"lat": 30.03, "lng": 120.87,
+                                          "display_name": "上虞区, 绍兴市, 浙江省, 中国"}})
+    assert n == 1
+    assert cache["上虞"]["lat"] == 30.03
+    assert cache["上虞"]["province"] == "浙江省"
+    assert cache["上虞"]["status"] == "override"
+
+
+def test_apply_overrides_overwrites_wrong_cached():
+    cache = {"上虞": {"lat": 35.85, "lng": 114.17, "province": "河南省", "status": "ok"}}
+    G.apply_overrides(cache, {"上虞": {"lat": 30.03, "lng": 120.87,
+                                      "display_name": "上虞区, 绍兴市, 浙江省, 中国"}})
+    assert cache["上虞"]["province"] == "浙江省"   # 误命中被覆盖
 
 
 # ---- geocode_cities：断点续跑 + 失败不写缓存 ----
