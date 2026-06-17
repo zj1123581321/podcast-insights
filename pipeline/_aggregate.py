@@ -13,6 +13,24 @@ DEFAULT_CATEGORY = "未分类"
 _PAREN_RE = re.compile(r"[（(].*?[)）]")
 _SEP_RE = re.compile(r"[·/、]")
 
+# 省/自治区/国家前缀：形如「江苏南通」「意大利罗马」时剥掉前缀取城市。
+# 不含直辖市（北京/上海/天津/重庆）——它们的带后缀写法都用分隔符/括号，
+# 若放进来反而会把「上海某路」误切成「某路」。按长度降序匹配（先内蒙古后…）。
+_PREFIXES = tuple(sorted([
+    "河北", "山西", "辽宁", "吉林", "黑龙江", "江苏", "浙江", "安徽", "福建",
+    "江西", "山东", "河南", "湖北", "湖南", "广东", "广西", "海南", "四川",
+    "贵州", "云南", "陕西", "甘肃", "青海", "台湾", "内蒙古", "西藏", "宁夏", "新疆",
+    "日本", "泰国", "荷兰", "法国", "意大利", "英国", "美国", "德国", "韩国", "新加坡",
+], key=len, reverse=True))
+
+
+def _strip_region_prefix(s: str) -> str:
+    """剥省/国前缀：「江苏南通」→「南通」；剩余 <2 字则保留（如「四川」整体）。"""
+    for p in _PREFIXES:
+        if s.startswith(p) and len(s) - len(p) >= 2:
+            return s[len(p):]
+    return s
+
 
 def make_id(vol: int, cat: str, idx: int) -> str:
     """确定性深链 id：<vol>-<type>-<idx>。
@@ -55,6 +73,7 @@ def canonical_city(raw, overrides: dict):
         return overrides[s] or None
     s = _PAREN_RE.sub("", s).strip()
     s = _SEP_RE.split(s)[0].strip()
+    s = _strip_region_prefix(s)
     return s or None
 
 

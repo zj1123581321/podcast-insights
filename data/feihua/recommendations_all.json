@@ -20,7 +20,7 @@
       "共同": 357
     },
     "place_unlocated": 7,
-    "distinct_cities": 64
+    "distinct_cities": 55
   },
   "items": [
     {
@@ -874,8 +874,8 @@
       "recommender": "共同",
       "verdict": "避雷",
       "name": "巴黎（Paris）",
-      "city_key": "法国巴黎",
-      "display_city": "法国巴黎",
+      "city_key": "巴黎",
+      "display_city": "巴黎",
       "quote_unverified": false,
       "item": {
         "recommender": "共同",
@@ -897,8 +897,8 @@
       "recommender": "肥杰",
       "verdict": "重点推荐",
       "name": "罗马古建筑精品酒店（六间房石砌古楼）",
-      "city_key": "意大利罗马",
-      "display_city": "意大利罗马",
+      "city_key": "罗马",
+      "display_city": "罗马",
       "quote_unverified": false,
       "item": {
         "recommender": "肥杰",
@@ -3095,8 +3095,8 @@
       "recommender": "共同",
       "verdict": "推荐",
       "name": "莫干山",
-      "city_key": "浙江德清",
-      "display_city": "浙江德清",
+      "city_key": "德清",
+      "display_city": "德清",
       "quote_unverified": false,
       "item": {
         "recommender": "共同",
@@ -3118,8 +3118,8 @@
       "recommender": "肥杰",
       "verdict": "推荐",
       "name": "曹娥江口观钱塘大潮",
-      "city_key": "浙江上虞",
-      "display_city": "浙江上虞",
+      "city_key": "上虞",
+      "display_city": "上虞",
       "quote_unverified": false,
       "item": {
         "recommender": "肥杰",
@@ -6735,8 +6735,8 @@
       "recommender": "惠子",
       "verdict": "重点推荐",
       "name": "黄果树瀑布",
-      "city_key": "贵州安顺",
-      "display_city": "贵州安顺",
+      "city_key": "安顺",
+      "display_city": "安顺",
       "quote_unverified": false,
       "item": {
         "recommender": "惠子",
@@ -6781,8 +6781,8 @@
       "recommender": "惠子",
       "verdict": "推荐",
       "name": "梵净山",
-      "city_key": "贵州铜仁",
-      "display_city": "贵州铜仁",
+      "city_key": "铜仁",
+      "display_city": "铜仁",
       "quote_unverified": false,
       "item": {
         "recommender": "惠子",
@@ -7644,8 +7644,8 @@
       "recommender": "肥杰",
       "verdict": "推荐",
       "name": "亚拉雪山徒步露营",
-      "city_key": "四川甘孜",
-      "display_city": "四川甘孜",
+      "city_key": "甘孜",
+      "display_city": "甘孜",
       "quote_unverified": false,
       "item": {
         "recommender": "肥杰",
@@ -11288,8 +11288,8 @@
       "recommender": "肥杰",
       "verdict": "重点推荐",
       "name": "四礵列岛（东礵岛）",
-      "city_key": "福建霞浦",
-      "display_city": "福建霞浦",
+      "city_key": "霞浦",
+      "display_city": "霞浦",
       "quote_unverified": false,
       "item": {
         "recommender": "肥杰",
@@ -14227,8 +14227,8 @@
       "recommender": "共同",
       "verdict": "推荐",
       "name": "野口勇Akari纸灯展览馆",
-      "city_key": "东京人形町",
-      "display_city": "东京人形町",
+      "city_key": "东京",
+      "display_city": "东京",
       "quote_unverified": false,
       "item": {
         "recommender": "共同",
@@ -14273,8 +14273,8 @@
       "recommender": "惠子",
       "verdict": "推荐",
       "name": "Montbell涩谷东武百货店",
-      "city_key": "东京涩谷",
-      "display_city": "东京涩谷",
+      "city_key": "东京",
+      "display_city": "东京",
       "quote_unverified": false,
       "item": {
         "recommender": "惠子",
@@ -14319,8 +14319,8 @@
       "recommender": "肥杰",
       "verdict": "推荐",
       "name": "Visvim代官山店",
-      "city_key": "东京代官山",
-      "display_city": "东京代官山",
+      "city_key": "东京",
+      "display_city": "东京",
       "quote_unverified": false,
       "item": {
         "recommender": "肥杰",
@@ -14365,8 +14365,8 @@
       "recommender": "共同",
       "verdict": "推荐",
       "name": "涩谷Sky（渋谷スカイ）",
-      "city_key": "东京涩谷",
-      "display_city": "东京涩谷",
+      "city_key": "东京",
+      "display_city": "东京",
       "quote_unverified": false,
       "item": {
         "recommender": "共同",
@@ -14411,8 +14411,8 @@
       "recommender": "共同",
       "verdict": "重点推荐",
       "name": "よろにく（Yoroniku）烧肉",
-      "city_key": "东京表参道",
-      "display_city": "东京表参道",
+      "city_key": "东京",
+      "display_city": "东京",
       "quote_unverified": false,
       "item": {
         "recommender": "共同",
@@ -15043,8 +15043,8 @@
       "recommender": "共同",
       "verdict": "重点推荐",
       "name": "纯之香沙茶面",
-      "city_key": "厦门同安",
-      "display_city": "厦门同安",
+      "city_key": "厦门",
+      "display_city": "厦门",
       "quote_unverified": false,
       "item": {
         "recommender": "共同",
@@ -15296,8 +15296,8 @@
       "recommender": "共同",
       "verdict": "推荐",
       "name": "厦门同安越野赛（UTMB系列赛）",
-      "city_key": "厦门同安",
-      "display_city": "厦门同安",
+      "city_key": "厦门",
+      "display_city": "厦门",
       "quote_unverified": true,
       "item": {
         "recommender": "共同",
@@ -15982,8 +15982,8 @@
       "recommender": "共同",
       "verdict": "重点推荐",
       "name": "万石物仙居营地",
-      "city_key": "浙江安吉",
-      "display_city": "浙江安吉",
+      "city_key": "安吉",
+      "display_city": "安吉",
       "quote_unverified": false,
       "item": {
         "recommender": "共同",
@@ -16074,8 +16074,8 @@
       "recommender": "共同",
       "verdict": "重点推荐",
       "name": "浓碧里咖啡焙煎屋",
-      "city_key": "江苏南通",
-      "display_city": "江苏南通",
+      "city_key": "南通",
+      "display_city": "南通",
       "quote_unverified": false,
       "item": {
         "recommender": "共同",
@@ -17878,8 +17878,8 @@
       "recommender": "共同",
       "verdict": "重点推荐",
       "name": "老头子炸串",
-      "city_key": "江苏宜兴",
-      "display_city": "江苏宜兴",
+      "city_key": "宜兴",
+      "display_city": "宜兴",
       "quote_unverified": true,
       "item": {
         "recommender": "共同",
@@ -17901,8 +17901,8 @@
       "recommender": "共同",
       "verdict": "避雷",
       "name": "绿园串串香",
-      "city_key": "江苏宜兴",
-      "display_city": "江苏宜兴",
+      "city_key": "宜兴",
+      "display_city": "宜兴",
       "quote_unverified": false,
       "item": {
         "recommender": "共同",
@@ -19309,8 +19309,8 @@
       "recommender": "惠子",
       "verdict": "重点推荐",
       "name": "春晖中学食堂早餐雪菜肉丝面",
-      "city_key": "绍兴上虞",
-      "display_city": "绍兴上虞",
+      "city_key": "上虞",
+      "display_city": "上虞",
       "quote_unverified": false,
       "item": {
         "recommender": "惠子",

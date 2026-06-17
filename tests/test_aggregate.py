@@ -95,6 +95,34 @@ def test_city_override_checked_before_cleanup():
     assert A.canonical_city("东京银座（GINZA SIX旁）", ov) == "东京"
 
 
+def test_city_strips_province_prefix():
+    assert A.canonical_city("江苏南通", {}) == "南通"
+    assert A.canonical_city("浙江上虞", {}) == "上虞"
+    assert A.canonical_city("四川甘孜", {}) == "甘孜"
+    assert A.canonical_city("贵州安顺", {}) == "安顺"
+    assert A.canonical_city("福建霞浦", {}) == "霞浦"
+
+
+def test_city_strips_country_prefix():
+    assert A.canonical_city("意大利罗马", {}) == "罗马"
+    assert A.canonical_city("法国巴黎", {}) == "巴黎"
+
+
+def test_city_keeps_bare_province():
+    # 省级单独出现（无下属城市）保留，落省质心点即可
+    assert A.canonical_city("四川", {}) == "四川"
+    assert A.canonical_city("内蒙古", {}) == "内蒙古"
+    assert A.canonical_city("贵州", {}) == "贵州"
+
+
+def test_city_prefix_does_not_eat_real_cities():
+    # 不能把正常城市名误剥（贵阳≠贵州前缀、台州≠台湾前缀、广州≠广东前缀）
+    assert A.canonical_city("贵阳", {}) == "贵阳"
+    assert A.canonical_city("台州", {}) == "台州"
+    assert A.canonical_city("广州", {}) == "广州"
+    assert A.canonical_city("长沙", {}) == "长沙"
+
+
 # ---- build_row：前端契约的金标准回归 ----
 def _place_item():
     return {"recommender": "肥杰", "name": "喜顶", "city": "上海（武宁路附近）",
