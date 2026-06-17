@@ -1,0 +1,191 @@
+{
+  "episode": {
+    "vol": 40,
+    "title": "VOL.040：半夜跑进莫干山，突然灯全灭了……",
+    "eid": "632dd0d29186d4e4c46a03e2",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/632dd0d29186d4e4c46a03e2",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "共同",
+      "name": "莫干山",
+      "city": "浙江德清",
+      "category": "景点",
+      "what": "避暑度假、夜跑、参加活动",
+      "verdict": "推荐",
+      "reason": "自然环境好，气温比上海低五六度，适合避暑，有山有树有河，自然风貌保留完好",
+      "quote": "明显能感觉到咱当时上海那段时间也是挺热的。你到那儿感觉气温一下子就降下来个五六度",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "曹娥江口观钱塘大潮",
+      "city": "浙江上虞",
+      "category": "活动",
+      "what": "观看钱塘江大潮（曹娥江口）",
+      "verdict": "推荐",
+      "reason": "大自然壮观景象，振奋人心，虽不及钱塘江口壮观但依然值得一看",
+      "quote": "依然讲心里话还是很振奋人心啊",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "上南香酥鸡柳（娄山关路店）",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "香酥鸡柳、炸年糕",
+      "verdict": "推荐",
+      "reason": "鸡柳鸡感强、面感弱、炸得酥脆，稍凉后也好吃，有甜面酱炸年糕，二十四小时营业",
+      "quote": "鸡感会强一些。对，而且它那个炸的酥脆程度也很好",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "滇道",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "豆花米线、云腿菌汤、各类云南菜",
+      "verdict": "重点推荐",
+      "reason": "地道云南菜，有许多其他云南餐厅没有的菜品，豆花米线味道层次丰富，云腿菌汤香浓，在上海外国人圈子里也很有名",
+      "quote": "那一口米线下去，我靠，真的是用一个五味杂陈这个词来形容吧，就是非常丰富",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "六十六汉堡",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "炸鸡汉堡、牛肉汉堡",
+      "verdict": "重点推荐",
+      "reason": "无论炸鸡汉堡还是牛肉汉堡品质都是上海心中天花板，天凉更适合去堂食",
+      "quote": "就是它在我心中是我上海吃过的 number one，number one。我很推荐大家去尝一尝",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "Cheesecake Factory（芝乐坊）",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "芝士蛋糕",
+      "verdict": "一般",
+      "reason": "芝士蛋糕非常好吃，现打奶油，但其他菜品如意面、芝士球很平平，价格贵（两人小四百），需要排队",
+      "quote": "他们家的芝士蛋糕不愧是叫 Cheesecake Factory，他们这个芝士蛋糕是真的好吃",
+      "name_corrected": true
+    }
+  ],
+  "product": [
+    {
+      "recommender": "肥杰",
+      "name": "Keep迷你动感单车",
+      "category": "健身器材",
+      "why_good": "体积小不占地，适合年轻人租房使用；有实景骑行功能（如北京中轴线、密云水库等本土化路线）；智能自动调节阻尼，无需手动调档；配套直播课程免费；让早起空腹有氧更容易坚持",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "有了它之后，明显感觉我这个空腹有氧做得更频了",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "Lululemon白色瑜伽上衣",
+      "category": "运动服装",
+      "why_good": "款式显腰细，白色显得年轻活泼，搭配黑色裤子好看",
+      "price_hint": "几百元",
+      "verdict": "推荐",
+      "quote": "白色显得特别的呃年轻活泼。嗯，对，然后搭配我的黑色裤子，我觉得很好看",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "乐高Speed Champion系列和Monster Jam系列",
+      "category": "收藏玩具",
+      "why_good": "Speed Champion系列将经典量产车做成迷你版，价格相对亲民；Monster Jam系列设计狂野独特，四款大脚车系列完整，可收全",
+      "price_hint": "单台一百多元",
+      "verdict": "推荐",
+      "quote": "我特别喜欢一个应该是在机械组下面的一个系列叫 Monster Jam。他是跟这个 Monster Jam 是一个大脚车的比赛",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "思薇思云腿芝心月饼",
+      "category": "食品",
+      "why_good": "蓝带甜品师私房制作，内含云腿与芝士，微波炉加热后可拉丝，体积小负担小，味道出众",
+      "price_hint": "",
+      "verdict": "重点推荐",
+      "quote": "然后那个牌子叫思薇思，是思想的思，薇是小薇的薇",
+      "name_corrected": false
+    }
+  ],
+  "media": [
+    {
+      "recommender": "惠子",
+      "title": "苍兰诀",
+      "type": "剧集",
+      "synopsis": "仙侠题材古装剧，讲述天界月尊东方青苍与小兰花的爱情故事，东方青苍因同心咒重新感受七情六欲，最终以「爱」获得更大力量。",
+      "why_recommended": "热血中二、特效出色、角色反差萌，王鹤棣将东方青苍演绎得神形兼备，配音腔调独特，故事内核有心理学深意",
+      "verdict": "重点推荐",
+      "quote": "我看了之后呢，我去给我的同事推荐。嗯，然后我当时跟他说什么呢？我说这个电视特别好看，你肯定喜欢",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "title": "快乐再出发",
+      "type": "综艺",
+      "synopsis": "快乐男声六人组（陈楚生、王铮亮、苏醒、张远、路虎、王栎鑫）重聚综艺，六个大男孩在各种活动中自然搞笑，无台本。",
+      "why_recommended": "纯天然沙雕搞笑，不靠台本设计，六人本性大放送，久违的让人捧腹大笑的综艺，极度解压",
+      "verdict": "重点推荐",
+      "quote": "我已经好多年没有看到这么沙雕的综艺节目了。就是我真的就告诉你们，就是评价就是两个字，沙雕",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "title": "王冠",
+      "type": "剧集",
+      "synopsis": "英国王室传记类剧集，讲述伊丽莎白女王一生及英国王室历史，还原王室生活细节与各角色心理。",
+      "why_recommended": "制作精致，历史还原度高，节奏推进快不拖沓，边看边涨知识，对君主立宪制和英国历史有深度呈现",
+      "verdict": "推荐",
+      "quote": "对于一部就是历史题材这种传记类的电视剧啊，它的整个的节奏推进的也很快",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "title": "苏里南",
+      "type": "剧集",
+      "synopsis": "Netflix韩剧，韩国人被卷入苏里南大毒贩争斗，被迫成为韩国情报局卧底的故事。",
+      "why_recommended": "",
+      "verdict": "一般",
+      "quote": "这部剧在我心中最大的一个瑕疵，就是他的故事情节太容易被猜到了",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "title": "消失的孩子",
+      "type": "剧集",
+      "synopsis": "芒果TV十二集家庭情感悬疑剧，一个小孩在公寓楼道中神秘消失，三条线索交织探讨原生家庭与心理创伤。",
+      "why_recommended": "以悬疑为壳探讨社会家庭问题，场景局限但故事紧凑，三线交织最终汇聚，结局令人满意",
+      "verdict": "推荐",
+      "quote": "他其实有点像是一个套着悬疑外壳的这种讨论社会问题的这样一个剧",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "title": "圣母",
+      "type": "书",
+      "synopsis": "叙诡悬疑小说，以一位老来得女的母亲视角叙述，小镇上小男孩接连失踪的故事。",
+      "why_recommended": "叙诡手法（通过叙述诱导读者产生错误认知），适合喜欢推理反转的读者",
+      "verdict": "推荐",
+      "quote": "我想分享是想说这是我第一次知道有一种小说叫叙诡小说",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "title": "剪刀男",
+      "type": "书",
+      "synopsis": "叙诡悬疑小说，讲述一个惯用剪刀杀人的连环杀手故事，叙诡手法比《圣母》更精妙。",
+      "why_recommended": "叙诡手法更为高超，情节设置让读者不断被误导，适合喜欢被作家「玩弄」的读者",
+      "verdict": "推荐",
+      "quote": "他是讲的是有一个连环杀手，他是很喜欢用剪刀杀人的，他叙诡叙得很好，比这个《圣母》强",
+      "name_corrected": false
+    }
+  ]
+}

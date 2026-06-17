@@ -1,0 +1,43 @@
+{
+  "episode": {
+    "vol": 53,
+    "title": "VOL.053：一辈子要强，她说年底前我必须要「阳」！",
+    "eid": "63a732199acee6cd2f84de56",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/63a732199acee6cd2f84de56",
+    "pubDate": ""
+  },
+  "place": [],
+  "product": [
+    {
+      "recommender": "肥杰",
+      "name": "金嗓子喉宝",
+      "category": "药品/保健品",
+      "why_good": "化出来的水非常清凉，在嗓子里留下舒适时间长，不甜不腻，颗粒厚大能在嗓子停留较久，缓解嗓子疼效果最佳",
+      "price_hint": "",
+      "verdict": "重点推荐",
+      "quote": "体验下来，我觉得最好的是金嗓子喉宝",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "罐装八宝粥（娃哈哈/银鹭）",
+      "category": "食品",
+      "why_good": "阳了味觉错乱期间吃进去有正常味道，甜的且有碳水补充能量，是味觉异常期间少数能正常品尝的食物之一",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "只有一种东西我吃进去，唉，也不能叫一种，两种……一样东西就是八宝粥，嗯，就是这个像娃哈哈银鹭这种罐装的八宝粥",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "方便面",
+      "category": "食品",
+      "why_good": "阳了味觉错乱期间吃进去有正常味道，是味觉异常期间少数能正常品尝的食物之一，同时好消化",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "第二个救了我的就是方便面啊，就是这两样东西我吃进去是有正常味道的啊",
+      "name_corrected": false
+    }
+  ],
+  "media": []
+}

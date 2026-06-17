@@ -1,0 +1,17 @@
+{
+  "key": "feihua",
+  "name": "肥话连篇",
+  "xyz_pid": "61d50d72ee197a3aac3dac42",
+  "hosts": ["肥杰", "惠子"],
+  "total_episodes": 234,
+  "_comment_name_normalization": "key=规范名，value=需要被归一成它的 ASR 误写变体（含说话人标签与正文）。顺序敏感：靠前的先替换。",
+  "name_normalization": {
+    "惠子": ["惠子年", "辉子", "惠姐", "惠指"],
+    "肥杰": ["肥姐", "菲姐", "飞姐", "杰姐", "肥子", "肥哥"]
+  },
+  "_comment_label_normalization": "仅替换说话人标签处的昵称（带冒号），避免动到正文里的口语昵称。",
+  "label_normalization": {
+    "惠惠：": "惠子：",
+    "惠惠:": "惠子:"
+  }
+}

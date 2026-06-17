@@ -1,0 +1,87 @@
+{
+  "episode": {
+    "vol": 147,
+    "title": "烟雾报警你别吵，番茄炒蛋马上好！｜VOL.147",
+    "eid": "670bfc3fdb2cf82757f003e4",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/670bfc3fdb2cf82757f003e4",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "肥杰",
+      "name": "大跃进",
+      "city": "伦敦",
+      "category": "餐厅",
+      "what": "水煮鱼、干煸豆角、麻婆豆腐等川菜",
+      "verdict": "推荐",
+      "reason": "在伦敦中国城能吃到正宗川菜，水煮鱼鱼肉新鲜当天运来，味道地道，外国同学也非常喜欢",
+      "quote": "那水煮鱼做的味儿真对呀，就是他那个鱼都是很新鲜，当天运来当天做",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "Chatime",
+      "city": "伦敦",
+      "category": "餐厅",
+      "what": "台湾珍珠奶茶",
+      "verdict": "重点推荐",
+      "reason": "位于伦敦中国城路口，奶茶味道极好，惠子每次必点，即便现在还念念不忘",
+      "quote": "那个奶茶真的太好喝了",
+      "name_corrected": true
+    },
+    {
+      "recommender": "惠子",
+      "name": "bell狗",
+      "city": "伦敦",
+      "category": "餐厅",
+      "what": "青口贝",
+      "verdict": "推荐",
+      "reason": "英国是岛国海鲜便宜丰富，这家专门做青口贝，留学生奢侈一把时会去",
+      "quote": "我唯一记得的就是我们当时很爱吃的一家店叫bell狗，专门吃青口贝的",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "肥杰",
+      "name": "英国红领巾",
+      "category": "APP/网站",
+      "why_good": "英国留学生小百科，涵盖吃喝、签证、学费、交通等生活方方面面攻略，定期更新，现已升级为APP",
+      "price_hint": "",
+      "verdict": "重点推荐",
+      "quote": "这个网站真的是帮了留学生大忙了。现在如果要是去留学的人，其实也可以继续用这个网站",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "Young Person Railcard",
+      "category": "交通优惠卡",
+      "why_good": "16至25岁学生可办，乘坐公共交通减免三分之一价格，买火车票折扣力度很大，非高峰时段三四镑即可买到火车票",
+      "price_hint": "",
+      "verdict": "重点推荐",
+      "quote": "赶紧买一个东西叫做 young person card。他这个 young person 呢是指十六到二十五岁的学生，在这个年龄段，你就可以办一张优惠卡",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "Primark",
+      "category": "平价服装店",
+      "why_good": "英国连锁平价服装店，衣服只需几镑，买得越多折扣越大，留学生省钱首选",
+      "price_hint": "几镑一件",
+      "verdict": "推荐",
+      "quote": "里边的衣服真的巨便宜，所有的衣服可能就是几镑钱，而且所有人去买都是大包小卷，买很多很多",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "图书馆二手教材",
+      "category": "学习资源",
+      "why_good": "英国大学图书馆有毕业生留下的二手教材出售，价格约为新书三分之一，用完还可以再转卖",
+      "price_hint": "约为新书三分之一价格",
+      "verdict": "推荐",
+      "quote": "我特别推崇这个二手教材。因为当时留学生圈子里面可能还会有那种打印版，或者说是电子版。但我觉得既然我们在国外留学，还是要尊重那边的这种知识产权",
+      "name_corrected": false
+    }
+  ],
+  "media": []
+}

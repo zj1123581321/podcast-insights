@@ -1,0 +1,57 @@
+{
+  "episode": {
+    "vol": 195,
+    "title": "家乡菜是最好的「情绪安慰剂」！｜VOL.195",
+    "eid": "68c6d9c9a56ca3e0c45fc04c",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/68c6d9c9a56ca3e0c45fc04c",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "肥杰",
+      "name": "孙家沟炸串",
+      "city": "大连",
+      "category": "餐厅",
+      "what": "吃炸串，唤起童年记忆",
+      "verdict": "重点推荐",
+      "reason": "回到小时候住过十九年的地方吃炸串，每一步都在激发童年记忆，是真正「回家的感觉」",
+      "quote": "我去吃了那个孙家沟炸串儿。这个东西真的我跟你讲，真的在我们家人，当时我说出来我要去吃那个东西的时候，大家是惊愕加嘲笑，加不可思议",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "日月生",
+      "city": "大连",
+      "category": "餐厅",
+      "what": "想吃大连老菜（辣子鸡丁、烧茄子）",
+      "verdict": "推荐",
+      "reason": "肥杰认为是大连不错的老菜馆，多次回大连都想去，但被家人拦住",
+      "quote": "我都点名了，我就要去吃日月生。这个餐馆应该我们以前是不是像推荐过推荐过，那就是我回大连找了很多次，我觉得就是不错的老菜馆",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "喜顶水饺",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "吃大连饺子和白菜拌虾干凉菜",
+      "verdict": "推荐",
+      "reason": "在上海难得吃到大连风味，那道白菜拌虾干是十年在上海吃到最解乡愁的一道菜",
+      "quote": "我这十年在上海来吃到最解乡愁的一道菜。就是因为这个菜以前是我们家里头年夜饭必上桌的一道凉菜",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "永福小仙",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "吃宁波汤圆，每次都要点一大碗",
+      "verdict": "推荐",
+      "reason": "糯糯软软甜甜，有家乡的温柔感觉，每次都要点一海碗",
+      "quote": "一下子跳到我脑海里的东西，很奇怪，就是永福小仙里面的那个宁波汤圆",
+      "name_corrected": false
+    }
+  ],
+  "product": [],
+  "media": []
+}

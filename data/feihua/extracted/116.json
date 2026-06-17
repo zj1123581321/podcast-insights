@@ -1,0 +1,57 @@
+{
+  "episode": {
+    "vol": 116,
+    "title": "一起旅行，也是爱人之间的礼物｜VOL.116",
+    "eid": "65edc3a52d96b6aa80df51dc",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/65edc3a52d96b6aa80df51dc",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "肥杰",
+      "name": "大堂街炸鸡",
+      "city": "澳门",
+      "category": "餐厅",
+      "what": "吃炸鸡",
+      "verdict": "重点推荐",
+      "reason": "出租车司机嗤之以鼻说不好吃，但两人亲自去尝之后觉得非常好吃，排进本次澳门十八家餐厅的top五",
+      "quote": "那个大唐街炸鸡应该是我这次去澳门吃了十八家店里面能排到top五难忘的店",
+      "name_corrected": true
+    },
+    {
+      "recommender": "共同",
+      "name": "澳门塔高空漫步",
+      "city": "澳门",
+      "category": "活动",
+      "what": "高空漫步体验",
+      "verdict": "推荐",
+      "reason": "两人都去体验了，惠子还在旁边努力拍摄记录，是旅行中的高光时刻",
+      "quote": "然后在户外玩那个什么太空漫步",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "永利皇宫景观餐厅",
+      "city": "澳门",
+      "category": "餐厅",
+      "what": "生日晚餐，坐窗边看永利皇宫喷泉",
+      "verdict": "推荐",
+      "reason": "虽然人均八百多，但拥有独一无二的喷泉第一视角，景观附加值极高，是旅行中精心安排的高光时刻",
+      "quote": "他在这个位置能够看到永利皇宫的喷泉，第一视角第一线，这就是这家餐厅",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "文华东方酒店（澳门半岛）",
+      "city": "澳门",
+      "category": "住宿",
+      "what": "入住，景观房订房",
+      "verdict": "推荐",
+      "reason": "住了多晚，整体服务不错，提醒预订时需在备注中写明希望的景观朝向，否则可能拿不到想要的房型",
+      "quote": "如果你订这个酒店是有景观的话，你可以在预定的时候把这个备注写上去",
+      "name_corrected": false
+    }
+  ],
+  "product": [],
+  "media": []
+}

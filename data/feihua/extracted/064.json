@@ -1,0 +1,35 @@
+{
+  "episode": {
+    "vol": 64,
+    "title": "VOL.064：该说中文你说英文，该说英文你羞答答",
+    "eid": "640dce9f092eb63cb06dc7ae",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/640dce9f092eb63cb06dc7ae",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "肥杰",
+      "name": "瓦嘎斯",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "去吃午饭",
+      "verdict": "避雷",
+      "reason": "服务员优先服务外国人，忽视在场等候的中国顾客，存在差别对待行为",
+      "quote": "我有一次去一家西餐厅，都不能叫西餐厅了，我就直接说名字吧，咱也不藏着掖着了，就瓦嘎斯要去吃一个午饭",
+      "name_corrected": false
+    }
+  ],
+  "product": [],
+  "media": [
+    {
+      "recommender": "肥杰",
+      "title": "Friends",
+      "type": "剧集",
+      "synopsis": "一群朋友在纽约的日常生活故事，对话用词简单日常，无高级词汇。",
+      "why_recommended": "词汇全是日常对话用词，九年义务教育后即可看懂；涵盖朋友、家人、职场等各种场景的真实表达，跨越十几年时代，集数多，是学习英语口语最有效的材料",
+      "verdict": "重点推荐",
+      "quote": "看剧看电影，而且永远有人问我说看什么剧什么电影好，我永远都推荐Friends",
+      "name_corrected": false
+    }
+  ]
+}

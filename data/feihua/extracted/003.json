@@ -1,0 +1,35 @@
+{
+  "episode": {
+    "vol": 3,
+    "title": "VOL.003：这个人坐过山车临阵脱逃率100%",
+    "eid": "61e6231a0c35c9f95dca120d",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/61e6231a0c35c9f95dca120d",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "肥杰",
+      "name": "上海迪士尼乐园",
+      "city": "上海",
+      "category": "景点",
+      "what": "游玩各项设施、观看玲娜贝儿上班、坐小矮人矿山车、观看花车游行",
+      "verdict": "重点推荐",
+      "reason": "进入园区后被氛围彻底俘获，尤其推荐在极端寒冷天气前往以避开人流，排队时间极短，体验极佳",
+      "quote": "如果你想要真的有好的游玩体验，真的是要选一个极端天气，尤其是天冷，真的好用",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "洛杉矶环球影城",
+      "city": "洛杉矶",
+      "category": "景点",
+      "what": "坐观光车游览拍摄园区、体验金刚、速度与激情、哈利波特、变形金刚等项目、玩侏罗纪漂流",
+      "verdict": "推荐",
+      "reason": "真实场景搭建与虚拟影像结合，身临其境感极强，哈利波特、金刚、变形金刚等项目令人大受震撼",
+      "quote": "那哈利波特非常好玩，它的那些场景，他们这些就是造游乐园的，它一定是很有道理的",
+      "name_corrected": false
+    }
+  ],
+  "product": [],
+  "media": []
+}

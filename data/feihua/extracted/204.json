@@ -1,0 +1,88 @@
+{
+  "episode": {
+    "vol": 204,
+    "title": "做对了什么，让我的悲秋综合征好了｜VOL.204",
+    "eid": "6919f0b06018cc2c981d3af5",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/6919f0b06018cc2c981d3af5",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "共同",
+      "name": "武汉",
+      "city": "武汉",
+      "category": "景点",
+      "what": "带父母自由行，参观知名景点，品尝武汉美食",
+      "verdict": "推荐",
+      "reason": "适合带父母出行的现代化大城市，交通便利，美食丰富，肥杰为父母制作了详细四天三晚攻略并获好评",
+      "quote": "我就给他们挑了武汉。正好我妈也喜欢吃武汉的美食",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "邢老三胡辣汤（浦东八佰伴店）",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "喝胡辣汤",
+      "verdict": "推荐",
+      "reason": "秋冬喝热汤暖身，胡辣汤热乎暖胃，两人专程去浦东喝",
+      "quote": "我们就当时惠子给我们找了，说上海也有邢老三汤，喝西安那个邢老三胡辣汤",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "肥杰",
+      "name": "羊毛材质拖鞋",
+      "category": "居家用品",
+      "why_good": "既有视觉层面的暖感，又有肢体层面的生理暖感，秋冬居家穿着舒适",
+      "price_hint": "",
+      "verdict": "重点推荐",
+      "quote": "朋友们，我真的强烈推荐你们去找一些品牌，去买那个羊毛材质的拖鞋",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "摇粒绒厚袜子",
+      "category": "居家用品",
+      "why_good": "在家穿上不用穿拖鞋都觉得舒服，保暖效果好",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "我还强烈推荐大家可以穿那种就是类似于摇粒绒很厚的那种厚袜子啊",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "山姆五谷杂粮粉（类芝麻糊）",
+      "category": "食品",
+      "why_good": "",
+      "price_hint": "",
+      "verdict": "避雷",
+      "reason": "口感很差，没有添加剂和糖，难以入口",
+      "quote": "这次我去山姆被骗了，大家千万不要被山姆这个产品骗。就类似于五谷杂粮粉……结果贼难喝",
+      "name_corrected": false
+    }
+  ],
+  "media": [
+    {
+      "recommender": "肥杰",
+      "title": "喜人奇妙夜 第二季",
+      "type": "综艺",
+      "synopsis": "喜剧综艺节目第二季，汇聚多位喜剧演员表演，其中杨宇光等人表现突出。",
+      "why_recommended": "秋冬换季期间看到的极其好笑的综艺，能帮助提振情绪，有很多好笑作品",
+      "verdict": "推荐",
+      "quote": "我们最开始看的是那个喜人奇妙夜第二季。哎呦，我觉得真的是有好多作品",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "title": "现在就出发 第三季",
+      "type": "综艺",
+      "synopsis": "旅行综艺第三季，嘉宾们在旅途中进行各种游戏互动，其中林芝一期的「吃西瓜狼人杀」环节尤为爆笑。",
+      "why_recommended": "两人笑到瘫在地上，是秋冬抵御情绪低落的强力推荐，感谢听众「六位姑娘」推荐",
+      "verdict": "重点推荐",
+      "quote": "你要是脑袋笑不掉，你就来找我退钱。我和惠子两个人都笑瘫在地上了",
+      "name_corrected": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "episode": {
+    "vol": 4,
+    "title": "VOL.004：第一次见面，未来岳父说我肯定有「病」",
+    "eid": "61ef4d5c4675a08411f515bb",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/61ef4d5c4675a08411f515bb",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "惠子",
+      "name": "国金中心",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "从英国回来落地上海当天，被朋友推荐去国金逛街顺带在里面吃午饭，粥价格很贵但难喝",
+      "verdict": "避雷",
+      "reason": "价格极高，茶位费昂贵且字体很小难以发现，粥不是现熬的，食物质量与价格严重不符",
+      "quote": "你爸就说这个粥不是熬出来的，嗯，就是提前做好，然后怎么怎么样，反正就是不是正经熬出粥，嗯，就吃的也很糟",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "大连御用厨师私宴",
+      "city": "大连",
+      "category": "其他",
+      "what": "肥杰爸爸带惠子去一位曾为大连某知名领导掌厨的私人厨师家里吃饭，全是大连海鲜",
+      "verdict": "重点推荐",
+      "reason": "海鲜料理水准极高，令人大受震撼，远超一般家庭水准",
+      "quote": "那个海鲜做的，天哪，是不是没带我去啊？真的好好吃哦，那个时候我大受震撼",
+      "name_corrected": false
+    }
+  ],
+  "product": [],
+  "media": []
+}

@@ -1,0 +1,73 @@
+{
+  "episode": {
+    "vol": 16,
+    "title": "VOL.016：上海封控生活经验之谈，给各地以备不时之需",
+    "eid": "6252dc8cabceb019a9552741",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/6252dc8cabceb019a9552741",
+    "pubDate": ""
+  },
+  "place": [],
+  "product": [
+    {
+      "recommender": "肥杰",
+      "name": "百味来番茄意面酱",
+      "category": "食品/调味料",
+      "why_good": "味道很好，有番茄、洋葱等多种口味，使用方便，两人份一罐标注清晰",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "一个牌子呢叫瑞berla中文的名字叫百味来，对我之前用过他们家的这个番茄意面酱，嗯，那个好吃那个好吃吧",
+      "name_corrected": true
+    },
+    {
+      "recommender": "肥杰",
+      "name": "利格士菠菜奶油乳酪意面酱",
+      "category": "食品/调味料",
+      "why_good": "出乎意料地好吃，非常简单，口感与自己用奶油熬出来的意面基本没有差别，一罐四人份",
+      "price_hint": "",
+      "verdict": "重点推荐",
+      "quote": "后来发现哇这是出乎意料的好好吃，真的出乎意料的好，而且真的非常非常的简单",
+      "name_corrected": true
+    },
+    {
+      "recommender": "肥杰",
+      "name": "拉面说日式拉面",
+      "category": "食品/速食",
+      "why_good": "操作简单与泡面无差别，但品质高很多，有叉烧、玉米、笋片等配料，幸福度高；有冷藏和常温款",
+      "price_hint": "一份二十多块钱",
+      "verdict": "推荐",
+      "quote": "它这个面本身是有点类似于这个味千拉面的这种面，然后你就把它单独煮，单独在水，把它煮熟",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "优形鸡胸肉",
+      "category": "食品/肉制品",
+      "why_good": "全程冷藏，保质期约三个月，从冰箱取出直接切即可食用，有多种调味，口味不错",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "我觉得这个 u 型还不错。我之前也吃过上海比较常见的叫伊藤，它也是做各种鸡类的产品",
+      "name_corrected": true
+    },
+    {
+      "recommender": "肥杰",
+      "name": "伊藤照烧鸡肉",
+      "category": "食品/肉制品",
+      "why_good": "口味更好，带皮鸡肉，有柠檬照烧等风味，只是保质期较短（十五天）且价格比优形贵",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "另外一个我平常会吃的牌子叫伊藤，就是日本人名，那是伊藤。它主要做的是类似于照烧鸡肉，比如柠檬照烧啊，这种东西还蛮好吃的",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "Smithfield午餐肉",
+      "category": "食品/肉制品",
+      "why_good": "比梅林、SPAM口感更倾向于肉肠，能吃到肉的纤维感，肉质紧实，煮面下火锅不容易烂",
+      "price_hint": "",
+      "verdict": "重点推荐",
+      "quote": "这个午餐肉和梅林、世棒不一样，它是需要冷藏的，不是罐装的，保质期只有九十天。但口感讲心里话，比梅林和世棒这种午餐肉更倾向于肉肠的口感",
+      "name_corrected": true
+    }
+  ],
+  "media": []
+}

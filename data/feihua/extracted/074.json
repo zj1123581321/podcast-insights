@@ -1,0 +1,151 @@
+{
+  "episode": {
+    "vol": 74,
+    "title": "VOL.074：如果你想召集100人，那就拿出Nice Try的贴纸！",
+    "eid": "6469ae0f6752b5f9deaefe58",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/6469ae0f6752b5f9deaefe58",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "共同",
+      "name": "金谷园",
+      "city": "北京",
+      "category": "餐厅",
+      "what": "吃饺子、锅贴，喝到熟悉味道，与老服务员合影",
+      "verdict": "重点推荐",
+      "reason": "味道十几年未变，排队一百多桌依然值得，吃一口就能穿越回当年",
+      "quote": "我们这次专程从上海回来，就是为了再吃一次。我们真的没想到您还在这儿",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "都立",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "吃西式素食简餐，奶油蘑菇汤、鹰嘴豆泥、奶昔，踩雷宫保披萨",
+      "verdict": "推荐",
+      "reason": "整体菜品不错，性价比尚可，但宫保披萨严重避雷",
+      "quote": "除了这个避雷的菜，你千万别点之外，其他菜你基本上点了也没什么大问题",
+      "name_corrected": true
+    },
+    {
+      "recommender": "肥杰",
+      "name": "都立（宫保披萨）",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "踩雷宫保披萨",
+      "verdict": "避雷",
+      "reason": "味道极差，又苦涩又像没做熟的植物，跟披萨跟宫保都不沾边",
+      "quote": "真的太难吃了。所以我觉得就是你去吃的朋友啊，就是你只要别点宫保披萨",
+      "name_corrected": true
+    },
+    {
+      "recommender": "惠子",
+      "name": "上海会馆",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "吃梅干菜红烧肉、绿叶菜，团购酒酿小丸子",
+      "verdict": "重点推荐",
+      "reason": "性价比超高，红烧肉六十八元且品质出色，服务温暖，两人吃不到一百五十块",
+      "quote": "这家店我可以说是直接推荐的啊，这么狂吗？对，惠子推荐叫上海会馆",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "黄河入海",
+      "city": "河北·阿那亚",
+      "category": "餐厅",
+      "what": "吃陕西小吃，烤羊肉串夹馍",
+      "verdict": "推荐",
+      "reason": "烤羊肉串夹馍入口惊艳，馍外壳焦脆内有脂肪肉香，孜然味十足",
+      "quote": "第一口就给我惊艳，完了，就是整个人都酥了",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "Club Med 阿那亚店",
+      "city": "河北·阿那亚",
+      "category": "住宿",
+      "what": "出差住一线海景酒店，打开窗就能看到海",
+      "verdict": "推荐",
+      "reason": "阿那亚内少有的大型连锁酒店，一线海景，性价比相对较高",
+      "quote": "很推荐大家订，我这次住的就是Club Med的一个酒店……订这个酒店是可以看到海的，也是一个比较好的体验",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "肥杰",
+      "name": "Stone Island 双肩书包",
+      "category": "包袋",
+      "why_good": "军绿色帆布机能面料，外形好看，多口袋，配feed lock磁吸扣，背起来鼓鼓囊囊质感佳",
+      "price_hint": "约两千七（官方约四千四，天猫海淘约三千六，最终降价到两千九以下购入）",
+      "verdict": "重点推荐",
+      "quote": "我靠，我那天晚上特别开心，我说两千九，我现在立刻就买，然后我当时就点立刻购买",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "The North Face 机能马甲 + 绿裙子",
+      "category": "服装",
+      "why_good": "马甲有不对称摁扣设计，与绿裙子撞色搭配效果好，兼具机能感与日常穿搭",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "他的那个不对称的摁扣，这个设计特别特别深得我心",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "祁红功夫茶",
+      "category": "茶饮",
+      "why_good": "花香馥郁，口感润滑，有安抚效果，由多个品种红茶拼配而成，香气独特",
+      "price_hint": "高端级别约三千多元一斤",
+      "verdict": "推荐",
+      "quote": "那个茶我跟你说，首先拿起来我就闻到的气味嘛，非常香。它不是那种普通茶的香，就是它有一种花香味儿",
+      "name_corrected": false
+    }
+  ],
+  "media": [
+    {
+      "recommender": "共同",
+      "title": "漫长的季节",
+      "type": "剧集",
+      "synopsis": "以东北为背景的悬疑犯罪剧，讲述跨越年代的案件与普通人命运，还原九十年代国企生活与东北人文风貌。",
+      "why_recommended": "服化道与人物性格高度还原东北，演员演技全员在线，悬疑剧情与喜剧反差兼具",
+      "verdict": "重点推荐",
+      "quote": "如果没看的话，真的得去看，我是推荐的，反正",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "title": "平凡之路",
+      "type": "剧集",
+      "synopsis": "郭麒麟饰演法学院毕业生入行做律师，讲述小人物在城市中奋斗的故事，穿插各类真实劳动、家庭纠纷案件。",
+      "why_recommended": "郭麒麟适合小人物，台词接地气有梗，案件贴近生活且有法律知识收获；适合当休闲背景剧看",
+      "verdict": "推荐",
+      "quote": "我也推荐过好几个朋友看了……就比如说它里面的那些案件啊，可能他是超脱生活，但是又源于生活，有时候你会觉得特别真实",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "title": "火神的眼泪",
+      "type": "剧集",
+      "synopsis": "台湾消防员群像剧，共十集，以多起出警案件为背景，深入呈现消防员的心理困境、人际关系与职业处境。",
+      "why_recommended": "结构立体，每位消防员有独立故事线，台词真实自然，深刻揭露消防员经费不足、装备破旧等困境",
+      "verdict": "重点推荐",
+      "quote": "是可能我们俩讲的不一定那么那么到位，我觉得你们其实可以去看一看……你能感受到这部剧确实是值得看的",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "title": "忠犬八公",
+      "type": "电影",
+      "synopsis": "中国翻拍版，冯小刚饰演主人公，讲述人与狗之间深厚的忠诚情感。",
+      "why_recommended": "前半部分细节刻画感人，冯小刚演技出色，能感受到人与动物间的真情",
+      "verdict": "推荐",
+      "quote": "其实这个电影我是从我的角度，我是推荐大家去看的",
+      "name_corrected": false
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "episode": {
+    "vol": 69,
+    "title": "VOL.069：这些差评服务啊，让你体验花钱当孙子",
+    "eid": "643bf94766e4c00c6a3e86a6",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/643bf94766e4c00c6a3e86a6",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "惠子",
+      "name": "古北日料店（定食）",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "午餐定食，常点刺身三品套餐，三种刺身分开搭配白米饭",
+      "verdict": "推荐",
+      "reason": "食物好吃划算，风味正宗，但店长服务态度极差",
+      "quote": "那边有很多日料店，你懂的，中午的那个定食真的是又好吃又划算，对吧？因为那边都相对比较正宗，我有一家店，我特别喜欢去吃",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "印尼菜餐厅",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "点牛尾汤，各种印尼特色菜",
+      "verdict": "推荐",
+      "reason": "非常地道还原，应该是非常正宗的印尼风味，老板是新加坡人",
+      "quote": "反正我很喜欢吃。但是有一个问题是每次去吃他们的老板都要过来给你指导",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "共同",
+      "name": "美珍香猪肉脯",
+      "category": "零食",
+      "why_good": "猪肉脯本身很好吃，只是购买时需要注意商家会趁机多放、多收钱",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "我觉得猪肉脯还是很好吃的，推荐大家去买，但是不要被刺到了",
+      "name_corrected": true
+    }
+  ],
+  "media": [
+    {
+      "recommender": "肥杰",
+      "title": "银子（斗鱼游戏主播）",
+      "type": "其他",
+      "synopsis": "斗鱼平台上的天津话游戏主播，以逗弄小区保安为特色内容，将保安治得服服帖帖，极为解气解压",
+      "why_recommended": "看他逗保安非常解气，天津普通话口音搞笑，内容精彩，甚至帮邻居处理保安纠纷",
+      "verdict": "重点推荐",
+      "quote": "我特别推荐大家去看一个游戏主播，他的视频在斗鱼上有个游戏主播叫银子。嗯，银是那个子丑寅卯的银。嗯，他就是天津人，他特别愿意逗保安。我跟你讲，我每次看他的节目，我觉得斗保安太解气了",
+      "name_corrected": false
+    }
+  ]
+}

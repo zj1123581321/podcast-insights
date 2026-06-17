@@ -1,0 +1,113 @@
+{
+  "episode": {
+    "vol": 13,
+    "title": "VOL.013：她竟然在超市给我买生日礼物，被我当天退掉",
+    "eid": "6237270d03bea1ebfffa1b9c",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/6237270d03bea1ebfffa1b9c",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "肥杰",
+      "name": "西堤牛排",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "约在西堤牛排吃饭过生日",
+      "verdict": "避雷",
+      "reason": "肥杰坦言如今觉得那根本称不上是一个吃牛排的地方",
+      "quote": "现在坦白讲心里话，现在都没有办法称得上是一个吃牛排的地方",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "肥杰",
+      "name": "LEGO 乐高机械组（在Costco购买的卡车/挖掘机套装）",
+      "category": "玩具",
+      "why_good": "",
+      "price_hint": "原价约1199元，实际市价约600元",
+      "verdict": "避雷",
+      "reason": "肥杰对乐高非常了解，发现惠子在超市以原价（约1199元）买了市价约600元的机械组，且机械组是他完全无感的系列，当天就要求退货",
+      "quote": "在Costco买的对啊，妈呀，在一个超市给我买了一个乐高，然后还买贵了",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "LEGO 乐高百兽王（战神金刚）套装",
+      "category": "玩具",
+      "why_good": "肥杰从小对百兽王IP有深厚情怀，乐高出这个系列时非常兴奋，收到后当晚就开始拼，让他极度满意，是收到的所有礼物top3",
+      "price_hint": "约1700元（刚发售价，非最低价）",
+      "verdict": "重点推荐",
+      "reason": "送礼最佳实践：礼物是对方强烈喜欢但可能不舍得立刻买的IP联名款，且有儿时情怀加成",
+      "quote": "百兽王确实让我特别满意。这个百兽王就不光是在乐高这个系列当中满意的。在我收到的所有礼物中，都可以达到top 3满意",
+      "name_corrected": true
+    },
+    {
+      "recommender": "惠子",
+      "name": "Nintendo Switch（任天堂Switch，日版）",
+      "category": "游戏机",
+      "why_good": "",
+      "price_hint": "",
+      "verdict": "一般",
+      "reason": "肥杰收到时感情复杂，本身对Switch购买欲不强，家里利用率极低，最终送人了；惠子坦言是自己更想玩才买的",
+      "quote": "这个switch在我们家里真的就是利用率特别低",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "Gucci古驰卡包",
+      "category": "皮具配件",
+      "why_good": "肥杰心水已久、反复去看却一直不舍得买，正好符合「想要但舍不得买」的送礼黄金法则；惠子以藏在包里的方式制造了极大惊喜，是肥杰心中top1礼物",
+      "price_hint": "约3700元",
+      "verdict": "重点推荐",
+      "reason": "送礼最佳实践：对方想要但舍不得买，且以惊喜方式呈现，整个流程在肥杰眼里非常完美",
+      "quote": "在我心中就是这个是我特别特别满意的一个礼物。本身这个东西它就是一个贵价的东西，它又是一个你想要的东西，然后你又不舍得买它",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "LV Neverfull手袋",
+      "category": "箱包",
+      "why_good": "惠子用了九年依然在用，质量极好，曾将整瓶橙汁洒入包内直接用水冲洗也没问题，是惠子最实用耐用的奢侈品包",
+      "price_hint": "约510英镑（2013年英国购入）",
+      "verdict": "重点推荐",
+      "reason": "惠子明确表示这是最好用的奢侈品包，至今仍在使用，耐用性超强",
+      "quote": "到现在我还在用，就现在就在我旁边放着呢",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "Gucci古驰酒神包（Dionysus）",
+      "category": "箱包",
+      "why_good": "",
+      "price_hint": "约15000元",
+      "verdict": "一般",
+      "reason": "惠子当时很想要，收到时很开心，但后来发现太不实用，手机越来越大放不下，最终被遗弃不再使用",
+      "quote": "它确实后来不太实用，被遗弃了",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "iPad Pro套装（含Magic Keyboard妙控键盘和Apple Pencil）",
+      "category": "数码产品",
+      "why_good": "两人都可以使用，性价比高；对于有设计需求或生产力需求的人来说是刚需；惠子收到后每天都在用",
+      "price_hint": "约10000元以上",
+      "verdict": "推荐",
+      "reason": "适合情侣或家庭共用的礼物，一份钱两个人都能高频使用，性价比高",
+      "quote": "这种礼物其实性价比蛮高的，就是你花了一份钱送给一个人的生日礼物。但是两个人都可以很高频率的去使用",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "Jellycat毛绒玩偶（4个）",
+      "category": "玩具/礼品",
+      "why_good": "肥杰当时觉得这些玩偶做得非常好，惠子收到后很喜欢，玩偶至今还放在家里沙发上",
+      "price_hint": "",
+      "verdict": "推荐",
+      "reason": "肥杰主动推荐Jellycat这个品牌，认为做得太好了，是送礼不错的选择",
+      "quote": "我当时觉得哇这些小玩偶做的真的太好了，是真好太好了",
+      "name_corrected": false
+    }
+  ],
+  "media": []
+}

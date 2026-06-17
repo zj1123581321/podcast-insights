@@ -1,0 +1,194 @@
+{
+  "episode": {
+    "vol": 38,
+    "title": "VOL.038：不吹不知道，我的老家竟然这么diǎo！",
+    "eid": "631b70038212a6185470e3c4",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/631b70038212a6185470e3c4",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "肥杰",
+      "name": "金石滩",
+      "city": "大连",
+      "category": "景点",
+      "what": "在海边玩，品质较好的石滩",
+      "verdict": "推荐",
+      "reason": "大连没有沙滩，都是碎石石滩，金石滩相对环境品质不错",
+      "quote": "比如像金石滩这种地方，可能还是相对而言品质还是不错的",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "城堡酒店",
+      "city": "大连",
+      "category": "住宿",
+      "what": "住海景房，山顶位置很多房间能看海",
+      "verdict": "推荐",
+      "reason": "在山顶，很多房间都能看到海，视野极佳",
+      "quote": "城堡觉得是非常非常好的，城堡的好处就在于它在山顶。所以你基本上很多房间都能看到海",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "圣亚海洋世界",
+      "city": "大连",
+      "category": "景点",
+      "what": "参观海洋馆，走中国第一条海底隧道",
+      "verdict": "推荐",
+      "reason": "有中国第一条海底通道，全长118米，海洋生物在头顶四周围绕，体验独特",
+      "quote": "如果你去大连想选海洋馆的话，我推荐大家去圣亚",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "大连有轨电车（201路/202路）",
+      "city": "大连",
+      "category": "活动",
+      "what": "乘坐有轨电车，感受全国唯一现役有轨电车",
+      "verdict": "推荐",
+      "reason": "大连是全国唯一同时保留有轨电车和无轨电车的城市，且有轨电车历史从未间断，体验独特",
+      "quote": "如果你去大连，真的是可以去体会一下这个有轨电车",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "大连女骑警（人民广场执勤点）",
+      "city": "大连",
+      "category": "活动",
+      "what": "观看女骑警执勤，开放时间段可以合影",
+      "verdict": "推荐",
+      "reason": "世界第一支有正式编制的女骑警编队，骑警和马都很漂亮，可以在开放时段合影",
+      "quote": "去大连，就是为了去看看女骑警，对吧？英姿飒爽是",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "兰亭",
+      "city": "绍兴",
+      "category": "景点",
+      "what": "参观王羲之练字处、曲水流觞遗址",
+      "verdict": "推荐",
+      "reason": "能看到历史典故实景，置身其中感受千年文化，体验很治愈",
+      "quote": "你到了那个场景下，你就会觉得很治愈",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "沈园",
+      "city": "绍兴",
+      "category": "景点",
+      "what": "参观陆游与唐婉题词墙，感受爱情故事历史典故",
+      "verdict": "推荐",
+      "reason": "有陆游与唐婉两首《钗头凤》真迹墙，导游讲述的爱情故事令人感动",
+      "quote": "绍兴有一个地方叫沈园，你说过，对，然后那里面呢有两首在墙上的词《钗头凤》",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "鲁迅故里（从百草园到三味书屋）",
+      "city": "绍兴",
+      "category": "景点",
+      "what": "参观百草园、三味书屋，乘乌篷船游水道",
+      "verdict": "推荐",
+      "reason": "文化底蕴深厚，乘乌篷船穿越水道，感受江南水乡古建筑",
+      "quote": "你可以去兰亭、沈园、东湖、鲁迅故里，就是那个从百草园到三味书屋",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "乌篷船（绍兴水道）",
+      "city": "绍兴",
+      "category": "活动",
+      "what": "坐乌篷船在绍兴古水道穿梭游览",
+      "verdict": "重点推荐",
+      "reason": "别地没有，船夫戴乌毡帽，穿越古老建筑水道，经过八字桥等景点，体验独特",
+      "quote": "这个东西一定要做，真的是一定要做，别的地方没有",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "绍兴村子土菜馆",
+      "city": "绍兴",
+      "category": "餐厅",
+      "what": "吃山笋、新鲜蔬菜、鸡鸭肉等土菜",
+      "verdict": "重点推荐",
+      "reason": "食材当天摘采，卖完即止，家庭作坊式，比流程化大饭店更新鲜本地化",
+      "quote": "我是建议大家要去村子里面吃土菜馆，可以吃到新鲜的食物",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "肥杰",
+      "name": "三鲜焖子",
+      "category": "食品/小吃",
+      "why_good": "大连本地特色小吃，淀粉制成的焖子加海参、鲍鱼、鱿鱼、虾等海鲜，煎后外焦里嫩，配麻酱蒜泥蒸香",
+      "price_hint": "街头版五块钱一碗",
+      "verdict": "推荐",
+      "quote": "去大连的人，如果说想要体验一下我们这种东西，其实你就去找这种街头小馆子，点一份三鲜焖子",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "软炸肉（软杂肉）",
+      "category": "食品/菜肴",
+      "why_good": "大连老菜，改良自软炸里脊，切片炸制，外焦里嫩口感软和，蘸椒盐食用",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "我回家特别喜欢吃这道菜……我是真的很推荐",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "炸蛎黄",
+      "category": "食品/菜肴",
+      "why_good": "大连特色，小颗海蛎子裹金黄面糊油炸，外脆里软潮，口感奇妙",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "外边咬那个面糊的时候，是脆的，到里边吃到蛎黄了之后，又是潮潮的软软的，哎呀，口感还是蛮奇妙的",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "海鲜饺子（大连）",
+      "category": "食品/菜肴",
+      "why_good": "大连特色，海胆、海肠、海参、鲍鱼、鲅鱼等纯海鲜馅饺子，食材触手可及，价格相对实惠",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "我觉得是一定要吃，一定要吃",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "绍兴臭豆腐",
+      "category": "食品/小吃",
+      "why_good": "豆腐经霉制，外皮略脆，里面绵密稠滑如冰淇淋口感，比长沙臭豆腐更嫩更入味",
+      "price_hint": "",
+      "verdict": "重点推荐",
+      "quote": "绍兴臭豆腐，我觉得真的很好吃，不怕人家来骂我，就其他那些什么长沙臭豆腐，我觉得都不行",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "霉苋菜梗（菜光）",
+      "category": "食品/小吃",
+      "why_good": "绍兴特色霉菜，用陈年臭水腌制，蒸后加香油，闻起来臭吃起来香，配豆腐食用",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "真的是非常好吃。它其实就是它要用老卤……然后拿出来直接蒸，蒸完之后吃，最好是加一点点香油",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "梅干菜扣肉",
+      "category": "食品/菜肴",
+      "why_good": "绍兴名菜，梅干菜吸收五花肉肥油后极为好吃，肉质软化融入梅干菜",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "梅干菜扣肉里面的梅干菜对肉不吃肉……就是这个肉啊，它都已经基本都化掉了，全都化到了这个梅干菜上面",
+      "name_corrected": false
+    }
+  ],
+  "media": []
+}

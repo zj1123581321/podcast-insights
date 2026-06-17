@@ -1,0 +1,35 @@
+{
+  "episode": {
+    "vol": 105,
+    "title": "你有很多愿望，一定很幸福吧！｜VOL.105",
+    "eid": "658866956396a4645a17887a",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/658866956396a4645a17887a",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "肥杰",
+      "name": "伦敦百年甜品店（具体店名未提及）",
+      "city": "伦敦",
+      "category": "餐厅",
+      "what": "吃派和芝士蛋糕",
+      "verdict": "推荐",
+      "reason": "有上百年历史，女王也喜欢去，芝士蛋糕和派都非常好吃",
+      "quote": "哪一种派很好吃，哪一种芝士蛋糕很好吃，超级好吃",
+      "name_corrected": false
+    }
+  ],
+  "product": [],
+  "media": [
+    {
+      "recommender": "共同",
+      "title": "克劳斯圣诞节的秘密",
+      "type": "电影",
+      "synopsis": "一个富二代邮递员被派到荒凉小镇完成寄信指标，通过帮孩子们向会做玩具的老头许愿写信，令整个小镇重焕生机、两大敌对家族和解的温馨故事。",
+      "why_recommended": "温馨感人，剧情扎实，有对「愿望」主题的深刻呈现，令两位主播引发关于愿望意义的深度思考",
+      "verdict": "推荐",
+      "quote": "这个电影吧，其实讲实话的，我们还是挺推荐大家去看一下的",
+      "name_corrected": true
+    }
+  ]
+}

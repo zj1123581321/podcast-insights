@@ -1,0 +1,33 @@
+{
+  "episode": {
+    "vol": 206,
+    "title": "花钱还出糗，尴尬一整宿！｜VOL.206",
+    "eid": "692c6059ba2292550f85d927",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/692c6059ba2292550f85d927",
+    "pubDate": ""
+  },
+  "place": [],
+  "product": [
+    {
+      "recommender": "惠子",
+      "name": "The Label 润肤乳",
+      "category": "护肤品",
+      "why_good": "香味好，质地好用，在酒店试用后想购买正装",
+      "price_hint": "正装约六百多元",
+      "verdict": "推荐",
+      "quote": "这东西挺好用的，要不我们花点钱买一个吧",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "爱马仕洗发水",
+      "category": "护发产品",
+      "why_good": "",
+      "price_hint": "不到五十元（小样）",
+      "verdict": "避雷",
+      "quote": "巨难用巨难用。那个洗发水真的是我用过最难用的洗发水",
+      "name_corrected": false
+    }
+  ],
+  "media": []
+}

@@ -1,0 +1,90 @@
+{
+  "episode": {
+    "vol": 17,
+    "title": "VOL.017：那些年的旅行记忆，哪有红灯区我们就去哪玩！",
+    "eid": "625ba3fc493ea2f504a55a97",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/625ba3fc493ea2f504a55a97",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "共同",
+      "name": "巴黎（Paris）",
+      "city": "法国巴黎",
+      "category": "景点",
+      "what": "游览埃菲尔铁塔、卢浮宫、巴黎圣母院，但遭遇治安问题、汉堡被咬、信用卡被盗刷",
+      "verdict": "避雷",
+      "reason": "治安极差，有人明抢，信用卡在当地被复制盗刷，整体体验极差",
+      "quote": "法国真的很让人失望",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "罗马古建筑精品酒店（六间房石砌古楼）",
+      "city": "意大利罗马",
+      "category": "住宿",
+      "what": "入住只有六个房间的古老石砌建筑，有管家服务，黄铜钥匙，大理石浴缸，蚊帐纱幔",
+      "verdict": "重点推荐",
+      "reason": "完全符合罗马城市风格，性价比极高（约110欧一晚），体验非常独特，扭转了巴黎带来的糟糕心情",
+      "quote": "这个酒店定得太对了，这个钱花得太值了",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "阿姆斯特丹红灯区",
+      "city": "荷兰阿姆斯特丹",
+      "category": "活动",
+      "what": "逛橱窗红灯区、去脱衣舞酒吧（Banana吧），骑双人自行车",
+      "verdict": "重点推荐",
+      "reason": "极度猎奇，像迪士尼一样让人短暂逃离现实压力，两人在此耗费了大量时间，念念不忘",
+      "quote": "荷兰简直纸醉金迷啊",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "曼谷红灯区（Patpong）",
+      "city": "泰国曼谷",
+      "category": "活动",
+      "what": "逛酒吧一条街（勾沟坝），体验各类成人酒吧，花费极低",
+      "verdict": "推荐",
+      "reason": "猎奇体验，花费极低（一晚不到五百元人民币），但需注意防骗，不能被骗子骑虎难下",
+      "quote": "去泰国旅游的话，一定要尝试一下",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "新疆（吐鲁番/葡萄沟）",
+      "city": "新疆",
+      "category": "景点",
+      "what": "游览吐鲁番、葡萄沟，品尝羊肉串、大盘鸡、西瓜、哈密瓜",
+      "verdict": "推荐",
+      "reason": "异域风情浓郁，完全不同于内地体验，水果极甜，美食丰富，让人印象深刻",
+      "quote": "好玩，我去之前没觉得好玩，去了之后觉得真的好玩儿",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "新加坡华人咖喱蟹餐厅",
+      "city": "泰国曼谷",
+      "category": "餐厅",
+      "what": "吃咖喱蟹，需排队",
+      "verdict": "推荐",
+      "reason": "在大众点评上找到的曼谷推荐餐厅，第一次去非常好吃，特别满足，连吃了两次",
+      "quote": "确实好好吃，特别好吃",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "澳门娱乐城（威尼斯人等）",
+      "city": "澳门",
+      "category": "活动",
+      "what": "购物、吃手信（猪肉脯、杏仁酥、老婆饼）、体验赌场娱乐",
+      "verdict": "推荐",
+      "reason": "整个城市就是一个虚幻的大型娱乐城，金碧辉煌，随处可购物吃喝，摆渡车免费，让人放松没有烦恼",
+      "quote": "它就是一个大的娱乐城",
+      "name_corrected": false
+    }
+  ],
+  "product": [],
+  "media": []
+}

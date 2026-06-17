@@ -1,0 +1,44 @@
+{
+  "episode": {
+    "vol": 31,
+    "title": "VOL.031：在没有暑假的年纪回忆暑假",
+    "eid": "62dd59bf64f141ad815018d6",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/62dd59bf64f141ad815018d6",
+    "pubDate": ""
+  },
+  "place": [],
+  "product": [
+    {
+      "recommender": "肥杰",
+      "name": "伊利四个圈冰淇淋",
+      "category": "食品/零食",
+      "why_good": "口感奇特、层层递进，咬起来脆脆的，是肥杰至今最爱的雪糕",
+      "price_hint": "",
+      "verdict": "重点推荐",
+      "quote": "我出去买冰淇淋，我就肯定是伊利四个圈，我觉得那东西真的，那口感太奇特了，层层递进，对吧？一咬起来脆脆的。",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "DQ冰淇淋",
+      "category": "食品/零食",
+      "why_good": "吃DQ依然能感受到快乐",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "我还有我吃DQ还是很快乐啊。",
+      "name_corrected": false
+    }
+  ],
+  "media": [
+    {
+      "recommender": "肥杰",
+      "title": "地道战",
+      "type": "电影",
+      "synopsis": "中国经典抗战电影，讲述民兵利用地道与日军周旋作战的故事。",
+      "why_recommended": "肥杰小时候在农村露天电影中反复观看，觉得非常燃，比喻为「中国抗战版碟中谍」",
+      "verdict": "推荐",
+      "quote": "我小时候特别喜欢看地道战啊，喜欢唱那个歌地道战，地道战，觉得那个东西特别燃",
+      "name_corrected": false
+    }
+  ]
+}

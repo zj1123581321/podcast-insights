@@ -1,0 +1,36 @@
+{
+  "episode": {
+    "vol": 49,
+    "title": "VOL.049：我为什么花了钱却买不到快乐…丨找惠子聊聊",
+    "eid": "63834d2bf6753f4e9d4d5915",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/63834d2bf6753f4e9d4d5915",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "惠子",
+      "name": "麦当劳",
+      "city": "",
+      "category": "餐厅",
+      "what": "参加社群抽奖活动，免费获得辣翅、薯条、香芋派等",
+      "verdict": "推荐",
+      "reason": "优惠方式直接简单，不需要复杂计算，经常能通过社群抽奖得到免费食物，带来真实的消费快乐",
+      "quote": "麦当劳最近给我带来了非常多消费的快乐。就首先他的那个优惠非常直接，他没有要让你什么算让你干嘛",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "惠子",
+      "name": "曼秀雷敦蛇果冰润唇膏",
+      "category": "美妆护肤",
+      "why_good": "滋润效果好，有多种口味和卡通联名款，拥有时带来极大满足感，后来用过其他润唇膏都觉得不如它",
+      "price_hint": "当时二十多块钱",
+      "verdict": "推荐",
+      "reason": "用过很多其他润唇膏后仍觉得这个是最好的，对她而言是儿时最能带来快乐的消费品",
+      "quote": "后面你也用过一些其他的润唇膏，你就会觉得就是都不如这个好",
+      "name_corrected": false
+    }
+  ],
+  "media": []
+}

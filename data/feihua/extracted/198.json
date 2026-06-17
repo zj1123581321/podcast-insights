@@ -1,0 +1,98 @@
+{
+  "episode": {
+    "vol": 198,
+    "title": "旅行购物纯有毒，越扯淡我劲儿越足！｜VOL.198",
+    "eid": "68e2463f8e321a0d6ffd297d",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/68e2463f8e321a0d6ffd297d",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "肥杰",
+      "name": "大连造船医院",
+      "city": "大连",
+      "category": "其他",
+      "what": "治疗烫伤",
+      "verdict": "推荐",
+      "reason": "肥杰小时候严重烫伤在此就医，治疗效果极好，是专门治烫伤的医院",
+      "quote": "大连的造船医院就是专门治烫伤的",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "惠子",
+      "name": "UGG雪地靴",
+      "category": "鞋履",
+      "why_good": "肥杰妈妈在澳洲购入，惠子十年后仍在穿，款式不过时，品质耐穿",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "那个鞋子真的到现在我都觉得不过时特别好看",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "iRobot扫地机器人",
+      "category": "家用电器",
+      "why_good": "两人留学英国时从牛津街购入帮惠子父母带回国，当时国内稀缺，使用多年直到电池老化才退役",
+      "price_hint": "好几千块钱",
+      "verdict": "推荐",
+      "quote": "虽然这个机器人退休了，但是它那个盒子还在我家哦",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "韩国电饭锅（高压锅）",
+      "category": "厨具",
+      "why_good": "肥杰妈妈从韩国旅游背回四个，高级好用，家里到现在还在用",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "当然高级是高级，我们家到现在还依然在用",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "福尔摩斯博物馆纯银马克杯",
+      "category": "文创/纪念品",
+      "why_good": "",
+      "price_hint": "",
+      "verdict": "避雷",
+      "reason": "银器氧化严重，日常使用后里里外外变黢黑，无法清理，最终不得不丢弃",
+      "quote": "里里外外黢黑，然后你根本清理不出来。然后后来最后就是只能舍弃这个杯子，就不要了，就扔了",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "红底鞋（Christian Louboutin）",
+      "category": "鞋履",
+      "why_good": "",
+      "price_hint": "",
+      "verdict": "避雷",
+      "reason": "在法国旅游购入，鞋子偏小且红底极不耐磨，在柏油路上走一次红底就磨坏了",
+      "quote": "那个红底就直接就磨了",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "澳洲羊驼毛被",
+      "category": "寝具",
+      "why_good": "",
+      "price_hint": "",
+      "verdict": "一般",
+      "reason": "肥杰妈妈从澳洲旅游团购物环节大量购入，盖上去没有特殊质感，与普通被子区别不大，疑似购物团套路商品",
+      "quote": "你其实是感受不出，它跟正常的这种被子有什么区别",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "茶颜悦色",
+      "category": "饮品",
+      "why_good": "惠子第一次喝茶颜悦色是同事从长沙机场带回来分享的，当时长沙以外喝不到，两人都觉得很神",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "我喝到了第一杯茶颜悦色",
+      "name_corrected": false
+    }
+  ],
+  "media": []
+}

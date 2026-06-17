@@ -1,0 +1,21 @@
+# secrets
+.env
+**/.token_state.json
+
+# 大体积 / 可再生数据（从 view_urls 可重新下载）
+data/*/transcripts/
+data/*/episodes/episodes_raw.json
+data/*/state/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.python-version
+
+# node
+node_modules/
+
+# os
+.DS_Store

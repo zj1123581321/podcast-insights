@@ -1,0 +1,57 @@
+{
+  "episode": {
+    "vol": 33,
+    "title": "VOL.033：大学我来啦，但我妈哭了……",
+    "eid": "62efb63b226f5c1fa0d58435",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/62efb63b226f5c1fa0d58435",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "共同",
+      "name": "全聚德（前门店）",
+      "city": "北京",
+      "category": "餐厅",
+      "what": "吃烤鸭，点了一只没吃完；还点了188元的精品牛肉粒，量少且不好吃",
+      "verdict": "避雷",
+      "reason": "专门坑游客，烤鸭大家去尝个鲜，精品菜价格贵量少味道普通，真正北京人不会去这里",
+      "quote": "那个全聚德就是坑游客吗？大部分人去不会去点，也不好吃",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "合力屋",
+      "city": "北京",
+      "category": "餐厅",
+      "what": "吃意面，喝热巧克力",
+      "verdict": "推荐",
+      "reason": "相比学校食堂条件好很多，热巧克力特别好喝，好多大学都有这个连锁品牌",
+      "quote": "那个合力屋就是好多大学都有。我记得人大也有，就好多地方都有，吃意面连锁的",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "金五星",
+      "city": "北京",
+      "category": "其他",
+      "what": "购置宿舍用品（遮光布、桌子、帘子等），买零食（烤肠）",
+      "verdict": "推荐",
+      "reason": "北师大附近综合市场，什么都卖，性价比高，宿舍用品、小商品应有尽有",
+      "quote": "金五星是一个神奇的地方，那个时候真的就是经常能听到同学在跟人说，啊，我要去金五星有什么东西要带吗？",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "惠子",
+      "name": "皇冠牌旅行箱",
+      "category": "箱包",
+      "why_good": "质量过硬，性价比高，十几年后还在继续使用",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "我当时买的就是皇冠牌的旅行箱，我还有印象。然后到现在我们家里面那个旅行箱还在用哦",
+      "name_corrected": false
+    }
+  ],
+  "media": []
+}

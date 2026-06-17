@@ -1,0 +1,35 @@
+{
+  "episode": {
+    "vol": 2,
+    "title": "VOL.002：闲鱼上找的算命太准了",
+    "eid": "61dd3f1c32bc8c17b218fe92",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/61dd3f1c32bc8c17b218fe92",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "共同",
+      "name": "杭州佛学院毕业设计展",
+      "city": "杭州",
+      "category": "活动",
+      "what": "参观佛教艺术毕业设计展，看舍利塔、佛像等精美工艺品",
+      "verdict": "重点推荐",
+      "reason": "展品极为精美，有前所未见的佛教艺术形式，令人大受震撼",
+      "quote": "确实很精美。然后在里面看到了很多怎么说前所未见的跟佛教相关的那些艺术形式、一些呈现方式。",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "惠子",
+      "name": "闲鱼星盘算命",
+      "category": "服务",
+      "why_good": "精确度极高，能算出具体日期（如入职日期差一天）和人生流年，惠子亲身验证多个预测准确",
+      "price_hint": "58元",
+      "verdict": "推荐",
+      "quote": "然后我就是八月十七号，是我第一天上班",
+      "name_corrected": false
+    }
+  ],
+  "media": []
+}

@@ -1,0 +1,54 @@
+{
+  "episode": {
+    "vol": 155,
+    "title": "假如为自己策划一场葬礼｜VOL.155",
+    "eid": "6755b95b17cd5416ad740336",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/6755b95b17cd5416ad740336",
+    "pubDate": ""
+  },
+  "place": [],
+  "product": [
+    {
+      "recommender": "惠子",
+      "name": "Apple Vision Pro 空间视频体验",
+      "category": "科技体验",
+      "why_good": "可以在眼前展现空间视频，沉浸感强，惠子体验后希望用它来制作葬礼邀请函，让收到的人感受到立体的「人在眼前跳出来」的效果",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "前不久我们不是去参加了那个 Vision Pro 的体验嘛。然后它可以在你的眼前展现一段空间视频。嗯，我就很希望我可能在死之前也会录制一段空间视频",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "六十六汉堡",
+      "category": "餐饮/汉堡",
+      "why_good": "肉饼多汁，是肥杰心目中汉堡的理想标准，连葬礼菜单也要专程指定",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "我有一个前提，就是一定要做到六十六汉堡。",
+      "name_corrected": false
+    }
+  ],
+  "media": [
+    {
+      "recommender": "肥杰",
+      "title": "最佳损友",
+      "type": "其他",
+      "synopsis": "陈奕迅演唱的粤语歌曲，讲述与朋友之间经历激烈交锋后重归于好、依依惜别的情感",
+      "why_recommended": "歌词像在与朋友道别，氛围安静温柔，承载的情绪与肥杰希望葬礼传递的「情感流动而非悲痛」非常契合，尤其是「毕竟难得有个最佳损友」",
+      "verdict": "重点推荐",
+      "quote": "我选了陈奕迅的最佳损友。我觉得这首歌的歌词就让我感觉他很像是在跟一个朋友道别。",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "title": "大约在冬季",
+      "type": "其他",
+      "synopsis": "经典华语歌曲，歌词描写轻轻离别、叮嘱爱人不要哭泣、「大约会是在冬季」归来的情感",
+      "why_recommended": "惠子在冬天出生，歌词与离别意境高度契合，她希望亲自演唱这首歌作为葬礼上的告别曲",
+      "verdict": "推荐",
+      "quote": "就是我认为可能在葬礼上放比较合适的歌，就是《大约在冬季》哦。",
+      "name_corrected": false
+    }
+  ]
+}

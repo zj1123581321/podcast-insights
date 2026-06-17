@@ -1,0 +1,46 @@
+{
+  "episode": {
+    "vol": 15,
+    "title": "VOL.015：上海疫情一个月，我们都经历了什么",
+    "eid": "6249f1f0d01d114df44b1473",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/6249f1f0d01d114df44b1473",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "共同",
+      "name": "家乐福",
+      "city": "上海",
+      "category": "其他",
+      "what": "疫情封控前囤购物资，买到牛奶、鸡蛋、肉等",
+      "verdict": "推荐",
+      "reason": "物资供给充足，不像小超市被抢空",
+      "quote": "家乐福还挺给力，咱要东西全都有，家乐福真的供给真的是非常充足",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "惠子",
+      "name": "宝矿力水特",
+      "category": "饮料/电解质饮品",
+      "why_good": "得新冠后补充电解质，帮助恢复",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "宝矿力水特和佳得乐这种电解质的水哦",
+      "name_corrected": false
+    }
+  ],
+  "media": [
+    {
+      "recommender": "肥杰",
+      "title": "我是传奇",
+      "type": "电影",
+      "synopsis": "威尔·史密斯主演的末世科幻片，讲述城市空无一人、只剩野生动物的末世景象。",
+      "why_recommended": "用来类比上海封城后街道空旷、万籁俱寂的感受，推荐大家去看感受那种末世氛围",
+      "verdict": "推荐",
+      "quote": "大家就是可以去看威尔史密斯演的那个《我是传奇》的电影那种末世就是这种感觉",
+      "name_corrected": false
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "episode": {
+    "vol": 63,
+    "title": "VOL.063：我在赛车场奔跑！她在火锅店逍遥？",
+    "eid": "64046aec86730b8173846c44",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/64046aec86730b8173846c44",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "肥杰",
+      "name": "爱虾奶家",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "天妇罗定食和冻饭，含鳗鱼、鱿鱼、白身鱼、虾等炸物",
+      "verdict": "重点推荐",
+      "reason": "比内甜上了一个台阶，鳗鱼很长摆盘惊艳，鱿鱼口感柔软，定食酥脆感强，冻饭酱汁浸饭很满足",
+      "quote": "它比内甜确实上了一个台阶",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "燃记沙茶黄",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "沙茶火锅，涮鲜切牛肉、基围虾、生菜、出前一丁方便面",
+      "verdict": "推荐",
+      "reason": "沙茶锅底提鲜不重口，鲜切牛肉特别好吃，基围虾鲜甜，生菜入锅清甜解腻，服务好且可线上排号",
+      "quote": "这家餐厅真的很推荐",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "叶马",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "大黄鱼烧年糕、鲍鱼红烧肉等杭帮菜",
+      "verdict": "一般",
+      "reason": "招牌大黄鱼烧年糕可以，但红烧肉肉质筋道不软糯，其他菜很平，黑珍珠榜单名不副实",
+      "quote": "如果你想吃大黄鱼烧年糕，可以去，你奔着红烧肉就不要去了",
+      "name_corrected": true
+    },
+    {
+      "recommender": "共同",
+      "name": "异骨烩",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "粤菜，鱼头豆腐汤为主",
+      "verdict": "一般",
+      "reason": "招牌鱼头豆腐汤非常好喝，豆腐嫩滑汤鲜，但其他菜感觉像中央厨房成品，黑珍珠名不副实，环境地面油腻有抹布味",
+      "quote": "一骨烩也是我们有一个中肯的评价，大家自己衡量",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "KLAY",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "印度菜，黑松露芝士馕饼、三文鱼塔塔球、烤鱼、炸鸡等",
+      "verdict": "避雷",
+      "reason": "整体价格贵（三人八百多）但没吃饱，菜品无功无过，融合做法用力过猛，唯独黑松露芝士馕饼值得推荐",
+      "quote": "除了尝到了钱的味道，其实没有尝到什么其他东西",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "惠子",
+      "name": "始祖鸟 Beta LT 硬壳冲锋衣",
+      "category": "服饰",
+      "why_good": "Gore-Tex面料既透气又保温又防水，塑形好穿上身材显好，保暖性超出预期，每天都在穿",
+      "price_hint": "",
+      "verdict": "重点推荐",
+      "quote": "反正这个跟鸟有点关，买了一件始祖鸟的外套嘛，冲锋衣……我特别满意",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "东北大松子",
+      "category": "食品",
+      "why_good": "个头饱满比普通松子大很多，口感香浓让人欲罢不能，连同事都偷着吃",
+      "price_hint": "七八十元一斤",
+      "verdict": "推荐",
+      "quote": "这东北松子儿怎么这么好吃啊，就吃完之后就久久停不下来",
+      "name_corrected": false
+    }
+  ],
+  "media": [
+    {
+      "recommender": "惠子",
+      "title": "始于极限",
+      "type": "书",
+      "synopsis": "上野千鹤子与前AV女演员铃木凉美的书信往来，围绕工作、婚姻等人生课题探讨女性主义，语言贴近生活。",
+      "why_recommended": "女性主义入门首选，书信体形式接地气易读，不只适合女生，讲创作者要坚持自我的观点令人触动",
+      "verdict": "重点推荐",
+      "quote": "这本书就很适合那些对于女性主义想入门，或者你想接触一下的人",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "title": "一只树懒的自我关怀",
+      "type": "书",
+      "synopsis": "英国作家以树懒为主角，用幽默有趣的场景和插图传递正念生活方式，帮助读者慢下来关注当下。",
+      "why_recommended": "字大插图多易读完，场景有趣味性，传递正念理念，适合城市里觉得累的人，属于私藏宝藏",
+      "verdict": "推荐",
+      "quote": "这本书同时我觉得他大家一定要去看……算是我的一个就是私藏宝藏",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "title": "显微镜下的大明之丝绢案",
+      "type": "剧集",
+      "synopsis": "张若昀主演的古装剧，讲述精通数学的「算呆子」卷入明代丝绢税案，与各方官员斗智斗勇的断案故事。",
+      "why_recommended": "十四集剧情紧凑反转不断，人物刻画细腻，没有烂尾，服化道精良，一天两天可刷完，很久没看过这么畅快的古装剧",
+      "verdict": "重点推荐",
+      "quote": "这部剧十四集紧凑反转不断，最终的结果也让你非常满意，没有烂尾，制作也非常精良",
+      "name_corrected": false
+    }
+  ]
+}

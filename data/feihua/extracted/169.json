@@ -1,0 +1,33 @@
+{
+  "episode": {
+    "vol": 169,
+    "title": "我是孤独患者，但也自我认可｜VOL.169",
+    "eid": "67d6cc5ee924d4525affb832",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/67d6cc5ee924d4525affb832",
+    "pubDate": ""
+  },
+  "place": [],
+  "product": [],
+  "media": [
+    {
+      "recommender": "肥杰",
+      "title": "孤独患者",
+      "type": "其他",
+      "synopsis": "方大同演唱的歌曲，歌词描述外向者内心孤独的状态，结尾改编为「外向的孤独患者，自我认可」。",
+      "why_recommended": "肥杰认为这首歌的歌词与自己的状态非常契合，并希望用它作为本期节目的结尾，同时以此纪念已离世的方大同。",
+      "verdict": "重点推荐",
+      "quote": "我自己特别喜欢孤独患者这首歌里的一句歌词，就我外向的孤独患者有何不可？",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "title": "消愁",
+      "type": "其他",
+      "synopsis": "毛不易演唱的歌曲，歌词描述身处欢乐热闹场合却感到极度孤独的心境。",
+      "why_recommended": "肥杰和惠子共同引用歌词，认为它对「身处人群中的孤独」这一感受描述得非常贴切。",
+      "verdict": "推荐",
+      "quote": "这首歌真的描述的那个场面，就是我对于身在一群人当中孤独，我感觉特别特别贴切。",
+      "name_corrected": false
+    }
+  ]
+}

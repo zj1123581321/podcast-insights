@@ -1,0 +1,87 @@
+{
+  "episode": {
+    "vol": 200,
+    "title": "做了200期，有抓马，有八卦，还差点停更…｜VOL.200",
+    "eid": "68f4fbdd456ffec65e853267",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/68f4fbdd456ffec65e853267",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "共同",
+      "name": "小黑湘菜馆",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "湘菜",
+      "verdict": "推荐",
+      "reason": "老板真诚接地气，节目推荐后冲上上海湘菜热门榜第二名，老板还热情邀请主播去岳阳参加家宴",
+      "quote": "我们不久前一段时间给大家推荐过一家上海的很接地气的湘菜小馆子叫小黑湘菜馆嘛",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "香蕉湘菜馆",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "湘菜",
+      "verdict": "推荐",
+      "reason": "老板对主播极为热情，知道主播来吃饭会免单或赠菜，主播因此都不敢提前预订",
+      "quote": "包括香蕉也是咱们之前不是还给大家推荐过香蕉那家香菜馆嘛",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "侬毕里",
+      "city": "南通",
+      "category": "其他",
+      "what": "特色豆子/咖啡",
+      "verdict": "推荐",
+      "reason": "大姐非常真诚，时常免费寄新豆子给主播，主播在小程序购买回馈，双方情谊深厚",
+      "quote": "包括侬毕里的大姐也是，所以没有办法经常去南通，但是又很想喝她的豆子",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "肥杰",
+      "name": "溪木源山茶花系列（面膜、洁面泡沫、面霜）",
+      "category": "护肤品",
+      "why_good": "主播自己无限回购，面霜分清爽版和滋润版，可根据四季需求选择",
+      "price_hint": "满100减10（肥话连篇专属券）",
+      "verdict": "重点推荐",
+      "quote": "我们自己是一直在无限回购山茶花系列的面膜、洁面泡沫和面霜的",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "溪木源金山茶花精华油",
+      "category": "护肤品",
+      "why_good": "主打抗老，可促生胶原让皮肤弹回，抗氧化能力是普通山茶花的200多倍，能提亮肤色改善暗沉",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "他们最近推出了一个叫金山茶花的一款精华油，就是主打一个抗老",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "溪木源层孔菌洁颜蜜",
+      "category": "护肤品",
+      "why_good": "既能去油又能卸淡妆，很多听众朋友反复购买",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "就是控油效果特别好的这个层孔菌系列。这个系列曾经我们也给大家推荐过他们那个既能去油又能卸淡妆的洁颜蜜",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "溪木源层孔菌屏障特护控油霜",
+      "category": "护肤品",
+      "why_good": "专为油皮设计，出油多的地方保持干爽，出油少的地方保持滋润，冰沙质感凝霜，轻薄不油腻",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "它最厉害的地方就是能够让出油多的地方保持干爽，同时又让出油少的地方感觉滋润",
+      "name_corrected": false
+    }
+  ],
+  "media": []
+}

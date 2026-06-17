@@ -1,0 +1,245 @@
+{
+  "episode": {
+    "vol": 45,
+    "title": "VOL.045：终于迈出那一步，我去了精神科",
+    "eid": "635e89e5b55c9cee2ee1573f",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/635e89e5b55c9cee2ee1573f",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "共同",
+      "name": "大乐之野（锦溪店）",
+      "city": "苏州",
+      "category": "住宿",
+      "what": "住了一晚，体验连锁民宿，带狗入住，参观周边古镇",
+      "verdict": "推荐",
+      "reason": "服务细致，有管家微信群、详细路线攻略和PDF攻略，建筑风格契合当地，可带狗，适合多家人拼房",
+      "quote": "我觉得还真的挺好的，就是没去的人。因为我身边有好多朋友去过这个大乐之野，他们回来反馈都还不错",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "浦东美术馆（徐冰天书展）",
+      "city": "上海",
+      "category": "景点",
+      "what": "观看徐冰老师的天书、地书、凤凰等艺术作品展览",
+      "verdict": "重点推荐",
+      "reason": "徐冰知名作品集中展出，凤凰等装置震撼人心，十一月撤展前值得一看",
+      "quote": "我是真的强烈建议在上海的伙伴可以去看，因为他可能十一月份就会撤展了。所以大家一定要去看一下。",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "微煌小海鲜",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "吃花雕鸡肉砂锅火锅，涮海鲜",
+      "verdict": "推荐",
+      "reason": "花雕鸡汤浓香清亮，鸡肉鲜嫩，涮海鲜是绝配，嘉善路新店排队压力小",
+      "quote": "涮海鲜吃，它就是一种绝配",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "文餐厅",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "吃改良本帮菜，主推咸鱼红烧肉、黑松露鹅肝煲仔饭、鲍鱼黄瓜凉菜",
+      "verdict": "重点推荐",
+      "reason": "西厨功底融入本帮菜，味道奇妙，一周去吃两次；红烧肉、煲仔饭等招牌菜每桌必点",
+      "quote": "我那天吃了之后才想起来我的天哪，我怎么竟然忘了这家餐厅这么好吃，竟然这么多年没来过了",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "鸡西大冷面",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "吃东北烧烤、冷面、刀削面、拌菜",
+      "verdict": "推荐",
+      "reason": "纯粹东北风格，拌菜柜台花样多，刀削面在上海难得，烧烤原始正宗，饮料有大白梨、大窑",
+      "quote": "推荐大家去吧。我觉得这个鸡西大冷面，我应该是一年前第一次去吃",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "玉心记",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "吃蟹粉捞面，点蟹天蟹地双人套餐（蟹粉、蟹黄、蟹柳三种浇头）",
+      "verdict": "推荐",
+      "reason": "蟹味浓郁，双人套餐258元含三大份浇头性价比高，适合喜欢蟹粉的人",
+      "quote": "如果喜欢吃蟹粉，或者说这种蟹相关的拌面的人，这家店是特别合适的",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "老美丽咖啡（Old Beauty）",
+      "city": "大连",
+      "category": "餐厅",
+      "what": "喝dirty咖啡，体验加奶冰块的特色做法",
+      "verdict": "推荐",
+      "reason": "大连本地高知名度，网友十推九推，dirty咖啡加奶冰块独特，奶味足",
+      "quote": "为什么想推荐这家店呢？是因为我们在网上问网友，就是在大连哪里能喝咖啡？十个人有九个人都说要去老美丽喝。",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "Mia大表姐咖啡店",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "喝咖啡，学习咖啡知识，请教手冲器材",
+      "verdict": "推荐",
+      "reason": "老板Mia姐对咖啡极度专注，会根据当天气温湿度调整研磨细度，常分享私藏豆子给顾客，能学到真正的咖啡文化",
+      "quote": "我隔三差五就会去她的店里面喝喝咖啡……更多的是希望跟他能够聊一聊去学习",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "OPS咖啡",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "喝百香果奶泡咖啡",
+      "verdict": "推荐",
+      "reason": "现已推出预约系统，不用排长队；百香果奶泡像冰淇淋，口感好",
+      "quote": "我就去喝了一次，喝了之后觉得哎还真的挺好喝。当时我喝的那杯，我喜欢的啊，它是用百香果味的那种奶泡",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "茉沏奶茶",
+      "city": "",
+      "category": "餐厅",
+      "what": "喝茉莉花味奶茶加小芋圆",
+      "verdict": "推荐",
+      "reason": "传统奶茶风味，茉莉花香重，加热芋圆甜暖，价格便宜十几块一杯，全国各城市有门店",
+      "quote": "我觉得大家可以尝试，因为它应该每个城市都有，很便宜的一个奶茶",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "肥杰",
+      "name": "佳明255运动手表（Garmin 255）",
+      "category": "运动装备",
+      "why_good": "多星座卫星定位精准，专为跑步训练设计，有间歇模式、操场模式，续航超过一周，低电量模式可用14天，专业跑者标配",
+      "price_hint": "",
+      "verdict": "重点推荐",
+      "quote": "我现在换了一块佳明的二五五，这块佳明手表……确实没问题。对，而且那个手表第一天出去跑，我信心就回来了啊",
+      "name_corrected": true
+    },
+    {
+      "recommender": "肥杰",
+      "name": "Theragun Mini筋膜枪",
+      "category": "运动装备",
+      "why_good": "震动强度远超三百元级产品，使用后肌肉酸痛但次日明显放松，体积小巧如头戴耳机，有专用收纳包，适合日常运动恢复",
+      "price_hint": "约1200-1300元",
+      "verdict": "推荐",
+      "quote": "体验到这个千元价位的筋膜枪能够给你带来的放松的感觉确实不一样。我现在已经是非常需要这个东西",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "毛茸茸居家袜（珊瑚绒袜）",
+      "category": "家居",
+      "why_good": "包裹感强，居家赤脚穿舒适，款式可爱，女生尤其适合，每年冬天必备",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "我觉得对女生来说很友好，就是可以包裹住你的脚，而且一般它都做得挺可爱",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "Levi's LVC Archives系列牛仔外套",
+      "category": "服饰",
+      "why_good": "基于Levi's历史档案款重新设计，限量款式不撞衫，用料扎实耐磨，版型硬挺显精神，男款穿出boyfriend风格",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "我是觉得是一件很满意的牛仔外套。真的我也非常喜欢。如果我要是不满意，我是不会让你买的。",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "a2牛奶",
+      "category": "食品",
+      "why_good": "",
+      "price_hint": "约70-80元/900ml，city super有售",
+      "verdict": "一般",
+      "quote": "买回来我们喝了一下，并没有想象中那么牛逼……我觉得就跟优倍差不多",
+      "name_corrected": false
+    }
+  ],
+  "media": [
+    {
+      "recommender": "肥杰",
+      "title": "梦之队：2008年美国男篮复仇之路",
+      "type": "纪录片",
+      "synopsis": "记录美国男篮在04年奥运会意外失金后，科比带队在08年北京奥运会全力复仇夺冠的历程。",
+      "why_recommended": "运动题材燃热血，包含大量科比珍贵画面及其家人镜头，有北师大邱季端体育馆场景，带出一种穿越时空的连接感",
+      "verdict": "推荐",
+      "quote": "我想能够有机会在画面里再看一看科比……看这个纪录片让我最大的满足，就是你又能看到很多科比的画面",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "title": "Take One（只此一次）— Rain特辑",
+      "type": "纪录片",
+      "synopsis": "Netflix韩国纪录片，邀请艺人在只能拍摄一次的条件下完成「人生最后一次演出」。Rain选择在对外开放的韩国总统府青瓦台演出。",
+      "why_recommended": "Rain在青瓦台创历史先例，演出热血震撼；背后故事展现顶级艺人的极致自律与专注，看哭肥杰",
+      "verdict": "重点推荐",
+      "quote": "在看那个纪录片的时候，我有好几次都几乎要落泪……我觉得太厉害了",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "title": "一场很没有必要的春晚",
+      "type": "其他",
+      "synopsis": "B站伪纪录片，讲述一群海外华人自发筹办春晚的荒诞过程，充满无厘头幽默和精心埋设的彩蛋。",
+      "why_recommended": "制作粗糙但笑点密集，彩蛋深藏需多遍才发现，建议开弹幕观看；有续集宇宙规划，编剧幕后故事可在播客「别任性」收听",
+      "verdict": "重点推荐",
+      "quote": "真的，那也太无厘头了……他整个的制作非常纪录片，非常粗糙……他里面预先埋在那儿的点，对你可能开头的时候都不知道怎么回事，但后面你会发现",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "title": "足球教练（Ted Lasso）",
+      "type": "剧集",
+      "synopsis": "一名美国橄榄球教练被阴谋聘为英超足球队主帅，用鼓舞人心的方式带领队伍逆风成长，兼具搞笑与温情。",
+      "why_recommended": "既欢乐搞笑又持续治愈，所有人物没有坏人，美英文化碰撞有趣；主角最大特质是「belief（信念）」，是体育精神的核心展现",
+      "verdict": "推荐",
+      "quote": "我看这部剧在欢笑的同时，更多的就是被治愈，就我会觉得其乐融融的一帮人",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "title": "爸爸好尴尬（Dad Stop Embarrassing Me!）",
+      "type": "剧集",
+      "synopsis": "Jamie Foxx主演的纯沙雕喜剧，讲述黑人单亲爸爸带女儿成长的故事，全程无内涵撒狗血，主演一人分饰多角。",
+      "why_recommended": "彻底放松的无厘头搞笑，类似「三狗」风格，只有八集，集数短，不需要动脑，纯享受欢乐",
+      "verdict": "推荐",
+      "quote": "强烈推荐，就是瞎胡闹。我很久没看到这么瞎胡闹的，没有任何内涵，不传递任何道理，单纯笑",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "title": "唐朝诡事录",
+      "type": "剧集",
+      "synopsis": "以唐朝为背景的古装破案剧，主角苏无名率队破解各类诡异案件，有单元剧结构和大案主线并行。",
+      "why_recommended": "团队角色分工明确有如打游戏，案件推理有代入感如剧本杀，诡异元素最终都能圆回来，轻松下饭剧",
+      "verdict": "推荐",
+      "quote": "他的这种有点像打游戏的形式……他比较贴合……就觉得还可以",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "title": "一年一度喜剧大赛（第二季）",
+      "type": "综艺",
+      "synopsis": "爱奇艺喜剧竞演节目第二季，今年土豆吕严等选手表现突出，但整体氛围不如有三狗的第一季。",
+      "why_recommended": "土豆吕严的「大本钟」「进化论」等节目亮眼，值得追更；同时提及对第一季三狗风格的怀念",
+      "verdict": "推荐",
+      "quote": "土豆和吕严就更加脱颖而出了……我印象非常深刻的，他两个剧啊，一个是大本钟，那个真的把我给绕晕了",
+      "name_corrected": false
+    }
+  ]
+}

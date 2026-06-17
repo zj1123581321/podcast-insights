@@ -1,0 +1,45 @@
+{
+  "episode": {
+    "vol": 224,
+    "title": "好好活着，守住自己的生命力！｜VOL.224",
+    "eid": "69d28002b977fb2c472a7705",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/69d28002b977fb2c472a7705",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "共同",
+      "name": "古德莫宁",
+      "city": "长沙",
+      "category": "餐厅",
+      "what": "喝咖啡/奶茶",
+      "verdict": "重点推荐",
+      "reason": "两人愿意专程坐飞机飞去长沙只为喝一杯，以此类比「值得为一件事专程去做」的积极态度",
+      "quote": "我们愿意坐飞机，飞到长沙去，飞到长沙。这个过程它并不是无意义的。因为你只有飞到长沙，你才能喝到古德莫宁",
+      "name_corrected": false
+    }
+  ],
+  "product": [],
+  "media": [
+    {
+      "recommender": "肥杰",
+      "title": "老友记",
+      "type": "剧集",
+      "synopsis": "经典美国情景喜剧，讲述六位好友在纽约生活的日常故事，以轻松幽默著称。",
+      "why_recommended": "肥杰表示情绪低落时看两集Friends能迅速恢复生命力，是他快速回血的私人方法",
+      "verdict": "推荐",
+      "quote": "我如果是情绪低了，我看两集 Friends，我看两集我喜欢看电影，我甚至看看钢铁侠，我可能都觉得哦有有些力量了",
+      "name_corrected": true
+    },
+    {
+      "recommender": "惠子",
+      "title": "喜人奇妙夜",
+      "type": "综艺",
+      "synopsis": "国内喜剧综艺节目，汇集多位喜剧演员进行表演竞赛，内容以搞笑为主。",
+      "why_recommended": "惠子推荐通过看喜剧综艺开怀大笑来快速恢复生命力，认为笑能在生理和心理层面激活人",
+      "verdict": "推荐",
+      "quote": "你可以看脱口秀节目啊，然后包括很多人现在不是喜欢看喜人啊之类的。我觉得这些都是你可以主观去选择的呀",
+      "name_corrected": true
+    }
+  ]
+}

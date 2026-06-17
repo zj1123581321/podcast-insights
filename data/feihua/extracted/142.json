@@ -1,0 +1,33 @@
+{
+  "episode": {
+    "vol": 142,
+    "title": "如何假装自己是个东北人？｜VOL.142",
+    "eid": "66ddc555bfd7110df427d471",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/66ddc555bfd7110df427d471",
+    "pubDate": ""
+  },
+  "place": [],
+  "product": [],
+  "media": [
+    {
+      "recommender": "共同",
+      "title": "雪迷宫",
+      "type": "剧集",
+      "synopsis": "讲述1997年前后东北刑警队破获毒品大案的故事，张艺谋担任监制，充满东北文化、语言与社会风貌。",
+      "why_recommended": "两人在追剧过程中被东北文化和语言所吸引，并因此引发了这期节目的创作灵感。",
+      "verdict": "推荐",
+      "quote": "我们追的是因为当时追边水往事看优酷，而看到的一部剧叫雪迷宫",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "title": "边水往事",
+      "type": "剧集",
+      "synopsis": "两人曾一起追看的剧集，但后半段质量明显下滑。",
+      "why_recommended": "明确提示第18集之后的付费内容不值得购买，直接避雷。",
+      "verdict": "避雷",
+      "quote": "十八集往后那个收费里啊就不要买了，那钱纯纯打水漂了啊，那几集也太烂了啊",
+      "name_corrected": false
+    }
+  ]
+}

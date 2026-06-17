@@ -1,0 +1,83 @@
+{
+  "episode": {
+    "vol": 34,
+    "title": "VOL.034：心理学究竟是学什么？",
+    "eid": "62f9118a226f5c1fa0d58810",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/62f9118a226f5c1fa0d58810",
+    "pubDate": ""
+  },
+  "place": [],
+  "product": [],
+  "media": [
+    {
+      "recommender": "肥杰",
+      "title": "头脑特工队",
+      "type": "电影",
+      "synopsis": "将人类大脑的思考与情绪过程拟人化，生动展示情绪是如何产生并影响人的行为的动画电影。",
+      "why_recommended": "能够形象地让观众感受人是怎么产生情绪的，以及情绪如何一步步将人带向极端又慢慢平静",
+      "verdict": "推荐",
+      "quote": "那个电影我觉得大家看一下，就是还是非常能够让你形象的去感受出你究竟是怎么产生情绪的",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "title": "改变心理学的四十项研究",
+      "type": "书",
+      "synopsis": "通过四十个心理学研究案例，呈现心理学不同领域的研究内容与发现。",
+      "why_recommended": "一个个研究很有意思，能让读者发现心理学研究的是什么东西，适合入门了解",
+      "verdict": "推荐",
+      "quote": "比如第一本我想推荐的就是《改变心理学的四十项研究》，它就是一个一个的研究，很有意思",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "title": "心理学与生活",
+      "type": "书",
+      "synopsis": "将心理学知识与日常生活相结合，应用性强的心理学入门读物。",
+      "why_recommended": "应用性质强，把心理学知识和生活连接起来，很适合不了解心理学又想了解生活中心理学的人",
+      "verdict": "推荐",
+      "quote": "第二本是《心理学与生活》，也很应用性质，把心理学知识和生活连接起来",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "title": "园丁与木匠",
+      "type": "书",
+      "synopsis": "发展心理学家艾利森·高普尼克讲述家长如何给孩子提供更好成长环境的书籍。",
+      "why_recommended": "讲家长怎么教育小孩，如果家有孩子可以看艾利森·高普尼克的一系列书籍",
+      "verdict": "推荐",
+      "quote": "比如《园丁与木匠》，讲家长怎么教育小孩",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "title": "当尼采哭泣",
+      "type": "书",
+      "synopsis": "存在主义心理学家欧文·亚隆以小说形式介绍咨询方法，并将尼采这一人物虚拟化。",
+      "why_recommended": "通过小说形式介绍心理咨询方法，读起来有趣，属于心理咨询相关读物",
+      "verdict": "推荐",
+      "quote": "还有一本心理咨询相关的《当尼采哭泣》，是存在主义心理学家欧文·亚隆写的小说",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "title": "你该找个人聊聊",
+      "type": "书",
+      "synopsis": "一位女性心理咨询师写的书，适合大众阅读。",
+      "why_recommended": "名字亲切容易被大众接受，适合想了解心理咨询的人，惠子特别强调「大家一定要去看」",
+      "verdict": "重点推荐",
+      "quote": "另外还有一本书叫《你该找个人聊聊》，也是一位女性咨询师写的书",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "title": "绝非偶然",
+      "type": "书",
+      "synopsis": "社会心理学家阿伦森的自传，讲述社会心理学的相关内容。",
+      "why_recommended": "社会心理学方向的好书，从自传角度介绍心理学",
+      "verdict": "推荐",
+      "quote": "社会心理学有一本书叫《绝非偶然》，是社会心理学家阿伦森的自传，也很适合去看",
+      "name_corrected": false
+    }
+  ]
+}

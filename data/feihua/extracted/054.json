@@ -1,0 +1,56 @@
+{
+  "episode": {
+    "vol": 54,
+    "title": "VOL.054：没点儿借口，怎么度过2022啊！",
+    "eid": "63b193e84ded9d81d0a1205d",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/63b193e84ded9d81d0a1205d",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "肥杰",
+      "name": "渔夫与花",
+      "city": "上海",
+      "category": "其他",
+      "what": "买花束，现场订购后取花或闪送",
+      "verdict": "推荐",
+      "reason": "花束现做不批量，品质好，买回来可以放很久，风格定期变化",
+      "quote": "我真的挺推荐大家去那个，哦，那叫什么？渔夫与花？他不是那种说统一做出来的，就是这个花束就做十个，就摆着卖。那个花束呢，是他每一个都是现做的",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "浦东美术馆（徐冰展）",
+      "city": "上海",
+      "category": "景点",
+      "what": "赶末班车看了徐冰的展览",
+      "verdict": "推荐",
+      "reason": "受到艺术的震撼和熏陶",
+      "quote": "我看到了这个浦东美术馆，说那个徐斌那个展要结束了，所以也鬼使神差地去赶了一个末班车，看了之后也觉得唉受到了这种艺术的震撼和熏陶",
+      "name_corrected": true
+    }
+  ],
+  "product": [
+    {
+      "recommender": "惠子",
+      "name": "祛湿茶（网购）",
+      "category": "保健品",
+      "why_good": "",
+      "price_hint": "",
+      "verdict": "避雷",
+      "quote": "我就不知道为什么，就是开始相信一些谣言，然后交智商税在网上买了祛湿茶哦",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "麦当劳咖兹脆鸡堡",
+      "category": "食品",
+      "why_good": "加入麦当劳社群薅羊毛后发现好吃",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "那个它的那个咖兹脆鸡堡啊，就也是那个时候我开始吃，哎，觉得哎好吃",
+      "name_corrected": false
+    }
+  ],
+  "media": []
+}

@@ -1,0 +1,57 @@
+{
+  "episode": {
+    "vol": 1,
+    "title": "VOL.001：连滚带爬地经历了 VLOGMAS",
+    "eid": "61d6638aee197a3aac3daca0",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/61d6638aee197a3aac3daca0",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "肥杰",
+      "name": "喜顶",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "吃饺子，体验开放式透明厨房",
+      "verdict": "推荐",
+      "reason": "餐厅配合度非常高，服务态度好，服务员会等博主说完话再上菜，还主动介绍菜品，整体拍摄体验非常顺利",
+      "quote": "喜顶整个去了之后的餐厅的配合度非常高",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "南火锅",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "吃火锅",
+      "verdict": "避雷",
+      "reason": "肥杰明确表示吃完吃的过程不享受，吃辣回来拉得不行，让惠子以后不要再带去吃",
+      "quote": "吃的过程我也不享受，一把鼻涕一把泪的。然后回来之后，这个肚子受苦，太难受了",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "山石榴",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "吃辣食",
+      "verdict": "避雷",
+      "reason": "肥杰每次吃完辣的东西回来都拉得不行，明确表示不再想去",
+      "quote": "前两天带我去吃南火锅，然后就在昨天或者前天又带我去吃山石榴，我的天哪",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "虎头局渣打饼行",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "买老虎卷（内夹麻薯的肉松虎皮卷）",
+      "verdict": "推荐",
+      "reason": "肥杰觉得老虎卷里夹了麻薯非常点睛，特别好吃，第二天还想去买但已卖光",
+      "quote": "我觉得特别好吃，我觉得里面夹了饼块，呃叫什么？叫麻薯？对，麻薯真的太点睛了",
+      "name_corrected": true
+    }
+  ],
+  "product": [],
+  "media": []
+}

@@ -1,0 +1,53 @@
+{
+  "episode": {
+    "vol": 137,
+    "title": "亲密和同频是一点一点搏斗出来的｜VOL.137",
+    "eid": "66af7f277349f7a557abc15c",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/66af7f277349f7a557abc15c",
+    "pubDate": ""
+  },
+  "place": [],
+  "product": [],
+  "media": [
+    {
+      "recommender": "共同",
+      "title": "海贼王",
+      "type": "剧集",
+      "synopsis": "日本长篇漫画及动漫，讲述主角路飞寻找「海贼王」宝藏的冒险故事。",
+      "why_recommended": "两人在英国同居期间，由惠子带入，肥杰看后觉得是好作品，两人由此产生大量共同话题和欢乐。",
+      "verdict": "推荐",
+      "quote": "海贼王和 running man 在我们在英国的时候，真的给我们创造了特别特别多的欢乐",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "title": "Running Man",
+      "type": "综艺",
+      "synopsis": "韩国SBS经典户外综艺节目，成员们在各种任务和游戏中竞争。",
+      "why_recommended": "两人在英国同居期间一起看，创造了大量共同欢乐，是带动肥杰进入惠子爱好的典型案例。",
+      "verdict": "推荐",
+      "quote": "海贼王和 running man 在我们在英国的时候，真的给我们创造了特别特别多的欢乐",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "title": "日本男男恋爱综艺",
+      "type": "综艺",
+      "synopsis": "日本制作的男性间恋爱真人秀综艺节目。",
+      "why_recommended": "惠子主动在看，肥杰被画面吸引后忍不住凑近观看，直夸「这些日本人真会穿」「这个综艺真好看」，两人都被内容吸引。",
+      "verdict": "推荐",
+      "quote": "这个综艺真好看",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "title": "老友记",
+      "type": "剧集",
+      "synopsis": "美国经典情景喜剧，讲述纽约六位好友的生活故事，含罐头笑声。",
+      "why_recommended": "肥杰在家看时惠子表示听到罐头笑声头疼，明确表达不喜欢。",
+      "verdict": "避雷",
+      "quote": "听着头疼啊",
+      "name_corrected": true
+    }
+  ]
+}

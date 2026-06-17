@@ -1,0 +1,105 @@
+{
+  "episode": {
+    "vol": 22,
+    "title": "VOL.022：装修的坑，坑的我再也不想装修",
+    "eid": "628a201d83ddae2d9e72a922",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/628a201d83ddae2d9e72a922",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "肥杰",
+      "name": "东信合创园",
+      "city": "杭州",
+      "category": "其他",
+      "what": "一站式逛国内实木风格家具品牌，包括凡几、一语、木墨工坊等展厅",
+      "verdict": "推荐",
+      "reason": "国内比较有名的实木风家具品牌基本都集中在这里，可以一站式看完所有品牌",
+      "quote": "他们都在杭州的一个创意园里，基本上到那个创意园里，就可以一站式的把国内所有这种实木风的家具基本都看个遍了",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "共同",
+      "name": "汉斯格雅花洒及龙头",
+      "category": "家居/卫浴",
+      "why_good": "空气注入式水流技术让出水更轻柔舒适，按键切换顶喷和手持花洒，调温旋钮阻尼感好可精细控温，使用五年无问题",
+      "price_hint": "花洒约五六千元，洗手台龙头约一千多元",
+      "verdict": "推荐",
+      "quote": "我们用了这将近五年的时间，没有任何问题。对，包括水流啊，包括什么所谓的常规的水垢，但是没有影响到我们的使用",
+      "name_corrected": true
+    },
+    {
+      "recommender": "共同",
+      "name": "维宝脸盆",
+      "category": "家居/卫浴",
+      "why_good": "弧度设计舒适好看，出水注入空气肉眼可见白色水流，手感舒服",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "这个龙头更能感受到它那个注入空气，就能看到那个水出来是白色的，一条龙，很舒服的感觉",
+      "name_corrected": true
+    },
+    {
+      "recommender": "肥杰",
+      "name": "维宝电动马桶",
+      "category": "家居/卫浴",
+      "why_good": "瓷釉面质量极好，使用五年未出现釉面损伤，颜值高",
+      "price_hint": "",
+      "verdict": "一般",
+      "quote": "维宝的瓷釉面是非常厉害的，它基本不太存在损伤的情况。至少我们现在用了五年了，没有出现损伤的情况。对，但是它的缺点就是我们买的是维宝那一款电动马桶",
+      "name_corrected": true
+    },
+    {
+      "recommender": "共同",
+      "name": "Blanco（雅生）石头厨房台盆",
+      "category": "家居/厨房",
+      "why_good": "石头材质不易刮痕，颜色深不显脏，形状方正且深，适合洗菜，质地坚韧不易损伤",
+      "price_hint": "国内正价约一万四，海淘约半价",
+      "verdict": "重点推荐",
+      "quote": "你必须得买这种石头的，千万不要买那种不锈钢，还是什么东西，薄薄的一层那个的话就很容易刮痕啊什么之类的",
+      "name_corrected": true
+    },
+    {
+      "recommender": "肥杰",
+      "name": "索菲亚全屋定制柜",
+      "category": "家居/定制家具",
+      "why_good": "安装师傅认真负责，细心处理易碎瓷砖，耐心调整九个门的缝隙做到整齐划一，一干到晚不停歇",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "那个师傅真是太好了。那个师傅是一大早就到我们家一直忙到晚上六七点钟才离开，中间连饭都没吃给我们装这个东西",
+      "name_corrected": true
+    },
+    {
+      "recommender": "共同",
+      "name": "宜家鞋柜",
+      "category": "家居/家具",
+      "why_good": "",
+      "price_hint": "约六百元",
+      "verdict": "避雷",
+      "quote": "买回来组装好，发现跟我们家风格一点都不搭",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "宜家厨房台（阳台洗衣台盆）",
+      "category": "家居/家具",
+      "why_good": "",
+      "price_hint": "",
+      "verdict": "避雷",
+      "quote": "首先这个盆很小很小。对，因为洗衣它肯定要盆很大。对，然后另外它这个盆很高，所以就根本就没有办法使用",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "伊语（一语）家具",
+      "category": "家居/家具",
+      "why_good": "风格更兼容，不过分中式，设计感强，一进店就被镇住",
+      "price_hint": "一个柜子约三万元",
+      "verdict": "推荐",
+      "quote": "一进到店里面就太好了，对，一下子就被镇住了，觉得这个风格更是我想要的",
+      "name_corrected": true
+    }
+  ],
+  "media": []
+}

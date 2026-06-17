@@ -1,0 +1,46 @@
+{
+  "episode": {
+    "vol": 210,
+    "title": "年度蠢事盘点，自己都嫌丢脸！｜VOL.210",
+    "eid": "695143d514db1df9ef27f43e",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/695143d514db1df9ef27f43e",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "共同",
+      "name": "bono BONO",
+      "city": "上海",
+      "category": "其他",
+      "what": "理发，找小伟老师剪头",
+      "verdict": "重点推荐",
+      "reason": "两人都是小伟老师的长期客户，多次试过其他理发店后都回来找小伟，且推荐给听众后好多听众也去，甚至在理发时遇到熟悉的听众",
+      "quote": "小伟老师那个理发店在上海叫 bono BONO",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "嘉里中心造型沙龙",
+      "city": "上海",
+      "category": "其他",
+      "what": "花398元请总监级理发师剪头，结果剪完惠子说「你还没剪头啊」，之后戴了一个月帽子才等到下次找小伟",
+      "verdict": "避雷",
+      "reason": "花了近四百元，理发效果极差，回家后自己不会打理，剪完之后依然戴了一个月帽子；这类造型沙龙重点在造型而非剪发技术，不适合日常需求",
+      "quote": "四百块四百块钱剪了一个不敢见人的头",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "肥杰",
+      "name": "蟑螂屋（粘捕式蟑螂诱饵）",
+      "category": "居家用品",
+      "why_good": "在车内诱捕蟑螂，效果出色，成功将躲进空调出风口的蟑螂引出并粘住，原理简单但非常有效",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "这个蟑螂屋真好。我们大连生产的非常厉害",
+      "name_corrected": false
+    }
+  ],
+  "media": []
+}

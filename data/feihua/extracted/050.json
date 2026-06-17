@@ -1,0 +1,171 @@
+{
+  "episode": {
+    "vol": 50,
+    "title": "VOL.050：世界杯来了，四年做一次球迷的我兴奋了！",
+    "eid": "638cca3a7105b234344c177e",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/638cca3a7105b234344c177e",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "惠子",
+      "name": "淑芬串串公司",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "重庆风味串串，吃了牛肉包薄荷/香菜/折耳根的小串、滑牛、鲜鸭血、冰汤圆",
+      "verdict": "重点推荐",
+      "reason": "锅底牛油香、醪糟特色，滑牛口感嫩滑，冰汤圆解辣，整体风味突出；惠子连续两天光顾",
+      "quote": "因为确实好吃，它是一个重庆风味的串串公司",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "大成海鲜烧烤",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "吃蒜蓉烤生蚝、芝士烤生蚝、各类肉串（羊肉串、猪肉串、牛肉串、掌中宝）",
+      "verdict": "推荐",
+      "reason": "蒜蓉烤生蚝入味惊艳，肉串干粉调味出色，羊肉串肥瘦相间，有小烤炉保温；上海本土连锁，品质稳定",
+      "quote": "蒜蓉生蚝太好吃太香了",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "阿妈手作",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "喝招牌打米麻薯奶茶，共喝了四次",
+      "verdict": "推荐",
+      "reason": "奶茶浓厚，底部有芋泥和米麻薯，热饮尤为治愈；建议天冷点75度热饮，天气不冷点冰饮；可通过小程序线上远程取号",
+      "quote": "我们这个月已经喝了四次了",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "真木乃",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "Omakase日料，体验前菜、刺身、汤、烤生蚝、章鱼腿、烤牛舌、手握寿司、甜品",
+      "verdict": "推荐",
+      "reason": "日本厨师主理，十多年老店，开在古北小区内颇为隐藏，菜品精致，整体体验良好",
+      "quote": "我们终于去体验了一次omakase",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "FOLK",
+      "city": "上海",
+      "category": "其他",
+      "what": "在此配了Mykita眼镜，选货品味好，服务贴心",
+      "verdict": "推荐",
+      "reason": "选货品味出众，店员懂眼镜、推荐专业诚实，Mykita同款价格上海最低，售后跟进细致",
+      "quote": "这家店呢，在上海的朋友……在新天地的无限极会，一楼，那个店的名字叫FOLK",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "共同",
+      "name": "Mykita 眼镜",
+      "category": "穿戴",
+      "why_good": "德国品牌，全无螺丝设计，镜腿仿人体骨骼关节弯折，佩戴感极轻，戴上几乎无感，如活物般贴合",
+      "price_hint": "",
+      "verdict": "重点推荐",
+      "quote": "你感觉到是两个像……触手一样的东西……滑进去了，然后没有任何感觉，架在你的耳朵和鼻梁上",
+      "name_corrected": true
+    },
+    {
+      "recommender": "惠子",
+      "name": "孙多兰衫羊绒围巾",
+      "category": "穿戴",
+      "why_good": "上海本土自营羊绒店，羊绒质量好、性价比高，款式设计感现代，围巾四百至五千价位全覆盖，所购三色拼接款层次丰富",
+      "price_hint": "围巾400元起",
+      "verdict": "推荐",
+      "reason": "",
+      "quote": "我们一直都看好一家上海的这个羊绒店……叫多兰孙，是在静安寺那边有，好像有两家，在富民路上",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "泰摩电动磨豆机",
+      "category": "厨房/咖啡",
+      "why_good": "价格实惠（双11约400元），研磨效果够用，适合手冲入门；唯一缺点是粉仓开口较大，倒粉时易飞溅",
+      "price_hint": "原价699元，双11约400元",
+      "verdict": "推荐",
+      "quote": "泰摩这个是完全够用，只不过是有这么一个小缺陷",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "Hario V60 珠光色滤杯",
+      "category": "厨房/咖啡",
+      "why_good": "颜值极高，珠光配色稀少，性价比远优于限量款和艺术家联名款，适合手冲入门",
+      "price_hint": "300元以内",
+      "verdict": "推荐",
+      "quote": "我买的是Hario的V60，但是我是买了一个特殊的颜色，是一个珠光色，特别好看",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "始祖鸟 Five Panel 帽子",
+      "category": "穿戴",
+      "why_good": "始祖鸟机能面料，轻薄好看，易于搭配，适合日常无脑直接戴出门",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "买了一顶始祖鸟的机能材料的five panels……轻便好看，然后也简单易搭",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "AGETE（阿卡朵）首饰",
+      "category": "穿戴",
+      "why_good": "日本品牌，古典希腊风格设计，品质精良，耳针经过处理佩戴无感，价位覆盖广（千元至万元），适合送礼",
+      "price_hint": "千元起",
+      "verdict": "推荐",
+      "quote": "这个牌子就叫什么阿卡朵……它的质地好在哪儿呢？就是……戳进去，你是没感觉的，很舒适",
+      "name_corrected": true
+    }
+  ],
+  "media": [
+    {
+      "recommender": "肥杰",
+      "title": "村里来了个暴走女外科",
+      "type": "剧集",
+      "synopsis": "台湾乡村医疗剧，改编自女医生真实日记小说，讲述顶级外科医生因手术台上痛失孩子患上PTSD、被下放乡村小医院后重拾信心的温情故事。",
+      "why_recommended": "剧情低开高走，有欢笑有泪点，温情人性化细节丰富，如台湾乡村医院里那棵承载村民心愿的大树，媲美《机智的医生生活》的治愈感；女主颜值出众，每集结尾金句与无厘头彩蛋双线并行",
+      "verdict": "重点推荐",
+      "quote": "这部剧啊，真的就里面有很多人性的温情瞬间……低开高走，后面简直不要太精彩",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "title": "Pepsi, Where's My Jet?",
+      "type": "纪录片",
+      "synopsis": "四集纪录片，讲述1990年代一名美国大学生真的凑够积分要求百事可乐兑现广告中承诺的鹞式战斗机、并最终起诉百事可乐的离奇事件全过程。",
+      "why_recommended": "叙事扣人心弦，兼顾企业、广告方与消费者三方视角，对广告法律风险有深刻警示意义；采用演员重现历史场景与当事人现采访交叉的新型纪录片形式",
+      "verdict": "推荐",
+      "quote": "我是觉得这个事情啊……你无论是经营企业的还是做广告的，还是包括消费者，我觉得这个纪录片都非常值得一看",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "title": "再见爱人2",
+      "type": "综艺",
+      "synopsis": "婚姻观察综艺，三对夫妻/前伴侣在旅途中直面婚姻矛盾与冲突，探讨亲密关系中的沟通与成长。",
+      "why_recommended": "真实赤裸展现婚姻冲突，不同于甜蜜恋综，能引发对亲密关系契约的深思，让观众在他人的婚姻困境中重新审视自己的关系",
+      "verdict": "推荐",
+      "quote": "他好看的点，也就是在于这种矛盾和冲突……他就是比较赤裸",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "title": "有恨意但不离婚的妻子们",
+      "type": "书",
+      "synopsis": "日本作者所写，记录日本一代全职主妇在婚姻中长期积累的隐忍、压抑与恨意，通过真实案例揭示传统婚姻模式中女性的处境。",
+      "why_recommended": "对婚姻抱有浪漫幻想的人尤其值得一读，以「正面恐惧」的方式对婚姻产生敬畏之心，避免因期望过高而落差巨大",
+      "verdict": "推荐",
+      "quote": "要推荐大家看，就是害怕就对了，就要你怕就正面恐惧",
+      "name_corrected": false
+    }
+  ]
+}

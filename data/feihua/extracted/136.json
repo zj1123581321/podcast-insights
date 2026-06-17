@@ -1,0 +1,94 @@
+{
+  "episode": {
+    "vol": 136,
+    "title": "一到夏天，两口子就睡不到一起去｜VOL.136",
+    "eid": "66a65ad633ddcbb53cabb0c2",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/66a65ad633ddcbb53cabb0c2",
+    "pubDate": ""
+  },
+  "place": [],
+  "product": [
+    {
+      "recommender": "惠子",
+      "name": "小乳贴（小面积隐形乳贴）",
+      "category": "内衣/身体贴",
+      "why_good": "面积小、不容易因出汗移位，夏天穿无袖/吊带更实用",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "我觉得这个小小乳贴还是挺推荐的",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "医用方形胶布（用作乳贴）",
+      "category": "运动用品/医疗用品",
+      "why_good": "跑马拉松四五个小时都不会脱落，贴合性最好",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "我发现最好最贴合跑完即便四五个小时也不会掉的，是一种医用的方形的胶布",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "户外品牌皮肤衣",
+      "category": "服装",
+      "why_good": "款式多样、有颜色选择、可收纳成苹果大小、防晒且不千篇一律，解决了普通防晒服样式单一的问题",
+      "price_hint": "",
+      "verdict": "重点推荐",
+      "quote": "很多户外品牌都是可以收纳成一个很小很小的东西的",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "蔬菜沙拉包（超市现成混合蔬菜）",
+      "category": "食品",
+      "why_good": "夏天没胃口时营养均衡、不需要开火烹饪、可自由搭配三文鱼/鸡蛋/萨拉米等食材，省时又健康",
+      "price_hint": "",
+      "verdict": "重点推荐",
+      "quote": "我很推荐大家可以试试这种简单的自己的烹调",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "用热杯装冷饮（咖啡厅点单技巧）",
+      "category": "生活妙招",
+      "why_good": "热杯是双层结构，既不结露不出水，手握也不湿，解决冷饮外带杯底部积水的问题",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "我推荐大家，就是如果你跟我一样讨厌那个冷饮的外带杯一直出水的问题，你下次就可以让他拿那个热杯给你装冷饮",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "保温杯保冰",
+      "category": "餐饮器具",
+      "why_good": "保温杯保冰效果很好，自带杯去装冷饮可长时间保持低温",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "保温杯保冰也挺好的",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "露营椅（低座高款）",
+      "category": "家居/办公用品",
+      "why_good": "可折叠收纳、适合办公室午休、半躺姿势比趴桌子舒适，不用时藏起来不影响工作环境",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "我在这里就特别想推荐大家一个东西啊，我觉得上班族可以用的……大家其实可以买一个露营椅在自己的办公室",
+      "name_corrected": false
+    }
+  ],
+  "media": [
+    {
+      "recommender": "惠子",
+      "title": "控糖革命",
+      "type": "书",
+      "synopsis": "讲述控制糖分摄入对健康影响的科普书，惠子读后开始重视多吃蔬菜。",
+      "why_recommended": "读了这本书后开始觉得吃蔬菜是非常好的事情，由此开始了夏天吃蔬菜沙拉的习惯，对饮食健康有启发",
+      "verdict": "推荐",
+      "quote": "是因为他送了我一本书叫控糖革命。然后我看了那本书之后，就开始觉得吃蔬菜是非常好的一件事情",
+      "name_corrected": false
+    }
+  ]
+}

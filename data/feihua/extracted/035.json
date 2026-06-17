@@ -1,0 +1,190 @@
+{
+  "episode": {
+    "vol": 35,
+    "title": "VOL.035：不带老公的旅行是最开心的！",
+    "eid": "630235d82427ab3f84afad2f",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/630235d82427ab3f84afad2f",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "肥杰",
+      "name": "厦门沙茶面",
+      "city": "厦门",
+      "category": "餐厅",
+      "what": "吃沙茶面",
+      "verdict": "推荐",
+      "reason": "肥杰非常喜欢沙茶制品，去厦门必吃，回上海后还专门去搜哪里有沙茶面",
+      "quote": "每次去厦门，我就特别特别期待去吃这个沙茶面。因为我真的特别喜欢吃任何沙茶制品的东西",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "梅子脆桃",
+      "city": "厦门",
+      "category": "其他",
+      "what": "在菜市场买话梅盐水泡的脆桃",
+      "verdict": "推荐",
+      "reason": "酸酸甜甜有盐味，非常清爽，很适合夏天，即使肥杰平时很怕酸也觉得特别好",
+      "quote": "就这个搭配让我觉得特别特别清爽。嗯，就你那个天气，很适合夏天",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "遍野露营地",
+      "city": "苏州",
+      "category": "活动",
+      "what": "glamping精致露营，看落日、烧烤",
+      "verdict": "推荐",
+      "reason": "适合没有露营经验的人，已搭建好天幕，可亲近大自然，是一种新型休闲方式，景色美丽",
+      "quote": "这次露营吧，就感觉挺好的。那个美丽是真的美丽",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "大吉割烹",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "吃日料，含刺身、生鸡蛋拌饭、日式家常菜",
+      "verdict": "推荐",
+      "reason": "家庭式日料小店，老板是日本大叔，店内常有日本人就餐，菜品正宗，进贤路上",
+      "quote": "大家如果想去尝这种家庭式的日料可以去大吉割烹",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "萧四女跷脚牛肉",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "吃跷脚牛肉、钵钵鸡、血旺",
+      "verdict": "推荐",
+      "reason": "清汤煮牛肉和牛下水，蘸干碟吃，辣度适中，很香，来自四川乐山的正宗风味",
+      "quote": "我觉得整体吃下来感觉还真的不错。而且这个东西吧，虽然它是这个四川乐山的食物，但是辣度是非常能够被大家接受的",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "肥杰",
+      "name": "维他气泡柠檬茶",
+      "category": "食品饮料",
+      "why_good": "维他柠檬茶加气泡版，有气之后完全感受不到甜腻口感，非常清爽，适合夏天解暑",
+      "price_hint": "",
+      "verdict": "重点推荐",
+      "quote": "这个加了气泡之后，这个维他气泡柠檬茶完全感受不到那种甜腻的黏腻的口感了，就很清爽",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "苹果 Studio Display",
+      "category": "数码",
+      "why_good": "大屏幕让剪视频剪音频体验极佳，窗口不重叠，自带扬声器，开箱体验好，提高生产力",
+      "price_hint": "较贵，苹果官方24期分期",
+      "verdict": "推荐",
+      "quote": "买回来之后，我并不觉得它有什么问题，我觉得用起来我已经很舒服了",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "Anker 磁吸无线充电宝（可变支架款）",
+      "category": "数码",
+      "why_good": "相比苹果MagSafe充电宝性价比更高，改善了充电慢发热等问题，可变支架功能使其不鸡肋，重量适中",
+      "price_hint": "比苹果MagSafe便宜（苹果约700元）",
+      "verdict": "推荐",
+      "quote": "Anker 这个其实属于折中了。大家对于苹果那边的一些不好的评价，然后它去改善了一下，并且它把这个支架这个功能整合在里面",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "优衣库男士无痕内裤",
+      "category": "服饰",
+      "why_good": "无接缝无皮筋，一体成型，贴合度好，跑步时不湿重，不产生痕迹，感觉类似泳裤",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "讲心里话感觉真的很奇妙，就穿上去之后的感觉就是一整块皮，嗯，贴合度也很好",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "优衣库 Airism 自带内置bra背心",
+      "category": "服饰",
+      "why_good": "自带内置bra省去内衣麻烦，吸汗透气适合夏天，能调整体态，价格仅59元",
+      "price_hint": "59元",
+      "verdict": "重点推荐",
+      "quote": "它才五十九块钱",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "玉泽护肤品",
+      "category": "护肤美妆",
+      "why_good": "与上海华山医院皮肤科合作研发，无刺激添加剂，适合敏感肌，一套含水乳霜防晒等十几样，价格实惠，男女皆宜",
+      "price_hint": "一套约600元含十几样",
+      "verdict": "重点推荐",
+      "quote": "它是，我忘记是跟哪个医院合作的，反正研发了这一套护肤品，它从水乳霜防晒对吧？还有精华面膜，还有那种小安瓶全都有，然后价格又非常的便宜",
+      "name_corrected": false
+    }
+  ],
+  "media": [
+    {
+      "recommender": "共同",
+      "title": "妈，别闹了",
+      "type": "剧集",
+      "synopsis": "台湾剧，贾静雯主演，讲述一个爱管闲事的大女儿与个性自由的妈妈、妹妹之间的家庭喜剧故事，尺度大节奏快。",
+      "why_recommended": "人物塑造鲜明极致，风格无厘头喜剧，节奏轻松适合下饭，两人都非常喜欢并认为值得看",
+      "verdict": "重点推荐",
+      "quote": "可以看，非常非常值得看",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "title": "非常律师禹英隅",
+      "type": "剧集",
+      "synopsis": "韩剧，讲述一位患有自闭症却极具法律天赋的女律师禹英隅，每集处理各种鸡毛蒜皮的案件，治愈温暖。",
+      "why_recommended": "女主朴恩斌对自闭症的演绎细节极为到位，案件贴近人情而非商战罪案，评分极高，两人都特别喜欢",
+      "verdict": "重点推荐",
+      "quote": "这部戏里面她就在里面演的这个女主角是一个患有自闭症的律师，但是她是法律界的天才，嗯，非常厉害",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "title": "The Ranch（牧场趣事）",
+      "type": "剧集",
+      "synopsis": "2016年美国多镜头喜剧，讲述美国西部农场主和两个儿子的家庭爱情故事，节奏缓慢，风格类似《老友记》。",
+      "why_recommended": "节奏悠闲，梗都是那种慢慢来的风格，适合做背景音，错过剧情不影响体验，中间几季评分达8.4-8.5",
+      "verdict": "推荐",
+      "quote": "大家可以去看一下，就当放松。就像我在家里面经常有时候放 Friends",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "title": "终极伐木工人",
+      "type": "纪录片",
+      "synopsis": "记录美国西部伐木产业运作的节目，跟拍伐木商人的日常工作，展示木材从砍伐到销售的全过程。",
+      "why_recommended": "猎奇开眼界，让人了解一个完全陌生的行业和生活方式，锯木厂老板的生活智慧让人敬佩",
+      "verdict": "推荐",
+      "quote": "挺猎奇的，我觉得挺猎奇的。因为以前你真的不知道，就是美国的这个伐木产业是怎么运作的",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "title": "可是我偏偏不喜欢",
+      "type": "书",
+      "synopsis": "台湾八零后女作家所著，写社会对女性的种种偏见，并以「可是我偏偏不喜欢」的方式一一回应。",
+      "why_recommended": "开头文字生活化，观点引人共鸣，但越到后面越矫情，惠子看到三分之二就看不下去了",
+      "verdict": "一般",
+      "quote": "慢慢的我觉得越来越矫情，越写到后面越矫情",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "title": "字母表谜案",
+      "type": "书",
+      "synopsis": "日本作家的侦探推理小说，包含多个独立案件，描写细腻，充满日式推理氛围，读者可边读边推理。",
+      "why_recommended": "日式探案风格，描写手法细腻、线索丰富，引人入胜，喜欢解谜逻辑推理的人非常适合",
+      "verdict": "推荐",
+      "quote": "因为它就是要给你不少线索，你不自觉的会开始自己也进行推理。所以我觉得非常引人入胜",
+      "name_corrected": false
+    }
+  ]
+}

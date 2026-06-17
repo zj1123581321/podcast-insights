@@ -1,0 +1,45 @@
+{
+  "episode": {
+    "vol": 21,
+    "title": "VOL.021：拖了十年才办的婚礼，只是一个烧钱的大项目",
+    "eid": "628106b64070a48aa1b5798c",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/628106b64070a48aa1b5798c",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "共同",
+      "name": "瑞Mara Queen（Mara Queen）",
+      "city": "大连",
+      "category": "其他",
+      "what": "试穿并购买/租赁婚纱，提供高端定制化婚纱服务",
+      "verdict": "重点推荐",
+      "reason": "店内婚纱全部来自国际大牌，服务极为贴心耐心，试衣间整层专属服务，彻底颠覆对婚纱租赁的认知；可寄快递到外地，性价比高于上海同牌",
+      "quote": "真的我能吹他一辈子，真的我就这样讲，我吹他一辈子，名字叫瑞 Mara Queen",
+      "name_corrected": true
+    }
+  ],
+  "product": [
+    {
+      "recommender": "惠子",
+      "name": "婚礼日记（微信小程序）",
+      "category": "App/工具",
+      "why_good": "专门聚合独立婚礼策划师，大部分都是户外婚礼风格，可按城市筛选，帮助找到有定制化能力的小众策划",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "他就给我推荐了一个微信上的小程序，叫做婚礼日记哦。他说这个上面的大部分都是户外的，然后都是独立的策划师",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "Lucy阿姨西装定制（上海）",
+      "category": "服装定制",
+      "why_good": "全定制西装，能纠正体态（高低肩、驼背），阿姨温柔贴心能平复情绪，曾多次推荐朋友；全定制比同价位成衣更合体好看",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "lucy阿姨这是一个在我的博客里面经常被提起的一个人，我非常非常喜欢lucy阿姨",
+      "name_corrected": false
+    }
+  ],
+  "media": []
+}

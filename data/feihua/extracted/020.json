@@ -1,0 +1,46 @@
+{
+  "episode": {
+    "vol": 20,
+    "title": "VOL.020：11年的爱情，都历历在目",
+    "eid": "6277cdf21ea622e04d279d6a",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/6277cdf21ea622e04d279d6a",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "共同",
+      "name": "铃木食堂",
+      "city": "北京",
+      "category": "餐厅",
+      "what": "日式可乐饼、肉饼、汉堡饼、寿喜锅",
+      "verdict": "推荐",
+      "reason": "排队四五小时也要去吃，口味独特，是两人大学期间最常光顾的餐厅之一",
+      "quote": "它的寿喜锅也好吃",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "金谷园",
+      "city": "北京",
+      "category": "餐厅",
+      "what": "饺子和锅贴，馅料选择极多，馅料扎实",
+      "verdict": "重点推荐",
+      "reason": "惠子明确喊话北京及周边朋友一定要去吃，两人评价称得上北京数一数二，承载大量大学回忆",
+      "quote": "真的太好吃了。我每一次回北京，我必须要到这个店里面",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "峨眉酒家",
+      "city": "北京",
+      "category": "餐厅",
+      "what": "宫保鸡丁（豪华版加腰果）、鸡丝凉面",
+      "verdict": "推荐",
+      "reason": "号称全国最正宗的宫保鸡丁，肥杰必点菜品，已推荐给多位朋友",
+      "quote": "所以呃我也把这个店推荐给很多朋友。对，所以在北京的朋友也可以去尝一尝峨眉酒家",
+      "name_corrected": false
+    }
+  ],
+  "product": [],
+  "media": []
+}

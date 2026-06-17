@@ -1,0 +1,166 @@
+{
+  "episode": {
+    "vol": 170,
+    "title": "越山吃海，尝一尝好时节｜VOL.170",
+    "eid": "67e00582dd11f9c8c18c642e",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/67e00582dd11f9c8c18c642e",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "共同",
+      "name": "纯之香沙茶面",
+      "city": "厦门同安",
+      "category": "餐厅",
+      "what": "沙茶面，加料：肉蓉、剔骨肉、虾、海蛎",
+      "verdict": "重点推荐",
+      "reason": "汤底浓郁醇香、无杂质、微微辣，肉蓉软糯有嚼劲，剔骨肉嫩滑，生意极好座无虚席",
+      "quote": "吃了这个纯之香的沙茶面，我终于体会到了沙茶的这种魅力让人上瘾",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "明月虾面",
+      "city": "厦门",
+      "category": "餐厅",
+      "what": "虾面（招牌虾面/普通虾面），用虾头熬制的虾油汤底",
+      "verdict": "重点推荐",
+      "reason": "米其林必比登，三十多年老店，虾头熬虾油满满一大锅，汤鲜味浓，虾仁新鲜带甜，市井氛围浓厚",
+      "quote": "满满一锅，虾头在里头熬油那个场面，你就觉得说哇天哪，那这一碗面汤也太值得怪不得",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "万利海鲜坊",
+      "city": "厦门",
+      "category": "餐厅",
+      "what": "蒸汽海鲜：北极贝、花蟹、沙虾、儿菜清炒",
+      "verdict": "推荐",
+      "reason": "本地人宴请朋友常去的非网红店，海鲜新鲜，蒸汽做法原汁原味；北极贝鲜到「天灵盖都被掀走」，花蟹极嫩壳薄肉满",
+      "quote": "这个贝啊里面你蒸完了之后，里面有那么一小口，鲜到天灵盖都被掀走了那种感觉",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "新荣记（台州本店）",
+      "city": "台州",
+      "category": "餐厅",
+      "what": "沙虾、秘制红薯（蜜汁红薯）、家烧萝卜、鲳鱼烧年糕、和牛蛋挞",
+      "verdict": "重点推荐",
+      "reason": "台州本店无服务费，比上海每道菜便宜二十到三十元；沙虾极嫩鲜甜，蜜汁红薯色香俱全、入味润泽，家烧萝卜每一口都入味到中心，服务五星甚至退菜无阻",
+      "quote": "很推荐大家去台州吃新荣记",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "豪香里脊肉（大中路店）",
+      "city": "厦门",
+      "category": "餐厅",
+      "what": "里脊肉串，四块钱一串，始创2005年",
+      "verdict": "重点推荐",
+      "reason": "正儿八经真里脊肉，炸得极嫩有汁水，肉质有纹理扯断时甚至弹嘴皮，是肥杰人生吃过最棒的里脊肉",
+      "quote": "这个里脊肉，我目前人生吃过最棒的里脊肉",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "蛋满贯（灌蛋）",
+      "city": "厦门",
+      "category": "餐厅",
+      "what": "灌蛋（非遗小吃）：海鸭蛋塞肉馅加香菇丁笋丁煮熟",
+      "verdict": "推荐",
+      "reason": "非遗美食有几百年历史，层次丰富：薄蛋白崩开、鲜蛋黄与肉馅混合、香菇笋丁增加口感，观赏性极高",
+      "quote": "好吃，是它真的好吃，嗯，好吃就好吃在它层次非常丰富",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "遇外滩（BFC店）",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "闽菜：熟醉富贵虾（皮皮虾）、五香卷、红鲟米糕、姜母鸭、葱烧河鳗、辣木苗、大红袍茶冻",
+      "verdict": "推荐",
+      "reason": "亚洲五十佳餐厅，闽菜之光，景观极佳正对浦东三件套，服务五星（虾头虾尾剥净另上），食材精致烹饪见功力",
+      "quote": "我感觉有些东西它甚至做的比本地的还好吃",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "Blues Cafe",
+      "city": "厦门",
+      "category": "餐厅",
+      "what": "鸳鸯dirty（南非茶+咖啡浓缩+牛奶）",
+      "verdict": "重点推荐",
+      "reason": "茶味霸道先到、咖啡味次到，奶香浓郁，杯量大，更新了惠子的dirty排名第一名",
+      "quote": "在厦门喝鸳鸯dirty，它更新了我的dirty排名，目前绝对的第一名，太好喝了",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "咖啡自留地",
+      "city": "厦门",
+      "category": "餐厅",
+      "what": "酱油芒果特调（奶泡+芒果+咖啡）",
+      "verdict": "推荐",
+      "reason": "奶香与芒果香融合清新，有幸福感，可与东北野摩卡媲美，「北有东北野摩卡，南有酱油芒果特调」",
+      "quote": "我给他想了一句口号，就是北有东北野摩卡，南有酱油芒果特调",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "胡萝卜咖啡",
+      "city": "大连",
+      "category": "餐厅",
+      "what": "黄桃dirty（牛奶加黄桃酱，配半块黄桃果肉）",
+      "verdict": "推荐",
+      "reason": "装修氛围好（玻璃顶小院冬暖夏凉），黄桃dirty甜味对冲咖啡苦涩，一口咖啡一口黄桃治愈感满满，适合不喜苦咖啡的朋友",
+      "quote": "喝一口咖啡，吃一口黄桃果肉的感觉。我忽然就感受到了那个黄桃软软嫩嫩的治愈感",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "碎银子咖啡",
+      "city": "大连",
+      "category": "餐厅",
+      "what": "SOE单品豆咖啡，十八元起，可玩盲盒猜豆",
+      "verdict": "推荐",
+      "reason": "只卖SOE，豆单丰富如元素周期表，性价比高，老板设置猜豆盲盒互动，适合豆子爱好者",
+      "quote": "碎银子是一个豆子爱好者，非常适合去玩一玩的地方",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "厦门同安越野赛（UTMB系列赛）",
+      "city": "厦门同安",
+      "category": "活动",
+      "what": "参加越野跑比赛，有8km、20km、50km、100km组别",
+      "verdict": "推荐",
+      "reason": "UTMB世界系列赛之一，赛道挑战性高、风景好、组织完善；8km组别适合新手，更高组别爬升大极具挑战",
+      "quote": "如果你想挑战，我觉得这个同安非常适合",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "共同",
+      "name": "溪木源小蓝盾防晒乳",
+      "category": "护肤/防晒",
+      "why_good": "质地水润不油腻，涂脸效果好，精英运动员向福昭也在用，跑步后晒黑程度明显减轻",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "它特别喜欢它的质地，就是它的质地特别好，是水润水润不油腻的那种感觉",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "溪木源美白防晒喷雾",
+      "category": "护肤/防晒",
+      "why_good": "身体大面积防晒喷涂方便，搭配防晒乳脸部+身体分工使用，出门跑步防晒效率高；中途补给点可补涂",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "你就直接拿这个喷雾喷这个整体一搭配。你在出门跑步前的这个防晒效率就很高",
+      "name_corrected": false
+    }
+  ],
+  "media": []
+}

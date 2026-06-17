@@ -1,0 +1,171 @@
+{
+  "episode": {
+    "vol": 102,
+    "title": "放弃和坚持，都需要勇气｜VOL.102",
+    "eid": "656c1dc951ba721857820b2b",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/656c1dc951ba721857820b2b",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "共同",
+      "name": "叡云",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "吃omakase，含鲍鱼肝酱拌鲍鱼、安康鱼肝、蟹柳蒸蛋、手握寿司等",
+      "verdict": "推荐",
+      "reason": "厨师技艺出色，菜品惊艳，一对一服务体验好，菜量丰富，套餐398或698，物有所值",
+      "quote": "整体体验下来，我觉得没有让我们失望，甚至挺惊艳的",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "FINE",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "吃brunch和改良西餐，点了寿喜烧意面、奶油炖菜等",
+      "verdict": "推荐",
+      "reason": "装修温馨有家庭感，菜品适合亚洲人口味，菜量不大可以多尝试，杭州北京也有分店",
+      "quote": "进去之后，我就会觉得一下子心情就变好。因为他那个餐厅的装修会有一种家庭感",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "沪西老弄堂",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "吃上海本帮浇头面，尤其是蛤蜊猪肝面、腰花面、拌面，加配菜咸菜毛豆",
+      "verdict": "重点推荐",
+      "reason": "浇头量足良心，价格随原材料涨跌变动实惠，猪肝切得薄、味道好，有人情味，广东路店方便",
+      "quote": "我真的是属于我自己的私藏菜单。我跟你讲，我这个没有对外说过",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "杜哈夫",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "买了香草海盐蛋糕（头牌），七人聚会用，一百二十八元",
+      "verdict": "重点推荐",
+      "reason": "口感半流体不甜不腻，奶油香味浓郁，朋友们吃完都夸，被称为「蛋糕中的爱马仕」",
+      "quote": "这个蛋糕真的好吃，但它没什么造型，长得就非常普通。它的名字叫做杜哈夫",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "伯尼亚蛋糕店",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "订了美元造型蛋糕（800元），翻糖造型极真，内芯为巧克力/抹茶/红丝绒",
+      "verdict": "一般",
+      "reason": "造型非常到位适合拍照发社交，但口感又粉又干像嚼沙子，三分之二被丢掉",
+      "quote": "这个蛋糕它就仅限于造型了，吃可不是一般的难吃",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "嘉里中心B2生吐司店",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "买了天妇罗大虾生吐司三明治，108元一份",
+      "verdict": "避雷",
+      "reason": "价格极贵，一份三个虾夹半片吐司要108元，和牛版168元，店铺没有点评，性价比极差",
+      "quote": "就是嘉里中心B2的一个叫生吐司的店，它就是卖生吐司",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "惠子",
+      "name": "Casetify 手机挂链（珠链款）",
+      "category": "手机配件",
+      "why_good": "设计感强，可缠手腕当手饰，也可挂在包上做装饰，做工有别于仿品，多用途",
+      "price_hint": "两百多元",
+      "verdict": "推荐",
+      "quote": "链儿它两百多块钱，当一个珠链好几用，就你缠在手上，你会觉得哎是手上的一个装饰",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "Casetify 镜面手机壳",
+      "category": "手机配件",
+      "why_good": "外观时尚，网红明星常用，是时尚单品",
+      "price_hint": "五百多元",
+      "verdict": "一般",
+      "quote": "它这个手机壳值得推荐的地方在于它确实很好看，而且它像一个时尚单品",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "苹果官方硅胶手机壳",
+      "category": "手机配件",
+      "why_good": "手感出色超过市面其他硅胶壳，颜色与iPhone钛金属机身契合，可24期分期",
+      "price_hint": "398元",
+      "verdict": "推荐",
+      "quote": "我第一次用这个手机，我感觉手机壳手感爆好。嗯，这个手机壳这个硅胶感，果然官方就是官方",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "小礼帽",
+      "category": "服饰配件",
+      "why_good": "质感超出价格预期，来自服装学院毕业秀作品，做工精良，戴上没有负担，提升穿搭可能性",
+      "price_hint": "276元",
+      "verdict": "推荐",
+      "quote": "这顶帽子两百七十六。非常具有性价比，而且这个帽子到手的质感绝对超过两百七十六",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "甜筒滤杯（冰淇淋杯）",
+      "category": "咖啡器具",
+      "why_good": "30度锥角下水快，体验独特，骨架螺旋状，白瓷款有田烧工艺，趣味性高",
+      "price_hint": "树脂款约99元，白瓷款约270元",
+      "verdict": "推荐",
+      "quote": "我推荐就是我觉得值得为它这个趣味性买单",
+      "name_corrected": true
+    }
+  ],
+  "media": [
+    {
+      "recommender": "共同",
+      "title": "涉过愤怒的海",
+      "type": "电影",
+      "synopsis": "黄渤饰演的父亲为女儿踏上复仇之路，是一部融合悬疑与复仇的国产电影，色调压抑、镜头极具张力。",
+      "why_recommended": "运镜独特大量特写渲染情绪，色调压抑带入感强，演员演技出色，涉及心理问题值得探究人性，属国产稀有复仇题材",
+      "verdict": "推荐",
+      "quote": "喜欢悬疑，然后喜欢探究人性的朋友们，一定要去看这部电影",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "title": "芭蕾复仇曲",
+      "type": "电影",
+      "synopsis": "Netflix出品女性复仇爽片，主角为替自杀闺蜜复仇的格斗高手，赛博朋克风格运镜，打戏干净利落。",
+      "why_recommended": "爽快纯粹的复仇爽片，赛博朋克视觉风格独特，镜头语言更出色，节奏紧凑一个半小时意犹未尽",
+      "verdict": "重点推荐",
+      "quote": "推荐大家去看，这个真的是非常非常推荐",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "title": "故乡，别来无恙",
+      "type": "剧集",
+      "synopsis": "以成都为背景的女性群像剧，任素汐、史策、李雪琴等四位女演员出演各自回归故乡后的故事。",
+      "why_recommended": "台词松弛真实，演员演技自然不做作，色调温暖，没有坏人，类似现代版「蓝归喜事」，适合下饭",
+      "verdict": "一般",
+      "quote": "你如果特别在意观看体验的话，你也可以酌情的跳过来收听",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "title": "问心",
+      "type": "剧集",
+      "synopsis": "以心脏外科为背景的国产医疗职业剧，赵又廷、金世佳、毛晓彤主演，深度展现医院手术、医患关系及体制内的职场生态。",
+      "why_recommended": "演员演技出色，场景布置高度还原真实医院，手术细节专业震撼，每集故事各异，被誉为「本土化机智的医生生活」",
+      "verdict": "重点推荐",
+      "quote": "就必须要看，前面那些可以先放一放。这部先去看，他就是《问心》，年度最佳职业剧",
+      "name_corrected": false
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "episode": {
+    "vol": 146,
+    "title": "假如这辈子只能…你会怎么选？｜VOL.146",
+    "eid": "670279d36c7f817786159f52",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/670279d36c7f817786159f52",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "共同",
+      "name": "顺德",
+      "city": "广东",
+      "category": "景点",
+      "what": "美食体验，联合国评定世界美食之都",
+      "verdict": "推荐",
+      "reason": "潮州澳门和顺德被联合国评定为世界美食之都，两人都想找机会去",
+      "quote": "那另外两个咱还得找机会去一去",
+      "name_corrected": false
+    },
+    {
+      "recommender": "共同",
+      "name": "潮州",
+      "city": "广东",
+      "category": "景点",
+      "what": "美食体验，联合国评定世界美食之都",
+      "verdict": "推荐",
+      "reason": "潮州澳门和顺德被联合国评定为世界美食之都，值得一去",
+      "quote": "潮州澳门和顺德这三个市是联合国评定的世界美食之都",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "肥杰",
+      "name": "小红书",
+      "category": "APP",
+      "why_good": "工具属性强，搜索攻略、教程、指南非常详细，比其他平台更细致，涵盖旅游攻略、马拉松报名等各类生活指南",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "小红书上面搜这种各种各样的什么教程攻略指南，特别特别有用",
+      "name_corrected": false
+    }
+  ],
+  "media": [
+    {
+      "recommender": "肥杰",
+      "title": "老友记",
+      "type": "剧集",
+      "synopsis": "六位好友在纽约共同生活的喜剧，内容轻松幽默，可无限循环观看。",
+      "why_recommended": "陪伴感强，不需要仔细看也可以当背景，仔细看又非常好看，而且集数多不会断，还能练英语",
+      "verdict": "重点推荐",
+      "quote": "老友记真的是太全面了，太全面了",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "title": "权力的游戏",
+      "type": "剧集",
+      "synopsis": "史诗奇幻剧，融合权力斗争、奇幻元素与感情线，如同一个巨大的游戏。",
+      "why_recommended": "内容全面，有奇幻、权力斗争、感情各种元素，更新时间长但一直在追，让人非常享受",
+      "verdict": "推荐",
+      "quote": "这个剧呢也挺全面的，就是他又有奇幻的，然后又有权力斗争的又有感情的。他甚至像一个巨大的游戏，全方位让人很享受",
+      "name_corrected": true
+    },
+    {
+      "recommender": "肥杰",
+      "title": "凡人歌",
+      "type": "剧集",
+      "synopsis": "都市剧，讲述普通人在职场与生活中做出选择的故事，其中李小月拒绝升职的情节令人印象深刻。",
+      "why_recommended": "其中李小月拒绝做部门经理的桥段让人重新审视「不上进」背后的智慧，引发对人生选择的思考",
+      "verdict": "推荐",
+      "quote": "看到李小月，你再看到其他的人里面，那些其他的人在工作上，不管是卷也好，奋斗也好，煎熬也好，难熬也好。你会发现李小月其实很厉害，她拒绝很牛逼",
+      "name_corrected": false
+    }
+  ]
+}

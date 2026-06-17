@@ -1,0 +1,35 @@
+{
+  "episode": {
+    "vol": 172,
+    "title": "人老迷惑又叛逆，要给医生吃安慰剂｜VOL.172",
+    "eid": "67f26d310decaeb094386b31",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/67f26d310decaeb094386b31",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "肥杰",
+      "name": "慧杰开口水饺",
+      "city": "大连",
+      "category": "餐厅",
+      "what": "吃开口水饺",
+      "verdict": "推荐",
+      "reason": "上了大众点评必吃榜，非常有名，排队人多，带父母前去体验后反响良好",
+      "quote": "说这家店真的不错，还有可能会排队",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "共同",
+      "name": "可心柔纸巾",
+      "category": "纸巾/生活用品",
+      "why_good": "质地非常柔软，对鼻炎人群和皮肤敏感人群特别友好，朋友圈中也有人专门推荐",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "对于那种鼻炎人群啊，那种敏感人群非常好，它柔软",
+      "name_corrected": false
+    }
+  ],
+  "media": []
+}

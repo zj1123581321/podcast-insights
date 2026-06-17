@@ -1,0 +1,65 @@
+{
+  "episode": {
+    "vol": 128,
+    "title": "当世界上最不同的两个人偏要在一起｜VOL.128",
+    "eid": "665c917463c334a2fbd9124c",
+    "source_url": "https://www.xiaoyuzhoufm.com/episode/665c917463c334a2fbd9124c",
+    "pubDate": ""
+  },
+  "place": [
+    {
+      "recommender": "共同",
+      "name": "金谷园",
+      "city": "上海",
+      "category": "餐厅",
+      "what": "两人大学时唯一能吃到一起的食物",
+      "verdict": "推荐",
+      "reason": "南北饮食差异大，金谷园是两人共同能接受的少数餐厅之一，因此常向听众推荐",
+      "quote": "好多朋友老是听我们推荐金谷园，为什么我们会这么喜欢推荐金谷园？我告诉你，原因其实很简单，因为上大学的时候，这是我们两个人唯一能吃到一起去的东西。",
+      "name_corrected": false
+    }
+  ],
+  "product": [
+    {
+      "recommender": "肥杰",
+      "name": "溪木源山茶花面膜",
+      "category": "护肤",
+      "why_good": "奶皮技术，贴合感好，水润，可修护晒伤和干燥，敷后肤质变化明显",
+      "price_hint": "",
+      "verdict": "重点推荐",
+      "quote": "我如果说你最喜欢的一个是哪一个？我基本上都会说山茶花面膜。因为我觉得这面膜敷到脸上真的太舒服了。",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "溪木源层孔菌精华水乳",
+      "category": "护肤",
+      "why_good": "控油效果好，经真人上脸测试而非仅实验室参数，适合油敏肌，可帮助妆容持久",
+      "price_hint": "",
+      "verdict": "推荐",
+      "quote": "他们就说用这个层孔菌精华水乳可以非常有效的减少这种后半天出油的现象。",
+      "name_corrected": false
+    },
+    {
+      "recommender": "惠子",
+      "name": "溪木源御创木祛痘精华",
+      "category": "护肤",
+      "why_good": "无酸配方更温和，祛痘效果快，适合敏感肌，可厚涂狙击痘痘或薄涂预防",
+      "price_hint": "",
+      "verdict": "重点推荐",
+      "quote": "你说山茶花面膜是你最喜欢的。这个祛痘精华是我最喜欢的，就我真的很怕他被你用完……第二天周围那层红色就变少了，第三天这个痘痘就破了哦，第四天它就扁掉了。",
+      "name_corrected": false
+    },
+    {
+      "recommender": "肥杰",
+      "name": "溪木源黑云山全能乳",
+      "category": "护肤",
+      "why_good": "男士护肤懒人必备，一瓶满足控油、保湿、舒缓等多种需求，容量适合随身携带出差",
+      "price_hint": "",
+      "verdict": "重点推荐",
+      "quote": "这个黑云山全能乳，它就是我之前说的一瓶，你能搞定基本上百分之八十的需求，男性的什么控油啊、保湿啊、舒缓哪咱还完……所以我真的很推荐男性。",
+      "name_corrected": false
+    }
+  ],
+  "media": []
+}
