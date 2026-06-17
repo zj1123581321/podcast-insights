@@ -27,6 +27,7 @@ function feihua() {
       { k: "list", label: "列表" },
       { k: "taste", label: "口味画像" },
       { k: "blacklist", label: "红黑榜" },
+      { k: "about", label: "关于" },
     ],
     verdicts: VERDICT,
     filters: { q: "", category: "", recommender: "", verdicts: [], vol: "", province: "", city: "", sort: "" },

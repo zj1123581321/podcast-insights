@@ -64,5 +64,18 @@ body{margin:0;font-family:-apple-system,"PingFang SC","Microsoft YaHei",system-u
 .reason{font-size:.86rem;margin:.3rem 0}
 .quote{font-size:.8rem;color:var(--muted);margin:.2rem 0 0;border-left:2px solid var(--line);padding-left:.5rem}
 .quote.warn::after{content:" ⚠存疑";color:#d97706}
+.about{max-width:720px;margin:0 auto;background:var(--card);border:1px solid var(--line);
+  border-radius:12px;padding:1.4rem 1.6rem;line-height:1.75}
+.about h2{margin:.2rem 0 .8rem;font-size:1.3rem}
+.about h3{margin:1.3rem 0 .5rem;font-size:1.05rem;color:var(--accent)}
+.about p{margin:.6rem 0;color:#374151}
+.about ol{margin:.4rem 0;padding-left:1.3rem}
+.about ol li{margin:.55rem 0}
+.about-links{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.2rem!important}
+.about-links a{display:inline-block;padding:.45rem .9rem;border:1px solid var(--accent);
+  border-radius:8px;color:var(--accent);text-decoration:none;font-size:.9rem}
+.about-links a:hover{background:var(--accent);color:#fff}
+.about-byline{color:var(--muted);font-size:.82rem;margin-top:1rem!important}
 .foot{padding:1.2rem 1rem;text-align:center;color:var(--muted);font-size:.78rem}
+.foot .link{color:var(--accent)}
 @media(max-width:640px){.echart{height:60vh}.filters{top:49px}}

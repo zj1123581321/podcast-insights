@@ -31,8 +31,8 @@
     </template>
   </nav>
 
-  <!-- 过滤器（跨 tab 共享） -->
-  <section class="filters" x-show="!loading">
+  <!-- 过滤器（跨 tab 共享；关于页不适用） -->
+  <section class="filters" x-show="!loading && tab!=='about'">
     <input type="search" placeholder="搜索 名称/理由/原文…" x-model="filters.q" />
     <select x-model="filters.category">
       <option value="">全部类型</option>
@@ -73,7 +73,7 @@
   </section>
 
   <!-- 当前生效筛选：跨 tab 常驻，逐个可移除，让用户随时看清状态、随时回退 -->
-  <section class="activebar" x-show="!loading && activeFilters.length" x-cloak>
+  <section class="activebar" x-show="!loading && tab!=='about' && activeFilters.length" x-cloak>
     <span class="lbl">筛选中：</span>
     <template x-for="a in activeFilters" :key="a.k">
       <button class="fchip" @click="clearFilter(a.k)"><span x-text="a.label"></span> ✕</button>
@@ -172,8 +172,30 @@
     </div>
   </section>
 
+  <!-- 关于 / 创作历程 -->
+  <section x-show="!loading && tab==='about'" class="pane" x-cloak>
+    <article class="about">
+      <h2>关于本站 · 创作历程</h2>
+      <p>这是把播客《肥话连篇》全部 <strong>234 期</strong>里的 <strong>935 条推荐</strong>聚成的一张可查、可逛的地图。缘起很简单:听播客时主播常推荐些东西——某个城市的馆子、在追的剧、顺手的小物件,当下记一句"回头试试",事后却无从检索(音频里的文本搜不到)。于是干脆让手头的工具自己长出了个解法。</p>
+
+      <h3>怎么做出来的</h3>
+      <ol>
+        <li><strong>把声音变成字。</strong>先抓下全部 234 期链接(小宇宙网页端默认只显示最近 10 集,得专门抓历史列表),提交到自建的音视频转录服务,得到<strong>区分说话人、经 LLM 校对</strong>的文字稿。ASR 常把主播名写错,额外做了一步人名归一。</li>
+        <li><strong>把字变成结构化数据。</strong>用 Claude Code 的 Workflow 对 234 篇稿子跑同一套提取逻辑(Sonnet,约 8 并发,三四十分钟跑完),抠出"推荐了什么"——实地 / 好物 / 影视剧,各有统一字段。每条都做了<strong>原文反查</strong>:确认不是模型编的,也能跳回原话听上下文。</li>
+        <li><strong>把数据变成地图。</strong>城市级聚合落点;具体店铺点一下店名跳高德搜索,精确定位甩给高德。底图特意用了<strong>带审图号的合规版本</strong>。整个可视化部署在 Cloudflare 上。</li>
+      </ol>
+
+      <p class="about-links">
+        <a href="https://mp.weixin.qq.com/s/Tq0S-camUlp_OQULdtn5Ew" target="_blank" rel="noopener noreferrer">📖 阅读完整创作手记（微信公众号）</a>
+        <a href="https://github.com/zj1123581321/podcast-insights" target="_blank" rel="noopener noreferrer">💻 源码（GitHub）</a>
+      </p>
+      <p class="about-byline">作者:张立行 · 数据来自播客《肥话连篇》</p>
+    </article>
+  </section>
+
   <footer class="foot">
     数据来自播客《肥话连篇》结构化提取 · 地图含审图号 GS(2019)1719 合规底图 · 纯静态站
+    · <a href="#" @click.prevent="tab='about'" class="link">创作历程</a>
   </footer>
 </div>
 </body>
