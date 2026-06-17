@@ -1,18 +1,21 @@
 # 流程详解 / 数据契约 / 已知坑
 
-7 步流水线，每步读上一步产物、写下一步输入。所有步骤**断点续跑**。
-纯函数逻辑抽到 `_aggregate.py` / `_geocode.py`（与 `_common.py` 同为可导入模块），
-由 `tests/` 单测；`6_/7_` 为薄壳。
+8 步流水线，每步读上一步产物、写下一步输入。所有步骤**断点续跑**。
+纯函数逻辑抽到 `_aggregate.py` / `_geocode.py` / `_proofread.py`（与 `_common.py` 同为可导入模块），
+由 `tests/` 单测；`6_/7_/8_` 为薄壳。
 
 ```
-1 fetch_episodes ─ episodes.json
+1 fetch_episodes ─ episodes.json                （含 pubDate + description）
 2 submit_transcribe ─ view_urls.{json,txt}     （提交转录，收集 view token）
 3 fetch_calibrated ─ transcripts/{vol}_{title}.txt
 4 normalize_names ─ 就地修订 transcripts
 5 extract.workflow ─ extracted/{vol}.json       （Claude Workflow，Sonnet）
-6 aggregate ─ recommendations_all.{json,md}     （+ id / 品类归一 / city 规范化）
+6 aggregate ─ recommendations_all.{json,md}     （+ id / pub_date / episodes / 品类归一 / city 规范化）
 7 geocode ─ geo.json                            （city_key → 经纬度，Nominatim）
+8 proofread ─ 校对 extracted 名字 + corrections_review.json （Claude Workflow，Sonnet；对照 description 纠 ASR 听岔）
 → web/ 纯静态可视化站（Alpine + ECharts，零 build）
+
+注：步骤8 校对后需重跑 6→7 重生成前端数据。日期/描述来自步骤1 的 episodes.json。
 ```
 
 ---
@@ -25,6 +28,7 @@
 - **refresh token 一次性轮换**：每次刷新使旧的失效，新 token 持久化到 `data/<key>/episodes/.token_state.json`。
   ⚠ 不要和别的在用服务共用同一 refresh token，会互相顶掉。
 - pid 优先取 `config.xyz_pid`，否则按 `config.name` 搜索。
+- `slim()` 保留每集 `pubDate`（发布日期）与 `description`（作者手写简介）：前者给前端做日期筛选/排序、单集 banner；后者既上站做单集背景，也是步骤8 校对 ASR 名字的干净对照源。
 
 ## 步骤2 submit_transcribe — 提交转录
 
@@ -80,8 +84,10 @@
   - **city 规范化** → 每条 place 写 `city_key`/`display_city`。脏值处理顺序：`config.city_canonical.overrides` 优先 →
     去括号内容 → 按 `·//、` 取首段 → 剥省/国前缀（江苏南通→南通；直辖市除外防误切）。无法判定→`null`（前端归"未定位"）。
     实测 85 个原始 city → **55 个规范城市**，7 条无定位。
+- **日期注入**：按 `episode.eid` join `episodes/episodes.json`，给每条推荐写 `pub_date`（`pub_date_of` 把 ISO 截到 `YYYY-MM-DD`）。
+- **单集元数据**：`build_episodes` 汇出 `episodes` 数组（vol/title/pub_date/description/ep_url，按 vol 升序），前端单集 banner + 时间线用；描述不内联进 935 条 item，避免冗余。
 - 产物：
-  - `recommendations_all.json`：`{podcast, stats, items[]}` 扁平总表。每条含 `id/vol/category/recommender/verdict/name/city_key/display_city/quote_unverified + 原始 item`。
+  - `recommendations_all.json`：`{podcast, stats, episodes[], items[]}` 扁平总表。每条 item 含 `id/vol/pub_date/category/recommender/verdict/name/city_key/display_city/quote_unverified + 原始 item`。
     `stats` 增 `place_unlocated`、`distinct_cities`。
   - `recommendations_all.md`：可读总清单，按 类别 → verdict 分组。
 
@@ -94,13 +100,26 @@
   解法：`config.geocode_overseas` 显式名单 → 海外城市走全球查询，其余强制 `countrycodes=cn`。
 - 产物 `geo.json`：`{city_key: {lat,lng,display_name,status}}`，与 `recommendations_all.json` 解耦，web 端按 `display_city` join。
 
+## 步骤8 proofread — 用描述校对 ASR 听岔的专名
+
+- **动机**：ASR 常把店名/物品/作品名听岔（微煌→威皇、东北林丹→灵丹、都是他的错→她的错）。每集作者手写 `description` 是干净文本，配合该条 `quote` 上下文，能让 LLM 判断哪个名字错了并给正名。
+- **纯函数在 `_proofread.py`（单测覆盖）**：`episode_items`/`build_episode_input`（组装单集输入，id 与聚合层一致）、`parse_corrections`（规整校验，丢弃空名/无变化/非数置信）、`partition_corrections`（按阈值分流）、`apply_corrections`（就地改名 + 留 `name_original`/`name_corrected`，名字漂移即跳过防误伤）。
+- **两端 + 中间 workflow**：
+  - `8_proofread.py --build-inputs` → 每集 `proofread/{vol}.json`（描述 + 条目，gitignore）。
+  - `8_proofread.workflow.js`（Claude Workflow，**每集一个 Sonnet agent**，pipeline 并发）：读输入、对照描述纠错、schema 输出 `[{id,old_name,new_name,confidence,evidence}]`。**保守策略**：拿不准不改、只改听岔的字不扩写、地名/城市不校对，护住「对照原文核验过」的招牌。
+  - `8_proofread.py --apply corrections_raw.json` → 按阈值（默认 **0.85**）分流：高置信就地改 `extracted/*.json`，低置信进 `corrections_review.json`（人工过目）；改动留档 `corrections_applied.json`。
+- **跑完重跑 6→7** 重生成前端数据。feihua 首跑：234 集提出 28 条，自动应用 22 / 待审 6。
+- **置信分级**：描述有直接证据→0.85~0.98（自动）；仅 quote+常识→0.5~0.8（待审）。个别描述本身有笔误（如《哪吒之魔童脑海》实为《闹海》）按官方名人工校正。
+
 ## web/ — 纯静态可视化站
 
 - **零后端、零 Docker**：geocoding 在构建期跑；线上是静态文件，丢 GitHub Pages / nginx 静态目录即可。
 - **零 build**：`index.html` + `app.js` + Alpine/ECharts(**本地 vendor**，`web/vendor/`，不依赖 CDN → 国内网络可用、运行时零第三方)。⚠ `app.js` 必须在 Alpine `<script>` 之前，否则 Alpine 自启动微任务先于 `window.feihua` 定义 → "feihua is not defined"。图表库缺失时降级:列表/过滤仍可用。
 - **零 server ≠ 能 file:// 直开**：ES module + fetch 被 CORS 拦，本地开发 `python -m http.server`。
 - **运行时零第三方**：底图为随站打包的 `web/china.geojson`（阿里 DataV，**审图号 GS(2019)1719**，含南海诸岛/九段线、台湾、藏南/阿克赛钦按 GB 标准）。⚠ 别换非合规 GeoJSON。
-- 四视图：地图（城市气泡 + 海外单列 + 无定位计数）/ 列表（过滤+搜索+深链+店名跳高德）/ 口味画像 / 红黑榜。
+- 五视图：地图（城市气泡 + 海外单列 + 无定位计数）/ 列表（过滤+搜索+深链+店名跳高德）/ 口味画像 / 红黑榜 / 关于（创作历程）。
+- **筛选维度**：搜索 / 类型 / 主播 / 单集 / **年份** / 省份 / 城市 / 推荐倾向；排序支持集数与**发布日期**新旧。
+- **日期与描述**：卡片显示发布日期；按单集筛选时顶部 banner 展示该集发布日期 + 作者手写简介（数据来自 `recommendations_all.json` 的 `episodes` 数组）；口味画像页有「推荐条数·按月分布」时间线。
 - 国内/海外判定用 geocoder 的国家标注（`display_name` 含「中国」），不用经纬度盒子（曼谷在盒内但属泰国）。
 
 ---
@@ -109,19 +128,21 @@
 
 | 文件 | 生产者 | 关键字段 |
 |---|---|---|
-| `episodes/episodes.json` | 步骤1 | `eid, title, pubDate, episode_url, audio_url` |
+| `episodes/episodes.json` | 步骤1 | `eid, title, pubDate, description, episode_url, audio_url` |
 | `episodes/view_urls.json` | 步骤2 | `view_url, view_token, title, pubDate` |
 | `transcripts/{vol}_{t}.txt` | 步骤3 | front-matter + 说话人标签正文 |
-| `extracted/{vol}.json` | 步骤5 | `episode, place[], product[], media[]` |
-| `recommendations_all.json` | 步骤6 | `stats, items[]`（含 id/city_key/display_city；web 数据源） |
+| `extracted/{vol}.json` | 步骤5 | `episode, place[], product[], media[]`（步骤8 就地改名 + `name_original`） |
+| `recommendations_all.json` | 步骤6 | `stats, episodes[], items[]`（item 含 id/pub_date/city_key/display_city；web 数据源） |
 | `geo.json` | 步骤7 | `{city_key: {lat,lng,display_name}}`（web 按 display_city join） |
+| `corrections_review.json` | 步骤8 | 低置信待审修正 `[{id,old_name,new_name,confidence,evidence}]` |
+| `corrections_applied.json` | 步骤8 | 已自动应用的修正（留档备查） |
 
 ## 测试
 
-`python -m pytest`（纯函数：id、品类归一、city 规范化、Nominatim 解析/断点续跑 + 6_aggregate 输出 golden 回归）。web 为展示逻辑，走手动/浏览器 QA。
+`python -m pytest`（纯函数：id、品类归一、city 规范化、pub_date/episodes 派生、Nominatim 解析/断点续跑、校对解析/分流/就地应用 + 6_aggregate 输出 golden 回归）。当前 63 例。web 为展示逻辑，走手动/浏览器 QA。
 
 ## 新增一档播客
 
 1. 写 `config/<key>.json`（key、name、xyz_pid、hosts、name_normalization、category_normalization、city_canonical、geocode_overseas…）。
 2. `.env` 里 `PODCAST=<key>`（或每条命令前临时 `PODCAST=<key>`）。
-3. 跑 1→7；步骤5 的 Workflow args 改成对应 baseDir/hosts/total。web 端目前对 feihua 硬编码数据路径，多播客切换见 NOT-in-scope。
+3. 跑 1→8（5 与 8 是 Claude Workflow）；步骤5 的 Workflow args 改成对应 baseDir/hosts/total。web 端目前对 feihua 硬编码数据路径，多播客切换见 NOT-in-scope。
