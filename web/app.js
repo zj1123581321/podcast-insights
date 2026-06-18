@@ -1,6 +1,7 @@
 /* 《肥话连篇》推荐可视化 — 纯静态、零 build。
- * Alpine 管外壳/过滤/路由；ECharts 画地图与统计图。运行时零第三方调用
- * （底图为随站打包的合规 GeoJSON）。数据由 pipeline 离线再生。 */
+ * Alpine 管外壳/过滤/路由；ECharts 画地图与统计图。库与底图随站打包（合规 GeoJSON）；
+ * 唯一的第三方调用是 Cloudflare Web Analytics beacon（隐私友好、免 cookie）。
+ * 数据由 pipeline 离线再生。 */
 
 const DATA = "../data/feihua/recommendations_all.json";
 const GEO = "../data/feihua/geo.json";
