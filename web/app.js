@@ -33,6 +33,7 @@ function feihua() {
     verdicts: VERDICT,
     filters: { q: "", category: "", recommender: "", verdicts: [], vol: "", year: "", province: "", city: "", sort: "" },
     route: { item: "" },
+    searchOpen: "",
     charts: { map: null, taste: null, tasteVerdict: null, tasteTimeline: null },
 
     async init() {
@@ -214,9 +215,59 @@ function feihua() {
       const m = it.item || {};
       return m.reason || m.why_good || m.why_recommended || m.synopsis || "";
     },
-    shopUrl(it) {
-      const q = `${it.display_city || ""} ${it.name}`.trim();
-      return "https://www.amap.com/ssr/search?query=" + encodeURIComponent(q);
+    // 按品类给不同搜索源：实地→地图/探店，好物→电商，影视剧→影评库。
+    // 全是 https 网页链接（桌面/手机/微信都能开）；点评 web 搜索有登录墙，
+    // 故点评走 scheme 唤端（best-effort，仅手机+装了App+非微信内置浏览器有效）。
+    searchSources(it) {
+      const enc = encodeURIComponent;
+      const name = it.name || "";
+      const city = it.display_city || "";
+      const xhs = (kw) => "https://www.xiaohongshu.com/search_result/?keyword=" + enc(kw);
+      if (it.category === "product") {
+        return [
+          { label: "淘宝", url: "https://s.m.taobao.com/h5?q=" + enc(name) },
+          { label: "京东", url: "https://so.m.jd.com/ware/search.action?keyword=" + enc(name) },
+          { label: "小红书", url: xhs(name) },
+        ];
+      }
+      if (it.category === "media") {
+        return [
+          { label: "豆瓣", url: "https://m.douban.com/search/?query=" + enc(name) },
+          { label: "小红书", url: xhs(name) },
+        ];
+      }
+      // place（默认）
+      const q = `${city} ${name}`.trim();
+      const amap = "https://www.amap.com/search?query=" + enc(q);
+      return [
+        { label: "高德地图", url: amap },
+        { label: "小红书", url: xhs(`${name} ${city}`.trim()) },
+        { label: "大众点评App", scheme: "dianping://searchshoplist?keyword=" + enc(name), fallback: amap },
+      ];
+    },
+    toggleSearch(id) {
+      this.searchOpen = this.searchOpen === id ? "" : id;
+    },
+    // 唤起本地 App：Android 用 intent:// 带 fallback（系统自动降级）；
+    // iOS/其他尝试 scheme，~1.4s 仍停留在页面则退回网页兜底。
+    openApp(scheme, fallback) {
+      const ua = navigator.userAgent || "";
+      if (/Android/i.test(ua)) {
+        const tail = scheme.replace(/^[a-z]+:\/\//i, "");
+        window.location.href =
+          "intent://" + tail +
+          "#Intent;scheme=dianping;package=com.dianping.v1;S.browser_fallback_url=" +
+          encodeURIComponent(fallback) + ";end";
+        return;
+      }
+      let left = false;
+      const onHide = () => { left = true; };
+      document.addEventListener("visibilitychange", onHide);
+      window.location.href = scheme;
+      setTimeout(() => {
+        document.removeEventListener("visibilitychange", onHide);
+        if (!left && !document.hidden) window.location.href = fallback;
+      }, 1400);
     },
     cityCount(c) {
       return this.items.filter((i) => i.display_city === c).length;

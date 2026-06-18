@@ -141,7 +141,16 @@
       <template x-for="it in filtered" :key="it.id">
         <article class="card" :id="'item-'+it.id" :class="{hot: it.id===route.item, ['v-'+it.verdict]: true}">
           <div class="cardtop">
-            <a class="name" :href="shopUrl(it)" target="_blank" rel="noopener noreferrer" x-text="it.name"></a>
+            <div class="namewrap">
+              <button class="name" type="button" @click="toggleSearch(it.id)" x-text="it.name" title="点店名换搜索源"></button>
+              <div class="searchmenu" x-show="searchOpen===it.id" @click.outside="searchOpen=''" x-cloak>
+                <span class="smhead">搜一搜</span>
+                <template x-for="s in searchSources(it)" :key="s.label">
+                  <a class="smitem" :href="s.scheme ? '#' : s.url" :target="s.scheme ? '_self' : '_blank'" rel="noopener noreferrer"
+                     @click="if(s.scheme){$event.preventDefault();openApp(s.scheme,s.fallback);} searchOpen=''" x-text="s.label"></a>
+                </template>
+              </div>
+            </div>
             <span class="badge" :style="'background:'+verdictColor(it.verdict)" x-text="it.verdict"></span>
           </div>
           <div class="meta">
@@ -176,7 +185,16 @@
       <template x-for="it in blacklist" :key="it.id">
         <article class="card" :class="['v-'+it.verdict]">
           <div class="cardtop">
-            <a class="name" :href="shopUrl(it)" target="_blank" rel="noopener noreferrer" x-text="it.name"></a>
+            <div class="namewrap">
+              <button class="name" type="button" @click="toggleSearch(it.id)" x-text="it.name" title="点店名换搜索源"></button>
+              <div class="searchmenu" x-show="searchOpen===it.id" @click.outside="searchOpen=''" x-cloak>
+                <span class="smhead">搜一搜</span>
+                <template x-for="s in searchSources(it)" :key="s.label">
+                  <a class="smitem" :href="s.scheme ? '#' : s.url" :target="s.scheme ? '_self' : '_blank'" rel="noopener noreferrer"
+                     @click="if(s.scheme){$event.preventDefault();openApp(s.scheme,s.fallback);} searchOpen=''" x-text="s.label"></a>
+                </template>
+              </div>
+            </div>
             <span class="badge" :style="'background:'+verdictColor(it.verdict)" x-text="it.verdict"></span>
           </div>
           <div class="meta">
