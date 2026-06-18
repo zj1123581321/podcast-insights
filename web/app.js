@@ -248,16 +248,15 @@ function feihua() {
     toggleSearch(id) {
       this.searchOpen = this.searchOpen === id ? "" : id;
     },
-    // 唤起本地 App：Android 用 intent:// 带 fallback（系统自动降级）；
-    // iOS/其他尝试 scheme，~1.4s 仍停留在页面则退回网页兜底。
+    // 唤起本地 App：Android 用 intent://（带 package：装了→开 App，没装→跳应用商店）。
+    //   实测：加 S.browser_fallback_url 反而会让已装 App 的唤端失败，故不加。
+    // iOS/其他不认 intent://，直接发裸 scheme，~1.4s 仍停留在页面则退回网页兜底。
     openApp(scheme, fallback) {
       const ua = navigator.userAgent || "";
       if (/Android/i.test(ua)) {
         const tail = scheme.replace(/^[a-z]+:\/\//i, "");
         window.location.href =
-          "intent://" + tail +
-          "#Intent;scheme=dianping;package=com.dianping.v1;S.browser_fallback_url=" +
-          encodeURIComponent(fallback) + ";end";
+          "intent://" + tail + "#Intent;scheme=dianping;package=com.dianping.v1;end";
         return;
       }
       let left = false;
