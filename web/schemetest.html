@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>各 App 搜索 scheme 诊断</title>
+<style>
+  body{font-family:system-ui,-apple-system,"PingFang SC",sans-serif;margin:0;padding:1rem;
+    background:#fafaf8;color:#1f2328;line-height:1.5}
+  h1{font-size:1.1rem} h2{font-size:.98rem;margin:1.2rem 0 .3rem;color:#2a9d8f}
+  p.note{font-size:.85rem;color:#6b7280}
+  .row{margin:.5rem 0;padding:.6rem .7rem;border:1px solid #e5e7eb;border-radius:10px;background:#fff}
+  .row b{font-size:.9rem}
+  .row .desc{font-size:.74rem;color:#6b7280;margin:.15rem 0 .45rem;word-break:break-all}
+  a.btn{display:inline-block;font-size:.92rem;padding:.5rem .85rem;border-radius:8px;
+    background:#2a9d8f;color:#fff;text-decoration:none}
+  #ua{font-size:.7rem;color:#9aa0a6;word-break:break-all;margin-top:1.2rem}
+</style>
+</head>
+<body>
+  <h1>各 App 搜索 scheme 诊断</h1>
+  <p class="note">在手机上挨个<strong>点按钮</strong>,看哪个能拉起对应 App 的<strong>搜索结果页</strong>。
+  能拉起就记下编号(如「A1 行、A2 不行」)。Android 和 iOS 请<strong>各测一遍</strong>。点完一个用浏览器返回再点下一个。</p>
+
+  <h2>小红书（搜索词：外婆家 杭州）</h2>
+  <div class="row"><b>A1</b><div class="desc">xhsdiscover://search/result?keyword=</div>
+    <a class="btn" href="xhsdiscover://search/result?keyword=%E5%A4%96%E5%A9%86%E5%AE%B6%20%E6%9D%AD%E5%B7%9E">A1 试</a></div>
+  <div class="row"><b>A2</b><div class="desc">xhsdiscover://search?keyword=</div>
+    <a class="btn" href="xhsdiscover://search?keyword=%E5%A4%96%E5%A9%86%E5%AE%B6%20%E6%9D%AD%E5%B7%9E">A2 试</a></div>
+  <div class="row"><b>A3</b><div class="desc">xhsdiscover://instore_search/result?keyword=（店铺搜索）</div>
+    <a class="btn" href="xhsdiscover://instore_search/result?keyword=%E5%A4%96%E5%A9%86%E5%AE%B6%20%E6%9D%AD%E5%B7%9E">A3 试</a></div>
+
+  <h2>淘宝（搜索词：保温杯）</h2>
+  <div class="row"><b>B1</b><div class="desc">taobao://s.taobao.com/search?q=</div>
+    <a class="btn" href="taobao://s.taobao.com/search?q=%E4%BF%9D%E6%B8%A9%E6%9D%AF">B1 试</a></div>
+  <div class="row"><b>B2</b><div class="desc">taobao://s.taobao.com/?q=</div>
+    <a class="btn" href="taobao://s.taobao.com/?q=%E4%BF%9D%E6%B8%A9%E6%9D%AF">B2 试</a></div>
+
+  <h2>京东（搜索词：保温杯）</h2>
+  <div class="row"><b>C1</b><div class="desc">openapp.jdmobile://virtual?params={des:productList,keyWord:…}</div>
+    <a class="btn" href='openapp.jdmobile://virtual?params=%7B%22category%22%3A%22jump%22%2C%22des%22%3A%22productList%22%2C%22keyWord%22%3A%22%E4%BF%9D%E6%B8%A9%E6%9D%AF%22%2C%22keyWordType%22%3A%221%22%7D'>C1 试</a></div>
+  <div class="row"><b>C2</b><div class="desc">openjd://virtual?params=…（同参数,另一前缀）</div>
+    <a class="btn" href='openjd://virtual?params=%7B%22category%22%3A%22jump%22%2C%22des%22%3A%22productList%22%2C%22keyWord%22%3A%22%E4%BF%9D%E6%B8%A9%E6%9D%AF%22%2C%22keyWordType%22%3A%221%22%7D'>C2 试</a></div>
+
+  <h2>豆瓣（搜索词：繁花）</h2>
+  <div class="row"><b>D1</b><div class="desc">douban://douban.com/search?q=</div>
+    <a class="btn" href="douban://douban.com/search?q=%E7%B9%81%E8%8A%B1">D1 试</a></div>
+  <div class="row"><b>D2</b><div class="desc">douban://douban.com/search?q=&type=movie</div>
+    <a class="btn" href="douban://douban.com/search?q=%E7%B9%81%E8%8A%B1&type=movie">D2 试</a></div>
+
+  <div id="ua"></div>
+  <script>document.getElementById('ua').textContent = 'UA: ' + navigator.userAgent;</script>
+</body>
+</html>
