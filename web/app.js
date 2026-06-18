@@ -238,7 +238,7 @@ function feihua() {
       }
       // place（默认）
       const q = `${city} ${name}`.trim();
-      const amap = "https://www.amap.com/search?query=" + enc(q);
+      const amap = "https://www.amap.com/ssr/search?query=" + enc(q);
       return [
         { label: "高德地图", url: amap },
         { label: "小红书", url: xhs(`${name} ${city}`.trim()) },
