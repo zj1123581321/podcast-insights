@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>大众点评唤端诊断</title>
+<style>
+  body{font-family:system-ui,-apple-system,"PingFang SC",sans-serif;margin:0;padding:1rem;
+    background:#fafaf8;color:#1f2328;line-height:1.5}
+  h1{font-size:1.1rem}
+  p.note{font-size:.85rem;color:#6b7280}
+  .row{margin:.6rem 0;padding:.7rem;border:1px solid #e5e7eb;border-radius:10px;background:#fff}
+  .row b{font-size:.95rem}
+  .row .desc{font-size:.78rem;color:#6b7280;margin:.2rem 0 .5rem}
+  a.btn,button.btn{display:inline-block;font-size:.95rem;padding:.55rem .9rem;border-radius:8px;
+    background:#2a9d8f;color:#fff;text-decoration:none;border:0;cursor:pointer}
+  code{background:#f0f0ec;padding:.05rem .3rem;border-radius:4px;font-size:.72rem;word-break:break-all}
+  #ua{font-size:.7rem;color:#9aa0a6;word-break:break-all;margin-top:1rem}
+</style>
+</head>
+<body>
+  <h1>大众点评唤端诊断</h1>
+  <p class="note">在手机 Edge 里挨个<strong>点按钮</strong>,记下哪个能拉起大众点评(搜索词「喜顶」)。
+  能拉起就回去告诉我编号。点完一个用浏览器返回再点下一个。</p>
+
+  <div class="row">
+    <b>① 裸 scheme(链接)</b>
+    <div class="desc">最接近 Tasker 的写法,纯 <code>dianping://</code> 链接</div>
+    <a class="btn" href="dianping://searchshoplist?keyword=%E5%96%9C%E9%A1%B6">① 试这个</a>
+  </div>
+
+  <div class="row">
+    <b>② intent:// 带 package</b>
+    <div class="desc">当前网站用的写法(限定 com.dianping.v1)</div>
+    <a class="btn" href="intent://searchshoplist?keyword=%E5%96%9C%E9%A1%B6#Intent;scheme=dianping;package=com.dianping.v1;end">② 试这个</a>
+  </div>
+
+  <div class="row">
+    <b>③ intent:// 不带 package</b>
+    <div class="desc">去掉包名约束,让系统自由解析 scheme</div>
+    <a class="btn" href="intent://searchshoplist?keyword=%E5%96%9C%E9%A1%B6#Intent;scheme=dianping;end">③ 试这个</a>
+  </div>
+
+  <div class="row">
+    <b>④ intent:// 带网页兜底</b>
+    <div class="desc">拉不起来时自动跳高德网页(完整写法)</div>
+    <a class="btn" href="intent://searchshoplist?keyword=%E5%96%9C%E9%A1%B6#Intent;scheme=dianping;package=com.dianping.v1;S.browser_fallback_url=https%3A%2F%2Fwww.amap.com%2Fsearch%3Fquery%3D%E5%96%9C%E9%A1%B6;end">④ 试这个</a>
+  </div>
+
+  <div class="row">
+    <b>⑤ 点评主页 scheme</b>
+    <div class="desc">最可能对网页开放的入口;只验证「能不能唤起 App」</div>
+    <a class="btn" href="dianping://home">⑤ 试这个</a>
+  </div>
+
+  <div class="row">
+    <b>⑥ JS 跳 scheme(按钮)</b>
+    <div class="desc">用 location.href 触发,而非链接</div>
+    <button class="btn" onclick="location.href='dianping://searchshoplist?keyword=%E5%96%9C%E9%A1%B6'">⑥ 试这个</button>
+  </div>
+
+  <div id="ua"></div>
+  <script>document.getElementById('ua').textContent = 'UA: ' + navigator.userAgent;</script>
+</body>
+</html>
