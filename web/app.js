@@ -222,18 +222,23 @@ function feihua() {
       const enc = encodeURIComponent;
       const name = it.name || "";
       const city = it.display_city || "";
-      const xhs = (kw) => "https://www.xiaohongshu.com/search_result/?keyword=" + enc(kw);
+      const isMobile = /Android|iPhone|iPad|iPod|HarmonyOS/i.test(navigator.userAgent || "");
+      const xhsWeb = (kw) => "https://www.xiaohongshu.com/search_result/?keyword=" + enc(kw);
+      // 小红书：桌面用网页；手机用 App scheme（网页在小红书客户端里打不开搜索），失败回退网页。
+      const xhs = (kw) => isMobile
+        ? { label: "小红书", scheme: "xhsdiscover://search/result?keyword=" + enc(kw), fallback: xhsWeb(kw) }
+        : { label: "小红书", url: xhsWeb(kw) };
       if (it.category === "product") {
         return [
           { label: "淘宝", url: "https://s.m.taobao.com/h5?q=" + enc(name) },
           { label: "京东", url: "https://so.m.jd.com/ware/search.action?keyword=" + enc(name) },
-          { label: "小红书", url: xhs(name) },
+          xhs(name),
         ];
       }
       if (it.category === "media") {
         return [
           { label: "豆瓣", url: "https://m.douban.com/search/?query=" + enc(name) },
-          { label: "小红书", url: xhs(name) },
+          xhs(name),
         ];
       }
       // place（默认）
@@ -241,31 +246,24 @@ function feihua() {
       const amap = "https://www.amap.com/ssr/search?query=" + enc(q);
       return [
         { label: "高德地图", url: amap },
-        { label: "小红书", url: xhs(`${name} ${city}`.trim()) },
+        xhs(`${name} ${city}`.trim()),
         { label: "大众点评App", scheme: "dianping://searchshoplist?keyword=" + enc(name), fallback: amap },
       ];
     },
     toggleSearch(id) {
       this.searchOpen = this.searchOpen === id ? "" : id;
     },
-    // 唤起本地 App：Android 用 intent://（带 package：装了→开 App，没装→跳应用商店）。
-    //   实测：加 S.browser_fallback_url 反而会让已装 App 的唤端失败，故不加。
-    // iOS/其他不认 intent://，直接发裸 scheme，~1.4s 仍停留在页面则退回网页兜底。
+    // 唤起本地 App：直接发裸 scheme（点评/小红书在 Android、iOS 真机点击链接均实测可用）。
+    //   ~1.4s 仍停留在页面（说明没唤起，多半没装 App）则退回网页兜底。
+    //   注：Android intent:// 加 browser_fallback_url 反而会破坏已装 App 唤端，故弃用 intent://。
     openApp(scheme, fallback) {
-      const ua = navigator.userAgent || "";
-      if (/Android/i.test(ua)) {
-        const tail = scheme.replace(/^[a-z]+:\/\//i, "");
-        window.location.href =
-          "intent://" + tail + "#Intent;scheme=dianping;package=com.dianping.v1;end";
-        return;
-      }
       let left = false;
       const onHide = () => { left = true; };
       document.addEventListener("visibilitychange", onHide);
       window.location.href = scheme;
       setTimeout(() => {
         document.removeEventListener("visibilitychange", onHide);
-        if (!left && !document.hidden) window.location.href = fallback;
+        if (!left && !document.hidden && fallback) window.location.href = fallback;
       }, 1400);
     },
     cityCount(c) {
