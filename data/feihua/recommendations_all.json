@@ -4,20 +4,20 @@
     "name": "肥话连篇"
   },
   "stats": {
-    "episodes_with_data": 234,
+    "episodes_with_data": 236,
     "missing": [],
     "invalid": [],
     "counts": {
       "place": 412,
-      "product": 263,
+      "product": 267,
       "media": 260
     },
-    "total_items": 935,
+    "total_items": 939,
     "quote_unverified": 222,
     "by_recommender": {
-      "肥杰": 306,
-      "惠子": 272,
-      "共同": 357
+      "肥杰": 307,
+      "惠子": 274,
+      "共同": 358
     },
     "place_unlocated": 7,
     "distinct_cities": 55
@@ -1660,6 +1660,20 @@
       "pub_date": "2026-06-14",
       "description": "由于最近我们俩经常在家里做饭，所以在厨房这个空间里发生了不少聊天。偶然一天惠子和我分享她看到的一个关于厨房的心理学研究，说的是童年家里的厨房是否经常使用、烟火气够不够足，会对成长的我们产生非常大的影响。这让我们不禁聊起了各自小时候家里厨房的场景，发现我们两家确实非常不同，也真的塑造了我俩迥异的性格。我俩也由此展开，发现小时候家里的各个不同功能的房间，似乎都在我们人格塑造过程中产生了影响，于是今天就和大家聊一聊这个吧。\n如果我们的聊天也激发了你的回忆，欢迎大家在评论区和我们分享你关于小时候的家的记忆，也希望这一期可以带动大家认真经营和使用自己目前的“家”！\n【 本期BGM：《Bumpin》 by Aves 】",
       "ep_url": "https://www.xiaoyuzhoufm.com/episode/6a2ec16c43a22a695583aadc"
+    },
+    {
+      "vol": 235,
+      "title": "关于生育，不一定要有百分百笃定的选择｜VOL.235",
+      "pub_date": "2026-06-21",
+      "description": "今年我们俩的人生即将迎来一个重大的变化 —— 我们要有孩子了。惠子一直很希望把自己有关生育和怀孕的真实想法和感受分享给大家，于是有了这一期节目。\n我们会在这期中跟大家聊一聊是如何作出生育这个决定的，其中有惠子非常复杂的心路历程，也会跟大家分享孕期中的奇妙感受，当然还有我俩作为新手准爸妈遇到的好笑的经历。\n希望我们的所感所想和经历能够给正在这个阶段或者即将面对这个阶段的朋友们一些帮助，最重要的是希望能够帮大家缓解一些焦虑和恐惧，面对这个人生中会遇到的选择题，我们可以大胆一些去决定，不存在唯一的答案，只有属于我们自己的选择！\n【 本期BGM：《Bout That》 by RUIDO 】",
+      "ep_url": "https://www.xiaoyuzhoufm.com/episode/6a37ee8d75ba9e0c5336da37"
+    },
+    {
+      "vol": 236,
+      "title": "让人抓狂的歹物，折磨得我想吐！",
+      "pub_date": "2026-06-28",
+      "description": "六月即将结束，今天给大家带来一期欢乐的吐槽向节目，希望大家带着快乐开启七月～\n这次吐槽要从我俩最近的生活聊起，我们近期收到了很多生鲜快递，都是用泡沫保温箱包装。肥杰每次拆泡沫保温箱快递都会被又掉渣、又会轻飘飘吸附的到处都是的泡沫碎屑折磨得抓狂……于是我俩就由此吐槽了起来，结果这个话题一开启就停不下来了，我们盘点了好多生活里常见的会让人抓狂的歹东西。\n相信这个话题大家一定也有共鸣，如果我们提到的这些你也有同感，激起了你的吐槽欲，非常欢迎大家在评论区大吐特吐！\n【 本期BGM：《Grumpy Snowflake》 by Peter Spacey 】",
+      "ep_url": "https://www.xiaoyuzhoufm.com/episode/6a40be692e335a35a80a8446"
     }
   ],
   "items": [
@@ -24809,6 +24823,102 @@
         "quote": "我觉得跟他这个题材非常新颖有关。我刚才说它是一部喜剧片儿，准确的说它应该算是一部喜剧刑侦悬疑剧",
         "name_corrected": false,
         "category": "剧集"
+      }
+    },
+    {
+      "id": "235-product-0",
+      "vol": 235,
+      "ep_title": "关于生育，不一定要有百分百笃定的选择｜VOL.235",
+      "ep_url": "https://www.xiaoyuzhoufm.com/episode/6a37ee8d75ba9e0c5336da37",
+      "pub_date": "2026-06-21",
+      "category": "product",
+      "recommender": "惠子",
+      "verdict": "推荐",
+      "name": "乳果糖",
+      "city_key": null,
+      "display_city": null,
+      "quote_unverified": false,
+      "item": {
+        "recommender": "惠子",
+        "name": "乳果糖",
+        "category": "孕期保健/药品",
+        "why_good": "有效缓解孕期便秘，且医生认为对孕妇安全可用",
+        "price_hint": "",
+        "verdict": "推荐",
+        "quote": "乳果糖是有用的，而且是医生认为安全的",
+        "name_corrected": false
+      }
+    },
+    {
+      "id": "235-product-1",
+      "vol": 235,
+      "ep_title": "关于生育，不一定要有百分百笃定的选择｜VOL.235",
+      "ep_url": "https://www.xiaoyuzhoufm.com/episode/6a37ee8d75ba9e0c5336da37",
+      "pub_date": "2026-06-21",
+      "category": "product",
+      "recommender": "共同",
+      "verdict": "推荐",
+      "name": "镂空坐垫（尾椎减压坐垫）",
+      "city_key": null,
+      "display_city": null,
+      "quote_unverified": false,
+      "item": {
+        "recommender": "共同",
+        "name": "镂空坐垫（尾椎减压坐垫）",
+        "category": "孕期用品",
+        "why_good": "坐垫中部悬空，让尾椎骨不受挤压，有效缓解孕期尾椎骨疼痛",
+        "price_hint": "",
+        "verdict": "推荐",
+        "quote": "感觉那个也非常有用",
+        "name_corrected": false
+      }
+    },
+    {
+      "id": "235-product-2",
+      "vol": 235,
+      "ep_title": "关于生育，不一定要有百分百笃定的选择｜VOL.235",
+      "ep_url": "https://www.xiaoyuzhoufm.com/episode/6a37ee8d75ba9e0c5336da37",
+      "pub_date": "2026-06-21",
+      "category": "product",
+      "recommender": "肥杰",
+      "verdict": "推荐",
+      "name": "孕期枕头",
+      "city_key": null,
+      "display_city": null,
+      "quote_unverified": false,
+      "item": {
+        "recommender": "肥杰",
+        "name": "孕期枕头",
+        "category": "孕期用品",
+        "why_good": "两腿之间夹枕头可帮助骨盆摆正、缓解耻骨及骨盆疼痛；建议多尝试不同款式找到适合自己的",
+        "price_hint": "",
+        "verdict": "推荐",
+        "quote": "就是这个到时候大家一定要根据自己的情况去尝试，别怕多买",
+        "name_corrected": false
+      }
+    },
+    {
+      "id": "236-product-0",
+      "vol": 236,
+      "ep_title": "让人抓狂的歹物，折磨得我想吐！",
+      "ep_url": "https://www.xiaoyuzhoufm.com/episode/6a40be692e335a35a80a8446",
+      "pub_date": "2026-06-28",
+      "category": "product",
+      "recommender": "惠子",
+      "verdict": "推荐",
+      "name": "KOI 黄金珍奶",
+      "city_key": null,
+      "display_city": null,
+      "quote_unverified": false,
+      "item": {
+        "recommender": "惠子",
+        "name": "KOI 黄金珍奶",
+        "category": "饮品",
+        "why_good": "珍珠是小颗的，好吸，吸上来治愈；台湾传统珍珠奶茶做法，不会喝到最后剩下一大堆吸不完的珍珠",
+        "price_hint": "",
+        "verdict": "推荐",
+        "quote": "就是有一款奶茶是 KOI 的。KOI 它有一款叫黄金珍奶，它那个珍珠是小颗的哦",
+        "name_corrected": false
       }
     }
   ]

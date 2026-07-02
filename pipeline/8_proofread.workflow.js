@@ -31,7 +31,11 @@ const SCHEMA = {
   required: ['corrections'],
 }
 
-const vols = (args && args.length) ? args : Array.from({ length: 234 }, (_, i) => i + 1)
+// args 可能以数组、逗号串或对象({vols:[...]})传入，统一归一为整数数组；缺省=全量 1..234
+const vols = Array.isArray(args) ? args
+  : (args && Array.isArray(args.vols)) ? args.vols
+  : (typeof args === 'string' && args.trim()) ? args.split(',').map((s) => parseInt(s.trim(), 10)).filter(Number.isFinite)
+  : Array.from({ length: 234 }, (_, i) => i + 1)
 log(`校对 ${vols.length} 集`)
 
 const prompt = (vol) => {

@@ -3,7 +3,7 @@
   "name": "肥话连篇",
   "xyz_pid": "61d50d72ee197a3aac3dac42",
   "hosts": ["肥杰", "惠子"],
-  "total_episodes": 234,
+  "total_episodes": 236,
   "_comment_name_normalization": "key=规范名，value=需要被归一成它的 ASR 误写变体（含说话人标签与正文）。顺序敏感：靠前的先替换。",
   "name_normalization": {
     "惠子": ["惠子年", "辉子", "惠姐", "惠指"],
