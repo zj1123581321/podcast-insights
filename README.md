@@ -71,6 +71,12 @@ python -m http.server 8099                # 然后访问 http://localhost:8099/w
 
 每步都**断点续跑**：已完成的单集自动跳过。直接重跑 1→6 即可，只处理新增集。
 
+步骤1 有两种取数：
+- `python pipeline/1_fetch_episodes.py`：API 全量回填（需 token，见 `.env`）。
+- `python pipeline/1_fetch_episodes.py --public`：**无 token 增量**，抓节目主页 `/podcast/<pid>` 内嵌的
+  `__NEXT_DATA__`（含完整单集对象），只把 `episodes.json` 里缺的最近新集补进去。日常"更新几集"用它即可；
+  只需 `config.xyz_pid`。公开页只列最近一批（~15 集），要回填更早的历史仍走 API 模式。
+
 ## 当前数据（feihua）
 
 236 集全部完成；939 条推荐（实地 412 / 好物 267 / 影视剧 260），均带发布日期（2022-01 ~ 2026-06）。

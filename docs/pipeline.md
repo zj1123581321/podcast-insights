@@ -29,6 +29,7 @@
   ⚠ 不要和别的在用服务共用同一 refresh token，会互相顶掉。
 - pid 优先取 `config.xyz_pid`，否则按 `config.name` 搜索。
 - `slim()` 保留每集 `pubDate`（发布日期）与 `description`（作者手写简介）：前者给前端做日期筛选/排序、单集 banner；后者既上站做单集背景，也是步骤8 校对 ASR 名字的干净对照源。
+- **`--public` 无 token 增量模式**：抓节目主页 `/podcast/<pid>` 的 `__NEXT_DATA__`，里面内嵌完整单集对象（字段与 API 一致，同一个 `slim()` 直接吃），只把 `episodes.json` 里缺的 eid 合并进去（按 `pubDate` 降序落盘）。只需 `config.xyz_pid`，不碰任何 token。**局限**：公开页仅含最近一批（~15 集），只适合日常"新增几集"；全量回填仍走 API。**只加不改**已有条目，避免 `playCount/commentCount` 自然增长把 diff 搅乱。⚠ 依赖非官方页面结构（`__NEXT_DATA__`），小宇宙改版可能失效。
 
 ## 步骤2 submit_transcribe — 提交转录
 
